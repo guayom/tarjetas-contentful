@@ -1,0 +1,42 @@
+---
+:id: 1caSD9l0tO08k8qKGKYy6s
+:titulo: Platinum Card
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 6QDrPBYCe4keIm2K20qEKY
+  :titulo: Membership Rewards
+  :unidadDeAcumulacion: Punto Membership Rewards®
+  :vencimientoDePuntos: Cada 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: v79DDH43DiEMA60o8SgEA
+    :titulo: Membership rewards
+    :reglas: 1 Punto Membership Rewards® por cada dólar de consumo o su equivalente
+      en colones
+    :colores:
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: 15.000 puntos mensuales
+  :minimoDeRedencion: No hay
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: Socios Internacionales (aerolíneas, cadenas hoteleras..) y comercio
+    afiliado
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 5EIho3xFD28W0Mqa6iWOeK
+  :titulo: Estilo de vida

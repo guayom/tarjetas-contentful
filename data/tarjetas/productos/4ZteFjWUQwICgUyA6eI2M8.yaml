@@ -1,0 +1,46 @@
+---
+:id: 4ZteFjWUQwICgUyA6eI2M8
+:titulo: INCAE
+:variacion:
+- :id: 2yBTomL2FaiUEguYCeEcQ
+  :titulo: " INCAE Business School Black American Express "
+  :color:
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 180.000 puntos Anuales
+  :costo: 0
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 2lyyxLfu4AmUWUScScyCmc
+  :titulo: Enjoy Points
+  :unidadDeAcumulacion: Enjoy Points
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+- Egresado de INCAE Business School
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 5EIho3xFD28W0Mqa6iWOeK
+  :titulo: Estilo de vida

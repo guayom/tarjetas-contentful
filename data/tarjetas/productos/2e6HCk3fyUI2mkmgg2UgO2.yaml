@@ -1,0 +1,128 @@
+---
+:id: 2e6HCk3fyUI2mkmgg2UgO2
+:titulo: City Mall
+:variacion:
+- :id: 5dxbEhZfu0eQysEmW6qsUI
+  :titulo: 'City Mall Clásica Mastercard '
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: 250.000 Colones Anuales
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 4QosPDbjMcqA68k2K4u2iC
+  :titulo: 'City Mall Dorada Mastercard '
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: 250.000 Colones Anuales
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 4jmZ5hGL7qewWSse4m6ace
+  :titulo: 'City Mall Platino Mastercard '
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: 250.000 Colones Anuales
+  :costo: 0
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 7An4KGyUgM4QsyAACGwI2g
+  :titulo: City Cash
+  :unidadDeAcumulacion: puntos CashBack City Mall
+  :vencimientoDePuntos: Vencen cada 24 meses móviles, contabilizados a partir de la
+    fecha de cada compra
+  :reglasDeAcumulacion:
+  - :id: 5N2XOOPm1yWsUcw66i6g8o
+    :titulo: City Mall
+    :reglas: |-
+      5% de CashBack en Supermercado La Antorcha
+      3% de CashBack en los comercios de City Mall*
+      2% de CashBack en farmacias y supermercados
+      1% de CashBack en los demás comercios
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: Máximo 250.000 puntos anuales de CashBack City Mall
+  :minimoDeRedencion: 5.000 puntos CashBack City Mall
+  :costoDeRedencion: Gratis
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes

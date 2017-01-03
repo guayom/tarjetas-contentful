@@ -1,0 +1,57 @@
+---
+:id: 2Y2pmMsFi0UKWkggo4s2Q6
+:titulo: ConnectMiles
+:variacion:
+- :id: 1cWfAgxGeiIMo44owogMQ4
+  :titulo: " ConnectMiles Platino Visa "
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 36AfqmzNaggucKAwAUOc0o
+  :titulo: ConnectMiles Infinite Visa
+  :color:
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :retoDeFacturacion: "$1000"
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
+  :costo: 10
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+:monedas:
+- Dólares
+- Colones
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años

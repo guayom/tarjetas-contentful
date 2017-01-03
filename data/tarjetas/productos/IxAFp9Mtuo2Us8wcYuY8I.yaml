@@ -1,0 +1,258 @@
+---
+:id: IxAFp9Mtuo2Us8wcYuY8I
+:titulo: Gane Premios
+:variacion:
+- :id: 1Nlo4b6AI4WWEQQcgyqa2s
+  :titulo: Gane Premios Clásica Mastercard
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 5BkL8p8S52MUK8cOkAYcQY
+  :titulo: Gane Premios Clásica Visa
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 6AulpJymdiCi88CQECyCgw
+  :titulo: Gane Premios Dorada American Express
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 4joyWWiOLYS4QWMCyYsSAu
+  :titulo: Gane Premios Dorada Mastercard
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 2G0R3QHzBumAmUMoCMMmke
+  :titulo: Gane Premios Dorada Visa
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 34AWwtOxoQkKieyaUMwyA4
+  :titulo: Gane Premios Platino American Express
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 5YD8eka9mEASMwQE2se62q
+  :titulo: Gane Premios Platino Mastercard
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 5t7m2Ru15C8u2E4EIocW28
+  :titulo: Gane Premios Platino Visa
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 3zmUatBgxycMkC8Kmcg8Cc
+  :titulo: Gane Premios Clásica American Express
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+:monedas:
+- Colones
+:planDeLealtad:
+  :id: 1V4ruqepHKq8SSOuuIauMI
+  :titulo: Millas Gane Premios
+  :unidadDeAcumulacion: Millas
+  :vencimientoDePuntos: Cada 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: 21FVaBiI9mGiGYuEGKwg2k
+    :titulo: Gane premios
+    :reglas: "3 Millas por cada $ de consumo en supermercados. \n2 Millas por cada
+      $ de consumo en farmacias. \n1 Milla por cada $ de consumo en gasolineras, restaurantes"
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: 25.000 millas anuales
+  :minimoDeRedencion: 1.000 millas
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: El cliente decide en cual comercio afiliado cambiar las millas
+    o acreditarlo a la tarjeta débito o crédito
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes

@@ -1,0 +1,49 @@
+---
+:id: 6zaXqMkfaEquug4uO4IgwE
+:titulo: Megasuper
+:variacion:
+- :id: 5f3uIXrVEsgYKawgAMAwA6
+  :titulo: Megasuper clásica visa
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: ueVmiUxkgoCCm2AYMCU0K
+  :titulo: Megaguinaldo
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+- Suscripción a La Nación
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes

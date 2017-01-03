@@ -1,0 +1,74 @@
+---
+:id: 409Vn7lHewI0Ymoe0Gs6Cy
+:titulo: Club La Nación
+:variacion:
+- :id: y6ssXi0Uh2qE4IMaiciSQ
+  :titulo: Club La Nación Clásica  American Express
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
+  :costo: 0
+- :id: 5M0O2rOiDC4SsmU8myEkqS
+  :titulo: Club La Nación Dorada American Express
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
+  :costo: 0
+- :id: cfgt9hTikEceOOC2UgCam
+  :titulo: Club La Nación Dorada American Express
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
+  :costo: 0
+:monedas:
+- Dólares
+- Colones
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+- Suscripción a La Nación
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes

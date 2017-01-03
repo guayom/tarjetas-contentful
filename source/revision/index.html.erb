@@ -1,0 +1,8 @@
+---
+layout: revision
+---
+<ul>
+  <% data.tarjetas.productos.each do |producto| %>
+    <li><a href="/revision/<%= producto[1].titulo.parameterize %>.html"><%= producto[1].titulo %></a></li>
+  <% end %>
+</ul>

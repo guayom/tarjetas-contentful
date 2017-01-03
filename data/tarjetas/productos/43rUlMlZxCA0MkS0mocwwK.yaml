@@ -1,0 +1,68 @@
+---
+:id: 43rUlMlZxCA0MkS0mocwwK
+:titulo: LifeMiles
+:variacion:
+- :id: 4zo9JV96ZqYsg8u2Ssg6og
+  :titulo: LifeMiles Gold American Express
+  :color:
+    :id: 4GfWAPeIM0oSu4KOSOAkAq
+    :titulo: Gold
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
+- :id: 4yV3e58WS4oomIKwcA4YOS
+  :titulo: LifeMiles Premium American Express
+  :color:
+    :id: 4PPgfG0P1KSK2K4mceUkKY
+    :titulo: Premium
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 1000000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 100000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 5ISNm7sl8ISuSEUk26EsYW
+  :titulo: LifeMiles de Avianca
+  :unidadDeAcumulacion: Millas
+  :vencimientoDePuntos: Las millas LifeMiles nunca vencen, siempre que se realice
+    al menos una compra con la tarjeta de crédito al menos una vez durante los próximos
+    24 meses.
+  :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles de acuerdo al tipo de tarjeta.
+  :minimoDeRedencion: No hay mínimo
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: Se hace directamente con AVIANCA  ingresado a [www.lifemiles.com](https://www.lifemiles.com
+    "www.lifemiles.com") o socios comerciales.
+:requisitos:
+- Cédula de identidad
+- Certificación de ingresos
+- Orden patronal
+- Comprobante de dirección física
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 5X4JRmW0OQSYamy2W2SYW8
+  :titulo: Viajes

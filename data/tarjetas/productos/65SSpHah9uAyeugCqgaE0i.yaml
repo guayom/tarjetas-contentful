@@ -1,0 +1,85 @@
+---
+:id: 65SSpHah9uAyeugCqgaE0i
+:titulo: Auto Mercado
+:variacion:
+- :id: 48INE8nzzyya6OK0cgIO2I
+  :titulo: Automercado Dorada American Express
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 360.000 Puntos Auto Frecuentes Anuales
+- :id: 1GPfxb9Hu4SsMea8CgIcEA
+  :titulo: Automercado Platino American Express
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 360.000 Puntos Auto Frecuentes Anuales
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 3l98AfXyGIKQkgc2W2A0Ew
+  :titulo: Auto Frecuente
+  :unidadDeAcumulacion: Puntos
+  :vencimientoDePuntos: De acuerdo al programa Auto Frecuente de Auto Mercado vencen
+    cada 4 meses
+  :reglasDeAcumulacion:
+  - :id: 2fVo2rvDzeUKye2wucAyGY
+    :titulo: Automercado
+    :reglas: |-
+      Puntaje doble por cada ₵300 colones en compras dentro de Auto Mercado
+      Un punto por cada ₵300 colones por compras en el resto de comercios
+      No aplica para compras en el extranjero.
+    :colores:
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: Se rige bajo el programa de lealtad Auto Frecuente de Auto
+    Mercado. [Ver reglamento aquí](http://www.automercado.cr/auto-frecuente/reglamento-auto-frecuente/)
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Certificación de Ingresos (Trabajador Independiente)
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes
