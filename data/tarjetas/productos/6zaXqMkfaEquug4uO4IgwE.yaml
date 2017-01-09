@@ -4,6 +4,10 @@
 :variacion:
 - :id: 5f3uIXrVEsgYKawgAMAwA6
   :titulo: Megasuper clásica visa
+  :arte:
+    :title: Tarjeta Megasuper Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2EJbuLEAeEkyWiU4msi2gU/1e8c405c36452ee785551b155a524408/Tarjeta_Megasuper_Clasica.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -29,6 +33,44 @@
 :planDeLealtad:
   :id: ueVmiUxkgoCCm2AYMCU0K
   :titulo: Megaguinaldo
+  :unidadDeAcumulacion: Megaguinaldo
+  :reglasDeAcumulacion:
+  - :id: 4Bfhyw6rOgeaCEGUSyS48Q
+    :titulo: Megaguinaldo
+    :reglas: |-
+      2% de sus compras en los supermercados Megasuper
+      1% de sus compras en otros comercios
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
 :requisitos:
 - Cédula de identidad
 - Orden patronal

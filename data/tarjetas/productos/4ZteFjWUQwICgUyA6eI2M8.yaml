@@ -4,6 +4,10 @@
 :variacion:
 - :id: 2yBTomL2FaiUEguYCeEcQ
   :titulo: " INCAE Business School Black American Express "
+  :arte:
+    :title: Tarjeta Incae
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1Xjd5UJN00SgGoSekyGOem/fd3118b3d0a9d4c3dd247bb8e18db822/Tarjeta_Incae.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -23,9 +27,46 @@
 - Dólares
 - Colones
 :planDeLealtad:
-  :id: 2lyyxLfu4AmUWUScScyCmc
-  :titulo: Enjoy Points
-  :unidadDeAcumulacion: Enjoy Points
+  :id: 2p1EMiHxXuGK2ucuUC6ikI
+  :titulo: Incae
+  :unidadDeAcumulacion: Puntos
+  :vencimientoDePuntos: 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: 5VRavBtTRmAyq0022e4OMw
+    :titulo: Incae
+    :reglas: '2 puntos por cada $1 de consumo: 1.5 puntos son para el disfrute del
+      cliente y 0.5 puntos destinados al fondo patrimonial de Becas de INCAE'
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
 :requisitos:
 - Cédula de identidad
 - Orden patronal

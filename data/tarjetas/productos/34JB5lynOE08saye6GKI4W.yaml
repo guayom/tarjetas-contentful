@@ -4,6 +4,10 @@
 :variacion:
 - :id: 49yyMftyKsAKyMUSMKeww4
   :titulo: Walmart Clásica American Express
+  :arte:
+    :title: Tarjeta Walmart Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5SUKCBtsBOcGmWGeO80K4W/3b38dba5d9d5dd1c89c1b898fcdb11e5/Tarjeta_Walmart_Clasica.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -25,6 +29,10 @@
   - "₡"
 - :id: 5Fb48iP3HyUakW8WqqO4eK
   :titulo: Walmart Dorada American Express
+  :arte:
+    :title: Tarjeta Walmart Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2JSGCHSdyUmqqUY4MgYUIw/4cff20c2bd13a5eed28d42e287cf4472/Tarjeta_Walmart_Dorada.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -46,6 +54,10 @@
   - "₡"
 - :id: 6V01I522mAS6iYysIG48C4
   :titulo: Walmart Platino American Express
+  :arte:
+    :title: Tarjeta Walmart Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/6AfHSNOH6wO4s6EMIg4K4I/4d294a17ee045b22cc39da636bba9f05/Tarjeta_Walmart_Platino.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino

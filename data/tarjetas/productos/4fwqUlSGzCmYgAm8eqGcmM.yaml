@@ -1,0 +1,93 @@
+---
+:id: 4fwqUlSGzCmYgAm8eqGcmM
+:titulo: Cashback Premium
+:variacion:
+- :id: 1bM17cJVVOUy8q2qCUgiWE
+  :titulo: Cashback Premium
+  :arte:
+    :title: Cashback Premium
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4z4cRX56tawIgyg48yIIGO/a8d11c70e9bfb877c83bf16af8f2d392/Tarjeta_Cashback_Black.png"
+  :color:
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :retoDeFacturacion: Reto de facturación de $1000
+  :costo: 10
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+:beneficiosGenerales:
+- :id: 6dJ2ZnYJKEusosqI2mYc8
+  :titulo: Acceso a Juan Santamaría VIP para el titular y el adicional
+- :id: 1iftFq5CUOymyqsaISy6I8
+  :titulo: Servicio de Concierge Travel & living
+- :id: 3diK7nct2gq0g4ycoG4C0i
+  :titulo: Servicio preferencial en sucursales BAC al presentar la tarjeta de crédito
+- :id: 6ZYlTfseFqqgiyugS0Uic
+  :titulo: Inscrito en el programa pasaporte Amex, donde puede disfrutar de descuentos
+    en viajes restaurantes, eventos y compras
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 7jshMcQ3qEY8wcmQ0cS6sS
+  :titulo: Chasback Premium
+  :unidadDeAcumulacion: Cashback
+  :vencimientoDePuntos: Cada dos años móviles
+  :reglasDeAcumulacion:
+  - :id: 3afaf1B2ZquM8O2qSu4s6U
+    :titulo: Cashback Premium
+    :reglas: |-
+      5% en supermercados, farmacias, restaurantes y comidas rápidas
+      2% gasolineras
+      1% tiendas por departamento, ropa y zapaterías
+    :colores:
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: "₡250.000 colones anuales"
+  :minimoDeRedencion: "₡15.000 colones"
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: |-
+    Sucursal Telefónica al 2295-9100
+    Sucursales BAC | CREDOMATIC*
+    Sucursal Electrónica (sin costo)
+
+    Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.
+
+    Puede solicitar una Check Marketing
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 5VJcEk3o524IeMAUQu8kWQ
+  :descripcion: Rapicash
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 2jLS03pzY40c8qCgS8W6OQ
+  :titulo: Cashback

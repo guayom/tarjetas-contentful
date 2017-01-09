@@ -4,6 +4,10 @@
 :variacion:
 - :id: 1A8ebLrJegYIeIuQ6aaSmo
   :titulo: Pricesmart Clásica American Express
+  :arte:
+    :title: Tarjeta Pricemart Diamond
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5SrJ9JZy2AqaOeUUe6kigM/0d0c1cfb1ad4f3e8fe584efa4662fa58/Tarjeta_Pricemart_Diamond.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -15,6 +19,48 @@
     :tasaPreferencialDolares: 2.75
     :tasaNormalColones: 4.16
     :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Máximo anual $500 o su equivalente en colones
+- :id: 6gNpT8TQIgyOSq2oYwas0I
+  :titulo: Pricesmart Dorada American Express
+  :arte:
+    :title: Tarjeta Pricesmart Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/20mMdcaMCsY4SWEIekOI2c/9773cd4ddfb98dc6604aab99ac90ec5e/Tarjeta_Pricesmart_Dorada.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Máximo anual $500 o su equivalente en colones
+- :id: 5XT62QMbwAoyWAggwgkyOC
+  :titulo: Pricesmart Platino American Express
+  :arte:
+    :title: Tarjeta Pricesmart Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1OXOXOIsCwaIA6S8igA8Om/aaf7b8830ae50c9ddaeb67ce553151e2/Tarjeta_Pricesmart_Platino.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
@@ -76,6 +122,7 @@
 - Comprobante de dirección física
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
 :facilidadesDeCredito:
 - :id: 14Vc0irR0qGw00WSgcCocY
   :descripcion: Extrafinanciamiento

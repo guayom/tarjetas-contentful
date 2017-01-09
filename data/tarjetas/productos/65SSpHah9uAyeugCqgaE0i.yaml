@@ -4,6 +4,10 @@
 :variacion:
 - :id: 48INE8nzzyya6OK0cgIO2I
   :titulo: Automercado Dorada American Express
+  :arte:
+    :title: Tarjeta AM Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3HbCCp3rfGuQoSuGSgWeke/8c4fda00d4fa3b6f94c312fed2d124fa/Tarjeta_AM_Clasica.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -79,7 +83,16 @@
 - Cédula de identidad
 - Orden patronal
 - Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
 :categorias:
 - :id: 7y8Nq6bhXUowQaUwaysgAU
   :titulo: Supermercados, tiendas y clubes

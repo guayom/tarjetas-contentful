@@ -1,9 +1,256 @@
 ---
 :id: 6oVE5NvH2w4YuicUwAKUcy
 :titulo: Puntos Credomatic
+:variacion:
+- :id: 2FC5QpwxXai2OeEowCYqaq
+  :titulo: Puntos Credomatic Clásica American Express
+  :arte:
+    :title: Puntos Credomatic clásica American express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1TiyzUyUPS06mOQAyk0SKW/e0d711ff76d20362f902f72cf04ab968/Tarjeta_Puntos_Clasica.png"
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 4XeTCehkfm6WgAsSaaYiii
+  :titulo: Puntos Credomatic Clásica Mastercard
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 2qvKjMWFJOo4GekokECuSk
+  :titulo: Puntos Credomatic Clásica Visa
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 1BIn1xWaBmEmq0as4smI2
+  :titulo: Puntos Credomatic Dorada American Express
+  :arte:
+    :title: Puntos Credomatic Dorada American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2yL6CACmbaQ0YwMQCUaAAg/64eadd4c6dd10048ecf0389ce5c0e0ea/Tarjeta_Puntos_Dorada.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 4SnBCoHdS8SuCmogMyigoU
+  :titulo: Puntos Credomatic Dorada Mastercard
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 44BgBj9jXWE6KC8c2yYK4W
+  :titulo: Puntos Credomatic Dorada Visa
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 1cvQ1quHAyI6OkmcISiCii
+  :titulo: Puntos Credomatic Platino American Express
+  :arte:
+    :title: Puntos Credomatic Platino American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2JPEwEf98ky8wmS24yi6Ui/a18870517ab0ac58d5ab7aee7e0753c7/Tarjeta_Puntos_Platino.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 64xAe74mXusmGEUQGSGM8U
+  :titulo: Puntos Credomatic Platino Mastercard
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 6wp0XKpTjiWKIMaCo6Ca0C
+  :titulo: Puntos Credomatic Platino Visa
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
 :monedas:
 - Dólares
 - Colones
+:planDeLealtad:
+  :id: 1zc2cayQrGEK2gUuGSOsQc
+  :titulo: Puntos Credomatic
+  :unidadDeAcumulacion: Puntos
+  :reglasDeAcumulacion:
+  - :id: 10UXFQ6TeeWQGKAWYoeoKk
+    :titulo: Puntos Credomatic
+    :reglas: |-
+      3 puntos por cada $1 en supermercados.
+      2 puntos por cada $1 en farmacias.
+      1 punto por cada $1 en gasolineras, tiendas por departamento, ropa y zapaterías, restaurantes y comidas rápidas.
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: 75,000 anual
+  :minimoDeRedencion: 35,000 Puntos
+  :costoDeRedencion: Gratis
 :requisitos:
 - Cédula de identidad
 - Orden patronal
@@ -11,6 +258,13 @@
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
 - Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
 :categorias:
 - :id: 3TjdD7xDpuwQagSwMOCwce
   :titulo: Puntos

@@ -4,6 +4,10 @@
 :variacion:
 - :id: 5dxbEhZfu0eQysEmW6qsUI
   :titulo: 'City Mall Clásica Mastercard '
+  :arte:
+    :title: Tarjeta CityMall Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4dHhmLZHaMAoEOaYUcc4CM/d730f2de20061425ac7286925fa41646/Tarjeta_CityMall_Clasica.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -27,6 +31,10 @@
   - "₡"
 - :id: 4QosPDbjMcqA68k2K4u2iC
   :titulo: 'City Mall Dorada Mastercard '
+  :arte:
+    :title: Tarjeta CityMallDorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4ciyc3hbcIe8GEOiySWaiA/c0dc4d7fb456106499bb460e7e261430/Tarjeta_CityMallDorada.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -50,6 +58,10 @@
   - "₡"
 - :id: 4jmZ5hGL7qewWSse4m6ace
   :titulo: 'City Mall Platino Mastercard '
+  :arte:
+    :title: Tarjeta CityMall Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4dWntDRSJqWW8WUqa0WgQi/9df10d18cced5ce462394ad5b89a9da7/Tarjeta_CityMall_Platino.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -121,8 +133,17 @@
 :requisitos:
 - Cédula de identidad
 - Orden patronal
+- Comprobante de dirección física
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
 :categorias:
 - :id: 7y8Nq6bhXUowQaUwaysgAU
   :titulo: Supermercados, tiendas y clubes

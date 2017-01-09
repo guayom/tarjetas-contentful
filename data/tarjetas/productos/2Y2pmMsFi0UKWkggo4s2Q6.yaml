@@ -4,6 +4,10 @@
 :variacion:
 - :id: 1cWfAgxGeiIMo44owogMQ4
   :titulo: " ConnectMiles Platino Visa "
+  :arte:
+    :title: Tarjeta Connectmiles Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5xAa78IW1Gg4WmiIiUcmm4/62f3057abb97adacd3113584ae6123e1/Tarjeta_Connectmiles_Platino.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -26,6 +30,10 @@
   - "$"
 - :id: 36AfqmzNaggucKAwAUOc0o
   :titulo: ConnectMiles Infinite Visa
+  :arte:
+    :title: Tarjeta Connectmiles Black
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/mYn1e82ZKS8KUyS2G4SUk/7ccd61784f4cccc0e6b602a59e05af8f/Tarjeta_Connectmiles_Black.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -49,9 +57,71 @@
 :monedas:
 - Dólares
 - Colones
+:planDeLealtad:
+  :id: 6xuaeXpwVqgYYGAeCSCM0a
+  :titulo: Connect Miles
+  :unidadDeAcumulacion: Millas
+  :vencimientoDePuntos: Cada 24 meses móviles
+  :reglasDeAcumulacion:
+  - :id: 2kA8ft7dN6s2gEWoCyueys
+    :titulo: ConnectMiles Dorado y Platino
+    :reglas: |+
+      2 millas por cada $1 en las oficinas de Copa Airlines Costa Rica
+      1 Milla por cada $1 en compras en el resto de comercios
+
+    :colores:
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  - :id: 6pXvtpOVYQ4scA4WaqqQGG
+    :titulo: ConnectMiles Infinite
+    :reglas: |-
+      2 millas por cada $1 en las oficinas de Copa Airlines Costa Rica
+      2 millas por cada $1 en supermercados y gasolineras
+      1 milla por cada $1 por compras en el resto de comercios
+    :colores:
+    - :id: 5d3gXbuveoIUAWCA4yQsGm
+      :titulo: Black
+      :limiteMinimoDeCredito: 10000
+      :limiteMaximoDeCredito: 100000
+      :salarioMinimo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :maximoDeAcumulacion: 30.000 millas mensuales
+  :minimoDeRedencion: Sujeto a las condiciones del programa ConnectMiles que establece
+    la aerolínea.
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: Se hará directamentamente con Copa Airlines y Star Alliance
 :requisitos:
 - Cédula de identidad
 - Orden patronal
+- Comprobante de dirección física
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
 - Mayor de 21 años
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero

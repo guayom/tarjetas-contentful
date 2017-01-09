@@ -1,39 +1,7 @@
 ---
 :id: ri5PPiSLKgAO4a4QY06C8
-:titulo: AAdvantage®
+:titulo: AAdvantage
 :variacion:
-- :id: 1BTy4VTgUMIeAWSUeOQ4ku
-  :titulo: AAdvantage Dorada Visa
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 26udEtcJrCEEySgkqc2KAY
-    :nombre: Visa
-  :beneficiosEspecificos:
-  - :id: 6JPO3YNUeQk8kIEy00eWwE
-    :titulo: Protección de Compras
-  - :id: 6Lwt6fNd96k8E0CkYwKqSO
-    :titulo: Garantía Extendida
-  - :id: H2g9fHoH288UyMaOg0sSM
-    :titulo: Seguros de Accidente de Viajes
-  - :id: 258nHpYnUIiou00esMucGM
-    :titulo: Seguro de Alquiler de Auto
-  - :id: 2Adey2OZEAM0A2qAqog4eK
-    :titulo: Información de Viaje
-  - :id: 2tFOFBonwAyOmueUyaWE6k
-    :titulo: Asistencia Durante Viajes
-  - :id: 3nlgauJjnGWWUCsOQiueWi
-    :titulo: Adelanto de Efectivo de Emergencia
-  :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 3sYokiA8PYKicSoms2ugkA
   :titulo: AAdvantage Platino Visa
   :color:
@@ -104,6 +72,10 @@
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 7lhJTmo6VUQsqgQoKmmMsg
   :titulo: AAdvantage Black Master Card
+  :arte:
+    :title: Tarjeta Aadvantage MCBlack
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/6EVXRV1lh6UayawOy4uyMS/4c490dae3384cd908e08d321b792030e/Tarjeta_Aadvantage_MCBlack.png"
   :color:
     :id: 6Y5q1pV3Soe8cEWywgUWOs
     :titulo: Elite
@@ -120,6 +92,10 @@
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 18NZNLUXRuuCAKSGMk0Iqo
   :titulo: AAdvantage Dorada America Express
+  :arte:
+    :title: Tarjeta Aadvantage Gold
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/Zc7Nd0iR8I8Ygw00CeIcs/7f6482e8b53165a1925416fdca69c504/Tarjeta_Aadvantage_Gold.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -137,6 +113,10 @@
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 2rhJ9Pdw1ayC66QkUSykoy
   :titulo: AAdvantage Platino American Express
+  :arte:
+    :title: Tarjeta Aadvantage Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1xHbxucqUcaugkcUSom4wK/4c490dae3384cd908e08d321b792030e/Tarjeta_Aadvantage_Platino.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -154,6 +134,10 @@
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 550WvycKhyQIKig82uKiQM
   :titulo: AAdvantage Black American Express
+  :arte:
+    :title: Aadvantage Black American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2PCYqYSJIAASKoaGsMosus/0d5f69f7439af9fa52e64a7dcb248a6a/Tarjeta_Aadvantage_Black.png"
   :color:
     :id: 4PPgfG0P1KSK2K4mceUkKY
     :titulo: Premium
@@ -169,6 +153,11 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: 30.000 Millas Mensuales
+:beneficiosGenerales:
+- :id: 1mzFDghiP2SIsm0aaAokIC
+  :titulo: Canje de millas en alquiler de auto
+- :id: 3U34i6eNYko2ugI82KEI0a
+  :titulo: Promociones Exclusivas
 :monedas:
 - Dólares
 - Colones

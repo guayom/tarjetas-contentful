@@ -1,61 +1,20 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
+@import 'normalize';
 body{
   padding: 40px;
 }
 
 h1{
   font-size: 2em;
+  margin-bottom: 1em;
 }
 
 
 table {
     display: table;
-    border-collapse: separate;
+    border-collapse: collapse;
     border-spacing: 2px;
-    border-color: gray
+    border:1px solid #ddd;
+    width: 100%;
 }
 
 thead {
@@ -96,14 +55,68 @@ tr {
 
 td, th {
     display: table-cell;
-    vertical-align: inherit
+    vertical-align: inherit;
+    border: solid 1px #ddd;
+    padding: 15px;
 }
 
 th {
-    font-weight: bold
+    font-weight: bold;
+    text-align: left;
 }
 
 caption {
     display: table-caption;
     text-align: -webkit-center
+}
+ul{
+  padding-left: 20px;
+}
+.text-center{
+  text-align: center
+}
+.inline-list{
+  margin: 0;
+  padding: 0;
+  li{
+    display: inline-block;
+    &:before{
+      content: " | ";
+    }
+    &:first-child:before{
+      content: "";
+    }
+  }
+}
+.lista-de-imagenes-de-tarjeta{
+  list-style: none;
+  li{
+    line-height: 38px;
+  }
+  img{
+    margin-bottom: -0.75em;
+  }
+}
+th{
+  img{
+    float: right;
+    margin: 0;
+  }
+}
+#beneficios-table{
+  th{
+    font-size: 0.8em;
+    text-align: center;
+    &:first-child{
+      text-align: left;
+      font-size:  1.2em;
+    }
+    img{
+      float: none;
+      text-align: center;
+      display: block;
+      margin: 0 auto 10px auto;
+      clear: both;
+    }
+  }
 }

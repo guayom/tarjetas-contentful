@@ -1,6 +1,224 @@
 ---
 :id: pVnMXlpLP2qU6Sckuqqqy
 :titulo: MillasPlus
+:variacion:
+- :id: 1ttFrRAGnueqIiC4g2ii8Q
+  :titulo: Millas Plus dorada American Express
+  :arte:
+    :title: Millas Plus dorada American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/654PQZ705iMkoccOgqCeMm/e4cbd439693cccb590101ddece3e9dfa/Tarjeta_MillasPlus_Dorada.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 22.000 millas
+  :costo: 5
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 5jIEFamnQAeoeiASS6Wsou
+  :titulo: Millas Plus dorada Master Card
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :maximoDeAcumulacion: 22.000 millas
+  :costo: 5
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 79pXCsdYE8SCCYuOSCWqYq
+  :titulo: Millas Plus dorada Visa
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :maximoDeAcumulacion: 22.000 millas
+  :costo: 5
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 4YnnUPPGQwOUGOO86kaCsC
+  :titulo: Millas Plus Black American Express
+  :arte:
+    :title: Tarjeta MillasPlus Black AMEX
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2lWL8eWrsUWKqoK8YKwO8m/fe20ae5ebf9e29722f6ff48fb9403d55/Tarjeta_MillasPlus_Black.png"
+  :color:
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 10
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 7qHKuyqENyysoOOO88SYY0
+  :titulo: Millas Plus Platino American Express
+  :arte:
+    :title: Millas plus platino AMEX
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3pFYnT5Vp6YsQiA48oWEqe/85c4f077884c242afe0b890f9b9ef99c/Tarjeta_MillasPlus_Black_Amex.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 6BFFXUQlmEw0qgIEmkoOKA
+  :titulo: Millas Plus Platino Master Card
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 5r5rzDPW8gasKIUKMIequO
+  :titulo: Millas Plus Platino Visa
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 5gJbttXQtaS0Qs4Ose8Akk
+  :titulo: Millas Plus
+  :unidadDeAcumulacion: Millas
+  :vencimientoDePuntos: Cada 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: 3GEbVLQOY04Qy2sMcyo0mW
+    :titulo: Millas plus dorada
+    :reglas: 1.25 millas por dolar
+    :colores:
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  - :id: 6dh6Pj9bgIccgE4agy22EU
+    :titulo: Millas plus platino e infinite
+    :reglas: 1.5 millas por dólar
+    :colores:
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  - :id: 677vjV4SxaiMCEqG6wMWMo
+    :titulo: Millas plus Black
+    :reglas: 2 millas por dólar
+    :colores:
+    - :id: 5d3gXbuveoIUAWCA4yQsGm
+      :titulo: Black
+      :limiteMinimoDeCredito: 10000
+      :limiteMaximoDeCredito: 100000
+      :salarioMinimo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  :metodoDeRedencion: Las millas se pueden canjear en viajescredomatic.com e intertour
+    (locales)
 :requisitos:
 - Cédula de identidad
 - Orden patronal
@@ -15,3 +233,6 @@
   :descripcion: Minicuotas
 - :id: 6eWCIhNNEAMQyy2wUwkIoA
   :descripcion: Tasa Cero
+:categorias:
+- :id: 5X4JRmW0OQSYamy2W2SYW8
+  :titulo: Viajes

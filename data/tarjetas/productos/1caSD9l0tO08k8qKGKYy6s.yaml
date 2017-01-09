@@ -1,6 +1,34 @@
 ---
 :id: 1caSD9l0tO08k8qKGKYy6s
 :titulo: Platinum Card
+:variacion:
+- :id: 1fLBdagG6Os8wo2Em0YIks
+  :titulo: Platinum Card American Express
+  :arte:
+    :title: Platinum card
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1KdI3q3h0sgqsCU0eskyes/1ca335a8d7a5fa2b0461ee42515e4ef3/Tarjeta_Amex_ThePlatinum.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Máximo acumulación mensual 15.000 Puntos y 180.000 tope máximo
+    de acumulación.
+  :costo: 0
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
 :monedas:
 - Dólares
 - Colones
@@ -30,6 +58,12 @@
   :costoDeRedencion: Gratis
   :metodoDeRedencion: Socios Internacionales (aerolíneas, cadenas hoteleras..) y comercio
     afiliado
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
 :facilidadesDeCredito:
 - :id: 14Vc0irR0qGw00WSgcCocY
   :descripcion: Extrafinanciamiento

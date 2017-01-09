@@ -3,10 +3,14 @@
 :titulo: LifeMiles
 :variacion:
 - :id: 4zo9JV96ZqYsg8u2Ssg6og
-  :titulo: LifeMiles Gold American Express
+  :titulo: LifeMiles Dorada American Express
+  :arte:
+    :title: Tarjeta LifeMiles Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/TiSNLamuC4cEYmuCQqMeS/091783ff80c2c992c707d7250bc23814/Tarjeta_LifeMiles_Dorada.png"
   :color:
-    :id: 4GfWAPeIM0oSu4KOSOAkAq
-    :titulo: Gold
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
     :limiteMinimoDeCredito: 3000
     :limiteMaximoDeCredito: 7500
     :salarioMinimo: 750000
@@ -19,15 +23,19 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
+  :costo: 5
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
 - :id: 4yV3e58WS4oomIKwcA4YOS
   :titulo: LifeMiles Premium American Express
   :color:
-    :id: 4PPgfG0P1KSK2K4mceUkKY
-    :titulo: Premium
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
     :limiteMinimoDeCredito: 10000
-    :limiteMaximoDeCredito: 1000000
+    :limiteMaximoDeCredito: 100000
     :salarioMinimo: 1500000
-    :salarioMaximo: 100000000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16
@@ -36,6 +44,37 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
+  :costo: 10
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 25JSujKLtqQkg88E0A8Eyw
+  :titulo: LifeMiles Elite American Express
+  :arte:
+    :title: Tarjeta LifeMiles Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/6lsFB7JrTUQAo4qumaWsm0/896ae6c18cc176f3598c268c5c252cdc/Tarjeta_LifeMiles_Platino.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
 :monedas:
 - Dólares
 - Colones
@@ -46,6 +85,48 @@
   :vencimientoDePuntos: Las millas LifeMiles nunca vencen, siempre que se realice
     al menos una compra con la tarjeta de crédito al menos una vez durante los próximos
     24 meses.
+  :reglasDeAcumulacion:
+  - :id: 64Vpwl9O6s2wSeu82i2SG8
+    :titulo: Lifemiles Black
+    :reglas: 2 millas LifeMiles por dólar de consumo
+    :colores:
+    - :id: 5d3gXbuveoIUAWCA4yQsGm
+      :titulo: Black
+      :limiteMinimoDeCredito: 10000
+      :limiteMaximoDeCredito: 100000
+      :salarioMinimo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  - :id: XAGHe6tlKgOkge8I2G0Ak
+    :titulo: Lifemiles Dorada
+    :reglas: 1,25 millas LifeMiles por dólar de consumo
+    :colores:
+    - :id: 1IMtYtblSsWyOc0KkgWS8E
+      :titulo: Dorado
+      :limiteMinimoDeCredito: 3000
+      :limiteMaximoDeCredito: 7500
+      :salarioMinimo: 750000
+      :salarioMaximo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
+  - :id: KLA90Rzqmaw2QSyUOmICQ
+    :titulo: Lifemiles Platino
+    :reglas: 1,50 millas LifeMiles por dólar de consumo
+    :colores:
+    - :id: 3lyNqciAdOMeIagKWeSya6
+      :titulo: Platino
+      :limiteMinimoDeCredito: 7500
+      :limiteMaximoDeCredito: 10000
+      :salarioMinimo: 1500000
+      :salarioMaximo: 10000000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles de acuerdo al tipo de tarjeta.
   :minimoDeRedencion: No hay mínimo
   :costoDeRedencion: Gratis
@@ -53,9 +134,11 @@
     "www.lifemiles.com") o socios comerciales.
 :requisitos:
 - Cédula de identidad
-- Certificación de ingresos
 - Orden patronal
 - Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
 :facilidadesDeCredito:
 - :id: 14Vc0irR0qGw00WSgcCocY
   :descripcion: Extrafinanciamiento

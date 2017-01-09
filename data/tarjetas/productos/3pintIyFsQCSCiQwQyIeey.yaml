@@ -4,6 +4,10 @@
 :variacion:
 - :id: 2dxPSBpFU0WS4MyQCeuw0Y
   :titulo: 'Cashback Clásica American Express '
+  :arte:
+    :title: Tarjeta Cashback Azul
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2OoIBQ6riE6gOUIG2EMCkg/dea5d0fa68b765d4e74dee3fadacefc2/Tarjeta_Cashback_Azul.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -27,6 +31,10 @@
   - "₡"
 - :id: 4gj4g3wHiMeYK0GIGoIkuO
   :titulo: 'Cashback Dorada American Express '
+  :arte:
+    :title: Tarjeta Cashback Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/gHlHryKv4siiUSQIuCWqe/2099cf1c8adf839a92fe76a65991391a/Tarjeta_Cashback_Dorada.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -50,6 +58,10 @@
   - "₡"
 - :id: 3wNhKn68WAoSSOOqWg6y4e
   :titulo: 'Cashback Platino American Express '
+  :arte:
+    :title: Tarjeta Cashback Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/6oS73g0p2MmQISC2wW8wOM/51f2432550624fefc2c841434d2d50b7/Tarjeta_Cashback_Platino.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino

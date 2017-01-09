@@ -4,6 +4,10 @@
 :variacion:
 - :id: y6ssXi0Uh2qE4IMaiciSQ
   :titulo: Club La Nación Clásica  American Express
+  :arte:
+    :title: Tarjeta Nacion Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1EAjv1bjjy28MaqUeMqqeM/833276e8bef3c3b5a8e78e4555de9fd9/Tarjeta_Nacion_Clasica.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -21,54 +25,49 @@
   :retoDeFacturacion: '0'
   :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
   :costo: 0
-- :id: 5M0O2rOiDC4SsmU8myEkqS
-  :titulo: Club La Nación Dorada American Express
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :retoDeFacturacion: '0'
-  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
-  :costo: 0
-- :id: cfgt9hTikEceOOC2UgCam
-  :titulo: Club La Nación Dorada American Express
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :retoDeFacturacion: '0'
-  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
-  :costo: 0
 :monedas:
 - Dólares
 - Colones
+:planDeLealtad:
+  :id: 6nJUqjRkha4Ugkc4kuIUgS
+  :titulo: Puntos Viva
+  :unidadDeAcumulacion: Puntos Viva
+  :vencimientoDePuntos: Cada 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: 3wPQ06fWyAqc8Ka4iUCkQO
+    :titulo: Nación
+    :reglas: "3% en supermercados. \n2% en farmacias. \n1 % en gasolineras, tiendas
+      por departamento, ropa y zapaterías, restaurantes y comida rápida"
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+  :maximoDeAcumulacion: 250.000 puntos VIVA anuales
+  :minimoDeRedencion: 15.000 puntos Viva
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: Grupo Nación, evento parque viva y comercios afiliados
 :requisitos:
 - Cédula de identidad
 - Orden patronal
+- Comprobante de dirección física
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)
 - Mayor de 21 años
 - Suscripción a La Nación
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
 :categorias:
 - :id: 7y8Nq6bhXUowQaUwaysgAU
   :titulo: Supermercados, tiendas y clubes

@@ -1,12 +1,189 @@
 ---
 layout: revision
 ---
-<h1><%= producto['titulo'] %></h1>
+<% @centered = centered_row(producto['variacion'].count).html_safe %>
 <table>
+  <thead>
+    <tr>
+      <th width="20%">Característica</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <th width="<%= 80 / producto['variacion'].count %>%">
+          <% if variacion.arte.nil? %>
+            <img src="http://placehold.it/130x81/F46E3C/FFFFFF?text=Sin+Arte">
+          <% else %>
+            <img src="<%= variacion.arte.url %>?w=130" />
+          <% end %>
+          <%= variacion['emisor']['nombre'] %><br/>
+          <%= variacion['color']['titulo'] %>
+        </th>
+      <% end %>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td><strong>Monedas</strong></td>
-      <td><%= producto['monedas'] %></td>
+      <th width="20%">Límite de crédito</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <td>
+          <%= [number_to_currency(variacion['color']['salarioMinimo'], :precision => 0), number_to_currency(variacion['color']['limiteMaximoDeCredito'], :precision => 0)].join(' - ') %>
+        </td>
+      <% end %>
+    </tr>
     <tr>
+      <th width="20%">Rango de salario</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <td>
+          <%= [number_to_currency(variacion['color']['salarioMinimo'], :unit => "₡", :precision => 0), number_to_currency(variacion['color']['salarioMaximo'], :unit => "₡", :precision => 0)].join(' - ') %>
+        </td>
+      <% end %>
+    </tr>
+    <%
+    @tasas = [
+              ["Tasa Preferencial Colones", 'tasaPreferencialColones'],
+              ["Tasa Preferencial Dólares", 'tasaPreferencialDolares'],
+              ["Tasa Normal Colones", 'tasaNormalColones'],
+              ["Tasa Normal Dólares", 'tasaNormalDolares']
+             ]
+    %>
+
+    <% @tasas.each do |tasa| %>
+      <tr>
+        <th><%= tasa[0] %></th>
+        <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+          <td><%= number_to_percentage(variacion['color'][tasa[1]], :precision => 2) %></td>
+        <% end %>
+      </tr>
+    <% end %>
+    <tr>
+      <th>Costo</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <td>
+          <%= number_to_currency(variacion['costo'], :precision => 0, :unit => variacion['monedaDeCosto'].first).prepend("#{variacion['tipoDeCosto'].first}: ") unless variacion['monedaDeCosto'].nil?%>
+        </td>
+      <% end %>
+    </tr>
+    <tr>
+      <th><strong>Plan de lealtad</strong></th>
+      <td colspan="<%= producto['variacion'].count %>"><%= producto['planDeLealtad']['titulo'] %></td>
+    </tr>
+    <tr>
+      <th>Modalidad de acumulación</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <td>
+          <% producto['planDeLealtad']['reglasDeAcumulacion'].each do |regla| %>
+            <% @colores = regla['colores'].map(&:titulo) %>
+            <%= simple_format(regla['reglas']) if @colores.include? variacion['color']['titulo'] %>
+          <% end %>
+        </td>
+      <% end %>
+    </tr>
+    <tr>
+      <th>
+        Máximo de acumulación
+      </th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+        <td>
+          <%= variacion['maximoDeAcumulacion'] != nil ? variacion['maximoDeAcumulacion'] : producto['planDeLealtad']['maximoDeAcumulacion'] %>
+        </td>
+      <% end %>
+    </tr>
+    <tr>
+      <th>Mínimo de redención</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= producto['planDeLealtad']['minimoDeRedencion'] || "No hay" %>
+      </td>
+    </tr>
+    <tr>
+      <th>Costo de redención</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= producto['planDeLealtad']['costoDeRedencion'] || "Gratis" %><br/>
+      </td>
+    </tr>
+    <tr>
+      <th>Método de redención</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= producto['planDeLealtad']['metodoDeRedencion'] %>
+      </td>
+    </tr>
+    <tr>
+      <th>Vencimiento de puntos</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= producto['planDeLealtad']['vencimientoDePuntos'] %>
+      </td>
+    </tr>
+    <tr>
+      <th>Donde no acumula</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= data.tarjetas.generalidades['Y230IMEza66248CIewMmu']['dondeNoAcumula'] %>
+      </td>
+    </tr>
+    <tr>
+      <th>Monedas</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <ul>
+          <% producto['monedas'].each do |moneda| %>
+            <li><%= moneda %></li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th>Requisitos</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <ul>
+          <% producto['requisitos'].each do |requisito| %>
+            <li><%= requisito %></li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th>Facilidades de crédito</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <% unless producto['facilidadesDeCredito'].nil? %>
+          <ul>
+            <% producto['facilidadesDeCredito'].each do |fdc| %>
+              <li><%= fdc['descripcion'] %></li>
+            <% end %>
+          </ul>
+        <% end %>
+      </td>
+    </tr>
+    <tr>
+      <th>Donde pagar</th>
+      <td colspan="<%= producto['variacion'].count %>">
+        <%= simple_format(data.tarjetas.generalidades['Y230IMEza66248CIewMmu']['redDePagos']) %>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br/>
+
+<table id="beneficios-table">
+  <tbody>
+    <tr>
+      <th>Beneficios</th>
+      <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+      <th width="120px">
+        <% if variacion.arte.nil? %>
+          <img src="http://placehold.it/50x31/F46E3C/FFFFFF?text=Sin+Arte">
+        <% else %>
+          <img src="<%= variacion.arte.url %>?w=50" />
+        <% end %>
+        <%= variacion['emisor']['nombre'] %><br/>
+        <%= variacion['color']['titulo'] %>
+      </th>
+      <% end %>
+    </tr>
+    <% unless producto['beneficiosGenerales'].nil? %>
+      <% producto['beneficiosGenerales'].each do |beneficio| %>
+        <tr>
+          <td><%= beneficio['titulo'] %></td>
+          <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
+            <td class="text-center">x</td>
+          <% end %>
+        <tr>
+      <% end %>
+    <% end %>
   </tbody>
 </table>
