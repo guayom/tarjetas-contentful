@@ -19,7 +19,7 @@ activate :contentful do |f|
   f.space         = {tarjetas: ENV['SPACE_ID']}
   f.access_token  = ENV['CONTENT_DELIVERY_API']
   f.cda_query     = { limit: 1000 }
-  f.content_types = {productos: 'producto', generalidades: 'generalidades'}
+  f.content_types = {productos: 'producto', generalidades: 'generalidades', categorias: 'categorias'}
 end
 
 #set :markdown_engine, :redcarpet
@@ -37,6 +37,13 @@ end
 helpers do
   def centered_row(count)
     "colspan='#{count}' class='text-center'"
+  end
+  def get_grouped_products(category)
+    data.tarjetas.productos.select{ |key, value| value['categorias'][0]['identificador'] == category }
+  end
+  def get_category_description(category)
+    @category = data.tarjetas.categorias.find{|a| a[1]['identificador'] == category}
+    @category[1]['descripcionCorta']
   end
   # def markdown_to_html(input)
   #   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)

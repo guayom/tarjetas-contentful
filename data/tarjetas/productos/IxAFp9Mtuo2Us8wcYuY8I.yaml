@@ -266,5 +266,7 @@
 - :id: 6eWCIhNNEAMQyy2wUwkIoA
   :descripcion: Tasa Cero
 :categorias:
-- :id: 7y8Nq6bhXUowQaUwaysgAU
-  :titulo: Supermercados, tiendas y clubes
+- :id: 2ea888wZYEacAiEC6UeO6Y
+  :titulo: Promocionales
+  :identificador: promocionales
+  :descripcionCorta: Texto para tarjetas promocionales

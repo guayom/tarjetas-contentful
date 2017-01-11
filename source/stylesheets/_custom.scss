@@ -1,0 +1,86 @@
+.rotate-card-1{
+  $rotation: 16deg;
+  $blur: 10px;
+
+  padding: 50px 0 61px 0;
+  height: 550px;
+  position:relative;
+
+  &:after{
+    content: "";
+    width: 380px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 110px;
+
+    border-radius: 50%;
+    background: rgba(0,0,0,0.4);
+    -webkit-filter: blur($blur);
+    filter: blur($blur);
+  }
+
+
+  img.image-tab{
+    -ms-transform: rotate($rotation); /* IE 9 */
+    -webkit-transform: rotate($rotation); /* Chrome, Safari, Opera */
+    transform: rotate($rotation);
+  }
+
+  .sombra{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+  }
+}
+#section-5 .rotate-card-1:after{
+  bottom: 70px;
+}
+.rotate-card-2{
+  $rotation: -60deg;
+
+  position: relative;
+
+  img.image-tab{
+    position: absolute;
+    top: 50%;
+    -ms-transform: rotate($rotation); /* IE 9 */
+    -webkit-transform: rotate($rotation); /* Chrome, Safari, Opera */
+    transform: rotate($rotation);
+  }
+}
+.secondary-page #section-2 .media {
+    margin-top: 280px;
+    margin-left: 50px;
+}
+.secondary-page #section-2 .bg-cards {
+    bottom: -665px;
+    left: -728px;
+}
+.rotate-card-3{
+  $rotation: 60deg;
+
+  position: relative;
+
+  .tab-pane{
+    padding-top: 130px;
+  }
+
+  img.image-tab{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    -ms-transform: rotate($rotation); /* IE 9 */
+    -webkit-transform: rotate($rotation); /* Chrome, Safari, Opera */
+    transform: rotate($rotation);
+  }
+
+}
+.secondary-page .section-container-3 .inverse .bg-cards{
+  bottom: -713px;
+  left: -742px;
+}
+
+#section-2{
+  margin-top: 100px;
+}
