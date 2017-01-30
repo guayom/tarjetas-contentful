@@ -5,9 +5,9 @@
 - :id: 2yBTomL2FaiUEguYCeEcQ
   :titulo: " INCAE Business School Black American Express "
   :arte:
-    :title: Tarjeta Incae
+    :title: Tarjeta INCAE
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1Xjd5UJN00SgGoSekyGOem/fd3118b3d0a9d4c3dd247bb8e18db822/Tarjeta_Incae.png"
+    :url: "//images.contentful.com/9cds0lha1plv/1Xjd5UJN00SgGoSekyGOem/4077455b774e4f6ceac11165c1b218c6/cr-tarjeta-incae-amex.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -87,3 +87,12 @@
   :titulo: Estilo de vida
   :identificador: estilo-de-vida
   :descripcionCorta: Texto para tarjetas de estilo de vida
+:metaDescripcion: Tarjeta exclusiva para egresados de INCAE Business School. Que le
+  brinda 1.5 Puntos Enjoy & 0.5 punto para el fondo patrimonial de Becas de INCAE
+:metaTags:
+- incae
+- business school
+- escuela de negocios
+- tarjeta incae
+- credito
+- tarjeta

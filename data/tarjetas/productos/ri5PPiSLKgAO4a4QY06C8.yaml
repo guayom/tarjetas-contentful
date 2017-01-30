@@ -73,9 +73,9 @@
 - :id: 7lhJTmo6VUQsqgQoKmmMsg
   :titulo: AAdvantage Black Master Card
   :arte:
-    :title: Tarjeta Aadvantage MCBlack
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/6EVXRV1lh6UayawOy4uyMS/4c490dae3384cd908e08d321b792030e/Tarjeta_Aadvantage_MCBlack.png"
+    :title: AAdvantage Black Master Card
+    :description: AAdvantage Black Master Card
+    :url: "//images.contentful.com/9cds0lha1plv/A6laopgk2ycwiI0AU8QSe/e0aa27abf8e04aad4584e83d25005393/cr-tarjeta-aadvantage-black-mc.png"
   :color:
     :id: 6Y5q1pV3Soe8cEWywgUWOs
     :titulo: Elite
@@ -95,7 +95,7 @@
   :arte:
     :title: Tarjeta Aadvantage Gold
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/Zc7Nd0iR8I8Ygw00CeIcs/7f6482e8b53165a1925416fdca69c504/Tarjeta_Aadvantage_Gold.png"
+    :url: "//images.contentful.com/9cds0lha1plv/Zc7Nd0iR8I8Ygw00CeIcs/34529163965ccc6709b67591cb79ca20/cr-tarjeta-aadvantage-prestige-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -116,7 +116,7 @@
   :arte:
     :title: Tarjeta Aadvantage Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1xHbxucqUcaugkcUSom4wK/4c490dae3384cd908e08d321b792030e/Tarjeta_Aadvantage_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/1xHbxucqUcaugkcUSom4wK/c2177c4f4e5f8ee52ac1b5e0ae662ea7/cr-tarjeta-aadvantage-prestige-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -137,7 +137,7 @@
   :arte:
     :title: Aadvantage Black American Express
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2PCYqYSJIAASKoaGsMosus/0d5f69f7439af9fa52e64a7dcb248a6a/Tarjeta_Aadvantage_Black.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2PCYqYSJIAASKoaGsMosus/f6fe509a6cfa578ae0204e0170e0d493/cr-tarjeta-aadvantage-prestige-amex.png"
   :color:
     :id: 4PPgfG0P1KSK2K4mceUkKY
     :titulo: Premium
@@ -214,3 +214,15 @@
   :titulo: Viajes
   :identificador: viajes
   :descripcionCorta: Descripción corta para tarjetas de viajes
+:metaDescripcion: 'La tarjeta que le permite acumular millas por sus compras diarias;
+  además de poder canjear las millas por tiquetes aéreos en American Airlines. '
+:metaTags:
+- american airlines
+- aadvantage
+- visa
+- mastercard
+- viajes
+- tiquetes de avion
+- pasajes
+- millas de viaje
+- millas

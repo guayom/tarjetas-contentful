@@ -7,7 +7,7 @@
   :arte:
     :title: Tarjeta Connectmiles Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5xAa78IW1Gg4WmiIiUcmm4/62f3057abb97adacd3113584ae6123e1/Tarjeta_Connectmiles_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/5xAa78IW1Gg4WmiIiUcmm4/de6d0d278d3d0239b74fd78b670d9b5d/cr-tarjeta-connectmiles-platinum-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -33,7 +33,7 @@
   :arte:
     :title: Tarjeta Connectmiles Black
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/mYn1e82ZKS8KUyS2G4SUk/7ccd61784f4cccc0e6b602a59e05af8f/Tarjeta_Connectmiles_Black.png"
+    :url: "//images.contentful.com/9cds0lha1plv/mYn1e82ZKS8KUyS2G4SUk/b5775bc2f21d03a8b866afcaeae75d15/cr-tarjeta-connectmiles-infinite-visa.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -130,3 +130,16 @@
   :titulo: Viajes
   :identificador: viajes
   :descripcionCorta: Descripción corta para tarjetas de viajes
+:metaDescripcion: La tarjeta que le permite acumular millas por sus compras diarias;
+  además de poder canjear las millas por tiquetes aéreos en Copa Airlines
+:metaTags:
+- copa
+- united
+- united airlines
+- connectmiles
+- copa airlines
+- tiquetes
+- pasajes
+- star alliance
+- connect
+- miles

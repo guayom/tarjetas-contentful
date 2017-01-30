@@ -7,7 +7,7 @@
   :arte:
     :title: Tarjeta Pricemart Diamond
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5SrJ9JZy2AqaOeUUe6kigM/0d0c1cfb1ad4f3e8fe584efa4662fa58/Tarjeta_Pricemart_Diamond.png"
+    :url: "//images.contentful.com/9cds0lha1plv/5SrJ9JZy2AqaOeUUe6kigM/cb5324f9947793ea426fe76dd945c8de/cr-tarjeta-pricesmart-clasica-amex.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -28,7 +28,7 @@
   :arte:
     :title: Tarjeta Pricesmart Dorada
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/20mMdcaMCsY4SWEIekOI2c/9773cd4ddfb98dc6604aab99ac90ec5e/Tarjeta_Pricesmart_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/20mMdcaMCsY4SWEIekOI2c/fda90d77894881cdeb38b946d0391d3f/cr-tarjeta-pricesmart-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -49,7 +49,7 @@
   :arte:
     :title: Tarjeta Pricesmart Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1OXOXOIsCwaIA6S8igA8Om/aaf7b8830ae50c9ddaeb67ce553151e2/Tarjeta_Pricesmart_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/1OXOXOIsCwaIA6S8igA8Om/8ada02a660fb9bad236e554599d0f374/cr-tarjeta-pricesmart-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -135,3 +135,14 @@
   :titulo: Supermercados, tiendas y clubes
   :identificador: supermercados
   :descripcionCorta: Descripción corta para tarjetas de supermercados
+:metaDescripcion: Con la Tarjeta Pricesmart American Express de CREDOMATIC no necesitara
+  otra tarjeta para acceder a Pricesmart y accedera a promociones exclusivas.
+:metaTags:
+- tarjeta pricesmart
+- pricesmart
+- price smart
+- price
+- smart
+- club pricesmart
+- american express
+- amex

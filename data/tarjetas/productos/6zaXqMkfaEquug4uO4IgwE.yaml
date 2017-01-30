@@ -3,11 +3,11 @@
 :titulo: Megasuper
 :variacion:
 - :id: 5f3uIXrVEsgYKawgAMAwA6
-  :titulo: Megasuper clásica visa
+  :titulo: Megasuper Clásica Visa
   :arte:
     :title: Tarjeta Megasuper Clasica
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2EJbuLEAeEkyWiU4msi2gU/1e8c405c36452ee785551b155a524408/Tarjeta_Megasuper_Clasica.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2EJbuLEAeEkyWiU4msi2gU/90ca5073fe32cb4c06360b31073e594f/cr-tarjeta-megasuper-clasica-visa.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -91,3 +91,11 @@
   :titulo: Supermercados, tiendas y clubes
   :identificador: supermercados
   :descripcionCorta: Descripción corta para tarjetas de supermercados
+:metaDescripcion: Conozca como puede transformar sus compras en un Mega aguinaldo
+  cada fin de año y utilizarlo en Megasuper. Más información aquí
+:metaTags:
+- tarjeta
+- credito
+- megasuper
+- mega
+- super

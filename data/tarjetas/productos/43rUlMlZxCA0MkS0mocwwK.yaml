@@ -7,7 +7,7 @@
   :arte:
     :title: Tarjeta LifeMiles Dorada
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/TiSNLamuC4cEYmuCQqMeS/091783ff80c2c992c707d7250bc23814/Tarjeta_LifeMiles_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/TiSNLamuC4cEYmuCQqMeS/456cd7cb121de75e778bd3d9503ad440/cr-tarjeta-lifemiles-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -30,6 +30,10 @@
   - "$"
 - :id: 4yV3e58WS4oomIKwcA4YOS
   :titulo: LifeMiles Premium American Express
+  :arte:
+    :title: LifeMiles Premium American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/431Je7CXxCAmCamqMEeI2A/eb20a846e84a7745cb84edd6ba3fc157/cr-tarjeta-lifemiles-black-amex.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -54,7 +58,7 @@
   :arte:
     :title: Tarjeta LifeMiles Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/6lsFB7JrTUQAo4qumaWsm0/896ae6c18cc176f3598c268c5c252cdc/Tarjeta_LifeMiles_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/6lsFB7JrTUQAo4qumaWsm0/738ed71506b14eeb62ffb87c05644f8f/cr-tarjeta-lifemiles-premium-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -151,3 +155,13 @@
   :titulo: Viajes
   :identificador: viajes
   :descripcionCorta: Descripción corta para tarjetas de viajes
+:metaDescripcion: La tarjeta que permite la posibilidad de acumular millas de forma
+  acelerada por sus compras diarias y poder canjear por tiquetes en Avianca.
+:metaTags:
+- avianca
+- taca
+- lifemiles
+- miles
+- millas
+- american express
+- amex

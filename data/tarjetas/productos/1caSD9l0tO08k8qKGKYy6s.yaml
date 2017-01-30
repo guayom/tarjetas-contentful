@@ -5,9 +5,9 @@
 - :id: 1fLBdagG6Os8wo2Em0YIks
   :titulo: Platinum Card American Express
   :arte:
-    :title: Platinum card
+    :title: Platinum Card
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1KdI3q3h0sgqsCU0eskyes/1ca335a8d7a5fa2b0461ee42515e4ef3/Tarjeta_Amex_ThePlatinum.png"
+    :url: "//images.contentful.com/9cds0lha1plv/1KdI3q3h0sgqsCU0eskyes/bf41c9b34082573ec9630512fa96713a/cr-tarjeta-platinumcard-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -76,3 +76,11 @@
   :titulo: Estilo de vida
   :identificador: estilo-de-vida
   :descripcionCorta: Texto para tarjetas de estilo de vida
+:metaDescripcion: Disfrute de los multiples beneficios que ofrece los puntos Membership
+  Rewards. Conozca más aquí.
+:metaTags:
+- american express
+- membership rewards
+- tarjeta platino
+- amex
+- la tarjeta platino

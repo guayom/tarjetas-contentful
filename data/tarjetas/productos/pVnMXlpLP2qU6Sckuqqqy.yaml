@@ -3,11 +3,11 @@
 :titulo: MillasPlus
 :variacion:
 - :id: 1ttFrRAGnueqIiC4g2ii8Q
-  :titulo: Millas Plus dorada American Express
+  :titulo: Millas Plus Dorada American Express
   :arte:
     :title: Millas Plus dorada American Express
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/654PQZ705iMkoccOgqCeMm/e4cbd439693cccb590101ddece3e9dfa/Tarjeta_MillasPlus_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/654PQZ705iMkoccOgqCeMm/3a6d55b0c64b07e30f8aacbf0523118c/cr-tarjeta-millasplus-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -29,7 +29,11 @@
   :monedaDeCosto:
   - "$"
 - :id: 5jIEFamnQAeoeiASS6Wsou
-  :titulo: Millas Plus dorada Master Card
+  :titulo: Millas Plus Dorada Master Card
+  :arte:
+    :title: Millas Plus Dorada Master Card
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5w5qISHupyyQymkyIeceUy/efded1bdc622747d61ccf4d675ba8b47/cr-tarjeta-millasplus-dorada-mc.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -51,7 +55,11 @@
   :monedaDeCosto:
   - "$"
 - :id: 79pXCsdYE8SCCYuOSCWqYq
-  :titulo: Millas Plus dorada Visa
+  :titulo: Millas Plus Dorada Visa
+  :arte:
+    :title: Millas Plus Dorada Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/DviG7qr4nQgyii2ioUI0Y/07e5649d8d1e9eabfadd19eddf74b708/cr-tarjeta-millasplus-dorada-visa.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -77,7 +85,7 @@
   :arte:
     :title: Tarjeta MillasPlus Black AMEX
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2lWL8eWrsUWKqoK8YKwO8m/fe20ae5ebf9e29722f6ff48fb9403d55/Tarjeta_MillasPlus_Black.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2lWL8eWrsUWKqoK8YKwO8m/f5d261aeb3c0d5a3e7aa64fc2d3b9dfd/cr-tarjeta-millasplus-black-amex.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -100,9 +108,9 @@
 - :id: 7qHKuyqENyysoOOO88SYY0
   :titulo: Millas Plus Platino American Express
   :arte:
-    :title: Millas plus platino AMEX
+    :title: Millas Plus Platino AMEX
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/3pFYnT5Vp6YsQiA48oWEqe/85c4f077884c242afe0b890f9b9ef99c/Tarjeta_MillasPlus_Black_Amex.png"
+    :url: "//images.contentful.com/9cds0lha1plv/3pFYnT5Vp6YsQiA48oWEqe/f14873527b646475f5ea1e524137992d/cr-tarjeta-millasplus-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -125,6 +133,10 @@
   - "$"
 - :id: 6BFFXUQlmEw0qgIEmkoOKA
   :titulo: Millas Plus Platino Master Card
+  :arte:
+    :title: Millas Plus Platino Master Card
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5WgWiralkAuUKQIkaG8MoK/138e9775b336d63adcc3016d1ef6e271/cr-tarjeta-millasplus-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -147,6 +159,10 @@
   - "$"
 - :id: 5r5rzDPW8gasKIUKMIequO
   :titulo: Millas Plus Platino Visa
+  :arte:
+    :title: Millas Plus Platino Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1DRR3tOr3CmQEk8sgsugag/2f1f9974f985d09bef5f1b29c24a9024/cr-tarjeta-millasplus-platino-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -238,3 +254,14 @@
   :titulo: Viajes
   :identificador: viajes
   :descripcionCorta: Descripción corta para tarjetas de viajes
+:metaDescripcion: Tarjeta dirigida a las personas que les gusta viajar y prefieren
+  tener la libertad de escoger la aerolínea y la fecha en que viajan. Solicítala Aquí.
+:metaTags:
+- millas plus
+- millas
+- american express
+- viajes
+- pasajes
+- aerolineas
+- tiquetes
+- pasajes

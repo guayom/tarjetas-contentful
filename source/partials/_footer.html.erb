@@ -1,10 +1,9 @@
 <footer class="footer" role="footer">
   <h2><img src="images/logo-BAC.png" alt="" /></h2>
   <nav>
-    <li><a href="">COOKIES</a></li>
-    <li><a href="">SEGURIDAD</a></li>
-    <li><a href="">POLÍTICA DE PRIVACIDAD</a></li>
-    <li><a href="">TÉRMINOS Y CONDICIONES</a></li>
+    <% data.links.footer.each do |link| %>
+      <li><a href="<%= link.url %>"><%= link.titulo %></a></li>
+    <% end %>
   </nav>
-  <p class="disclaimer">Todos los Derechos Reservados. 2016 © BAC International Bank.</p>
+  <p class="disclaimer">Todos los Derechos Reservados. <%= DateTime.now.year %> © BAC International Bank.</p>
 </footer>

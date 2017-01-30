@@ -7,7 +7,7 @@
   :arte:
     :title: Tarjeta CityMall Clasica
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4dHhmLZHaMAoEOaYUcc4CM/d730f2de20061425ac7286925fa41646/Tarjeta_CityMall_Clasica.png"
+    :url: "//images.contentful.com/9cds0lha1plv/4dHhmLZHaMAoEOaYUcc4CM/0f15d29037800585059ca4deab19ec25/cr-tarjeta-citymall-clasica-mc.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -34,7 +34,7 @@
   :arte:
     :title: Tarjeta CityMallDorada
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4ciyc3hbcIe8GEOiySWaiA/c0dc4d7fb456106499bb460e7e261430/Tarjeta_CityMallDorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/4ciyc3hbcIe8GEOiySWaiA/403abfa0408e1bbb79ac4e64f3e00dfd/cr-tarjeta-citymall-dorada-mc.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -61,7 +61,7 @@
   :arte:
     :title: Tarjeta CityMall Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4dWntDRSJqWW8WUqa0WgQi/9df10d18cced5ce462394ad5b89a9da7/Tarjeta_CityMall_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/4dWntDRSJqWW8WUqa0WgQi/6316ee2fa7bfa2dcbb008ded08c40518/cr-tarjeta-citymall-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -149,3 +149,13 @@
   :titulo: Supermercados, tiendas y clubes
   :identificador: supermercados
   :descripcionCorta: Descripción corta para tarjetas de supermercados
+:metaDescripcion: Acumule CashBack por las compras realizadas en las tiendas que se
+  encuentren en City Mall. Conocé más y solicitala en línea
+:metaTags:
+- citymall
+- city
+- mall
+- city mall
+- mastercard
+- master card
+- mall alajuela

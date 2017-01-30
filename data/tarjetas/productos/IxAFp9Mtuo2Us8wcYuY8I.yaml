@@ -49,7 +49,7 @@
   :arte:
     :title: Tarjeta GanePremios Dorada
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/65arMYwMp2AGmygg4SisMm/355934dd80876c6ea3bc710d93de60af/Tarjeta_GanePremios_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/65arMYwMp2AGmygg4SisMm/bfa4e7d0083995e107fd830b02de9b16/cr-tarjeta-ganepremios-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -71,6 +71,10 @@
   - "₡"
 - :id: 4joyWWiOLYS4QWMCyYsSAu
   :titulo: Gane Premios Dorada Mastercard
+  :arte:
+    :title: Gane Premios Dorada Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/268fMlcaesI8W0maU8GMaq/f5adcd01b23d3aac37e489d02efc20f6/cr-tarjeta-ganepremios-dorada-mc.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -92,6 +96,10 @@
   - "₡"
 - :id: 2G0R3QHzBumAmUMoCMMmke
   :titulo: Gane Premios Dorada Visa
+  :arte:
+    :title: Gane Premios Dorada Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2acOcm3M4Myu6a8yuKcYk2/095f82fca85e0399a764529dd61b2887/cr-tarjeta-ganepremios-dorada-visa.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -116,7 +124,7 @@
   :arte:
     :title: Tarjeta GanePremios Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/40ufTSwZawWIiagooeysEi/2d2f55cde0805d86c31c5739858cd7b2/Tarjeta_GanePremios_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/40ufTSwZawWIiagooeysEi/a9e52a55271c16ac0a319c61e48a0e25/cr-tarjeta-ganepremios-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -138,6 +146,10 @@
   - "₡"
 - :id: 5YD8eka9mEASMwQE2se62q
   :titulo: Gane Premios Platino Mastercard
+  :arte:
+    :title: Gane Premios Platino Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4OuSFf4pq8eiogqYeU8I4U/071dfe227795e202bbd040926a0153e2/cr-tarjeta-ganepremios-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -159,6 +171,10 @@
   - "₡"
 - :id: 5t7m2Ru15C8u2E4EIocW28
   :titulo: Gane Premios Platino Visa
+  :arte:
+    :title: Gane Premios Platino Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5XyG72fPfUq2iguqYq6SwM/7d74f8ca47770f485eaeafd7e498ff76/cr-tarjeta-ganepremios-platino-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -183,7 +199,7 @@
   :arte:
     :title: Tarjeta GanePremios Clásica
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5Y5U3mRi9i640KaSCSWSM8/ff3faa997bfa99b1eedb7a46aabfc841/Tarjeta_GanePremios_Gris.png"
+    :url: "//images.contentful.com/9cds0lha1plv/5Y5U3mRi9i640KaSCSWSM8/5c176470dc5be13eb673dae30a196f79/cr-tarjeta-ganepremios-clasica-amex.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -270,3 +286,13 @@
   :titulo: Promocionales
   :identificador: promocionales
   :descripcionCorta: Texto para tarjetas promocionales
+:metaDescripcion: Gane Millas por cada compra que realice y utilice las millas para
+  darse algún gusto. Más información aquí.
+:metaTags:
+- gane premios
+- millas
+- canjes
+- mulit premios
+- mulitpremios
+- acumule
+- premios

@@ -5,9 +5,9 @@
 - :id: 2FC5QpwxXai2OeEowCYqaq
   :titulo: Puntos Credomatic Clásica American Express
   :arte:
-    :title: Puntos Credomatic clásica American express
+    :title: Puntos Credomatic Clásica American Express
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1TiyzUyUPS06mOQAyk0SKW/e0d711ff76d20362f902f72cf04ab968/Tarjeta_Puntos_Clasica.png"
+    :url: "//images.contentful.com/9cds0lha1plv/1TiyzUyUPS06mOQAyk0SKW/51c95547cd169d17fa6c58b9c85a595c/cr-tarjeta-puntos-clasica-amex.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -29,6 +29,10 @@
   - "₡"
 - :id: 4XeTCehkfm6WgAsSaaYiii
   :titulo: Puntos Credomatic Clásica Mastercard
+  :arte:
+    :title: Puntos Credomatic Clásica Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1qzASwtMby60I0woeEuqmg/e85fdf3703ef035c7b129cb5ab643514/cr-tarjeta-puntos-clasica-mc.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -50,6 +54,10 @@
   - "₡"
 - :id: 2qvKjMWFJOo4GekokECuSk
   :titulo: Puntos Credomatic Clásica Visa
+  :arte:
+    :title: Puntos Credomatic Clásica Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/egdASsMZTqm2iygMcisMU/6a183ebd4de8509899c1eb2fb3dc9194/cr-tarjeta-puntos-clasica-visa.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -74,7 +82,7 @@
   :arte:
     :title: Puntos Credomatic Dorada American Express
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2yL6CACmbaQ0YwMQCUaAAg/64eadd4c6dd10048ecf0389ce5c0e0ea/Tarjeta_Puntos_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2yL6CACmbaQ0YwMQCUaAAg/a5b1915645aae07088227fc930b19b62/cr-tarjeta-puntos-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -96,6 +104,10 @@
   - "₡"
 - :id: 4SnBCoHdS8SuCmogMyigoU
   :titulo: Puntos Credomatic Dorada Mastercard
+  :arte:
+    :title: Puntos Credomatic Dorada Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3EK36dXABOqk26iCEUMuoW/82f02f22e554aa6ef31538a9ed0b32a8/cr-tarjeta-puntos-dorada-mc.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -117,6 +129,10 @@
   - "₡"
 - :id: 44BgBj9jXWE6KC8c2yYK4W
   :titulo: Puntos Credomatic Dorada Visa
+  :arte:
+    :title: Puntos Credomatic Dorada Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5ioKZdsNhCICMOMogSqSMi/7685bb34ea5e7ac9abc07f2309d99a78/cr-tarjeta-puntos-dorada-visa.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -141,7 +157,7 @@
   :arte:
     :title: Puntos Credomatic Platino American Express
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2JPEwEf98ky8wmS24yi6Ui/a18870517ab0ac58d5ab7aee7e0753c7/Tarjeta_Puntos_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2JPEwEf98ky8wmS24yi6Ui/0403cb33f000acd62f1805046a1cd963/cr-tarjeta-puntos-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -163,6 +179,10 @@
   - "₡"
 - :id: 64xAe74mXusmGEUQGSGM8U
   :titulo: Puntos Credomatic Platino Mastercard
+  :arte:
+    :title: Puntos Credomatic Platino Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/IfMl40Uy64scySIm2AaU0/0591c9d11fb1b363d18dccf3ce4de341/cr-tarjeta-puntos-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -184,6 +204,10 @@
   - "₡"
 - :id: 6wp0XKpTjiWKIMaCo6Ca0C
   :titulo: Puntos Credomatic Platino Visa
+  :arte:
+    :title: Puntos Credomatic Platino Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1IPGx0UaWwCoge8QYSkSua/c0e6a514c5eb5ee1fc0bf75e9884c3f0/cr-tarjeta-puntos-platino-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -270,3 +294,12 @@
   :titulo: Promocionales
   :identificador: promocionales
   :descripcionCorta: Texto para tarjetas promocionales
+:metaDescripcion: Conozca la tarjeta que le permite acumular Puntos Credomatic por
+  cada compras y redimirlos en diversos comercios afiliados al programa. Más info
+  aquí.
+:metaTags:
+- visa
+- american express
+- puntos credomatic
+- puntos
+- mastercard

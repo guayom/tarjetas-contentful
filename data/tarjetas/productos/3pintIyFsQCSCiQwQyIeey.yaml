@@ -7,7 +7,7 @@
   :arte:
     :title: Tarjeta Cashback Azul
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2OoIBQ6riE6gOUIG2EMCkg/dea5d0fa68b765d4e74dee3fadacefc2/Tarjeta_Cashback_Azul.png"
+    :url: "//images.contentful.com/9cds0lha1plv/2OoIBQ6riE6gOUIG2EMCkg/566a92ec0f5ab2ce7ec9e7072bc103f3/cr-tarjeta-cashback-clasica-amex.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -34,7 +34,7 @@
   :arte:
     :title: Tarjeta Cashback Dorada
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/gHlHryKv4siiUSQIuCWqe/2099cf1c8adf839a92fe76a65991391a/Tarjeta_Cashback_Dorada.png"
+    :url: "//images.contentful.com/9cds0lha1plv/gHlHryKv4siiUSQIuCWqe/008c2583e99b16cc99c5fe04367a7590/cr-tarjeta-cashback-dorada-amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -61,7 +61,7 @@
   :arte:
     :title: Tarjeta Cashback Platino
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/6oS73g0p2MmQISC2wW8wOM/51f2432550624fefc2c841434d2d50b7/Tarjeta_Cashback_Platino.png"
+    :url: "//images.contentful.com/9cds0lha1plv/6oS73g0p2MmQISC2wW8wOM/6ba967c8e71c389426785a5422342255/cr-tarjeta-cashback-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -131,6 +131,10 @@
   - "₡"
 - :id: 4bz2ZPtJTqc8EQ2WwueC6m
   :titulo: 'CashBack Platino Mastercard '
+  :arte:
+    :title: 'CashBack Platino Mastercard '
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3zTLcg0CYEgqQ6I2ceyYM2/1ddb854ab1050994a387d16adef4be5e/cr-tarjeta-cashback-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -153,7 +157,11 @@
   :monedaDeCosto:
   - "₡"
 - :id: tzALqHGadi4OwwGaioCge
-  :titulo: 'Cashback Clásica Visa '
+  :titulo: Cashback Clásica Visa
+  :arte:
+    :title: Cashback Clásica Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3ZzVwfqaU8UaQEQ80kAM82/f07cf78f5ac213f5e31bcc3f3ead02f7/cr-tarjeta-cashback-clasica-visa.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -199,7 +207,11 @@
   :monedaDeCosto:
   - "₡"
 - :id: 7ulohxUlc4uiMEsqAke4sg
-  :titulo: 'Cashback Platino Visa '
+  :titulo: Cashback Platino Visa
+  :arte:
+    :title: Cashback Platino Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1RShln5hJGWSQyYeG066wO/18f4ba0539b575344475d6268dc59d14/cr-tarjeta-cashback-platino-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -295,3 +307,13 @@
   :titulo: Cashback
   :identificador: cashback
   :descripcionCorta: Descripci´øn corta para tarjetas cashback
+:metaDescripcion: Cash Back, la única tarjeta de crédito que te devuelve dinero por
+  cada compra que realices. Conocé más y solicitala en línea.
+:metaTags:
+- cashback
+- devolucion de dinero
+- dinero
+- retorno efectivo
+- american express
+- visa
+- mastercard
