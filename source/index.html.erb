@@ -1,25 +1,45 @@
 ---
 layout: layout
 page_classes: secondary-page
+hero:
+  title: Un mundo de posibilidades
+  text: Nuestras tarjetas tienen beneficios para todas las necesidades. ¿Cuál es la suya?
+
+beneficios:
+  -
+    title: Vivamus sagittis lacus vel
+    text: Augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
 ---
 <%= partial 'partials/index/hero' %>
 <%= partial 'partials/index/beneficios' %>
 <%= partial "partials/index/navigation" %>
 <div class="row section-container-2">
   <div class="container">
-    <%= partial "partials/index/cashback" %>
+    <%= partial "partials/index/tarjetas_odd", :locals => {
+      :categoria => 'cashback',
+      :title => "Tarjetas Cashback",
+      :section => 1
+    } %>
     <%= partial "partials/index/supermercados" %>
   </div>
 </div>
 <div class="row section-container-3">
   <div class="container">
-    <%= partial "partials/index/viajes" %>
+    <%= partial "partials/index/tarjetas_odd", :locals => {
+      :categoria => 'viajes',
+      :title => "Tarjetas de viajes",
+      :section => 3
+    } %>
     <%= partial "partials/index/promocionales" %>
   </div>
 </div>
 <section id="section-5" data-section="5">
   <div class="container">
-    <%= partial "partials/index/estilo" %>
+    <%= partial "partials/index/tarjetas_odd", :locals => {
+      :categoria => 'estilo-de-vida',
+      :title => "<i class='icon'></i>Tarjetas de estilos de vida",
+      :section => 0
+      } %>
   </div>
 </section>
 <%= partial 'partials/index/banner' %>

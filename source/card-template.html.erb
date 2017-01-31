@@ -1,717 +1,655 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BAC | Credomatic - Tarjetas de crédito</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
-
-  <!-- JS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
-
-<body class="main">
-
-  <main role="main">
-    <header class="header space-inner-2 o-container-gray-lighter" role="header">
-      <div class="container">
-        <h1 class="header__logo"><a href="/">BAC | Credomatic</a></h1>
+---
+page_classes: main
+---
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 hero-text">
+        <h2><%= titulo %></h2>
+        <p>¡Ahorrar nunca ha sido tan fácil! Reciba un retorno en efectivo por sus compras y utilícelo como quiera.</p>
+        <a href="#" class="btn btn--green">Solicitela ahora</a>
       </div>
-    </header>
+      <div class="col-xs-12 col-sm-6 hero-image">
+        <img src="/images/hero-cards.png" alt="" />
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section class="hero">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 hero-text">
-            <h2>Tarjetas Cashback Credomatic</h2>
-            <p>¡Ahorrar nunca ha sido tan fácil! Reciba un retorno en efectivo por sus compras y utilícelo como quiera.</p>
+<section class="feature">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 text">
+        <i class="icon-circle icon-circle-user"></i>
+        <h2 class="title-secondary">dirigida a los que quieren ahorrar</h2>
+        <p>Las tarjetas Cashback se dirigen a personas a las que les gusta comprar en forma segura y práctica,  y acumular dinero por las compras realizadas.</p>
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+<section>
+  <div class="nav-holder">
+    <div class="nav-wrap">
+      <div class="row" id="section-tarjetas">
+        <hr />
+        <p class="descrip">Elige la tarjeta que más te conviene</p>
+      </div>
+      <div class="visible-xs">
+
+        <div class="container">
+          <div class="tab-active-mobile pull-left">
+            <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
+            <span>Cashback clásica</span>
+          </div>
+          <button type="button" class="nav-wrap-btn">
+            <span class="line"></span>
+          </button>
+        </div>
+      </div>
+      <nav class="nav nav-cards" >
+        <div class="container">
+            <a role="presentation" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab"  class="active">
+              <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
+              Cashback clásica
+            </a>
+            <a role="presentation" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
+              <img class="hidden-sm" src="/images/tarjeta-icon-dorada.png" alt="" />
+              Cashback Dorada
+            </a>
+          <a role="presentation" href="#tab-3" aria-controls="tab-2" role="tab" data-toggle="tab">
+            <img class="hidden-sm" src="/images/tarjeta-icon-platino.png" alt="" />
+            Cashback Platino
+          </a>
+          <div class="button hidden-xs">
             <a href="#" class="btn btn--green">Solicitela ahora</a>
           </div>
-          <div class="col-xs-12 col-sm-6 hero-image">
-            <img src="/images/hero-cards.png" alt="" />
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="tabs">
+    <div role="tabpanel" class="tab-pane active" id="tab-1">
+      <div class="tabs-heading">
+        <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
+      </div>
+      <div class="tabs-content">
+        <div >
+          <div class="container">
+            <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
+            <div class="row space-bottom-3">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-house.png" alt="" />
+                <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-cards.png" alt="" />
+                <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
+              </div>
+              <div class="col-xs-12 col-sm-8 text-center">
+                <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-secondary">
+
+          <div class="container">
+            <h2 class="title-secondary">Beneficios Exclusivos</h2>
+            <a role="presentation" href="#clasica-1" aria-controls="clasica-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
+            <a role="presentation" href="#clasica-2" aria-controls="clasica-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
+            <a role="presentation" href="#clasica-3" aria-controls="clasica-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
+            <div class="tabs-inner-content">
+              <div role="tabpanel" class="tab-pane active" id="clasica-1">
+                <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+
+              <div role="tabpanel" class="tab-pane" id="clasica-2">
+                <img class="pull-left" src="/images/logo-amex.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+
+              <div role="tabpanel" class="tab-pane" id="clasica-3">
+                <img class="pull-left" src="/images/logo-visa.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section class="feature">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 text">
-            <i class="icon-circle icon-circle-user"></i>
-            <h2 class="title-secondary">dirigida a los que quieren ahorrar</h2>
-            <p>Las tarjetas Cashback se dirigen a personas a las que les gusta comprar en forma segura y práctica,  y acumular dinero por las compras realizadas.</p>
+      <section class="condiciones">
+        <div class="container">
+          <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Moneda</h2>
+                  <p>Colones, Dólares</p>
+                </li>
+                <li>
+                  <h2>Forma de Lealtad</h2>
+                  <p>Cashback</p>
+                </li>
+                <li>
+                  <h2>Forma de Acumulación</h2>
+                  <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
+                </li>
+                <li>
+                  <h2>Mínimo de Redención</h2>
+                  <p>15.000 colones</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Máximo de Acumulación</h2>
+                  <p>250.000 colones anuales</p>
+                </li>
+                <li>
+                  <h2>Vencimiento de colones Cashback</h2>
+                  <p>Cada dos años móviles</p>
+                </li>
+                <li>
+                  <h2>Opciones de Canje</h2>
+                  <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
+                </li>
+                <li>
+                  <h2>Comercios Afiliados</h2>
+                  <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <div class="card">
+                <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
+                <ul>
+                  <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
+                  <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
+                  <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
+              <h2>información clave</h2>
+              <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
+              <ul class="list" id="select-links">
+                <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
+                <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
+                <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
+                <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tasa-intereses">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
+              <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            </div>
+            <div class="col-xs-12 col-sm-7">
+              <div class="cards">
+                <div class="card blue">
+                  <h3 class="blue">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="blue">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="blue">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="card purple">
+                  <h3 class="purple">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="purple">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="purple">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="disclaimer">
+            <h2>Donde no Acumula</h2>
+            <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
+          </div>
+        </div>
+      </section>
+    </div>
 
 
-
-
+    <div role="tabpanel" class="tab-pane" id="tab-2">
+      <div class="tabs-heading">
+        <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢515000 netos</p>
       </div>
-    </section>
-    <section>
-      <div class="nav-holder">
-        <div class="nav-wrap">
-          <div class="row" id="section-tarjetas">
-            <hr />
-            <p class="descrip">Elige la tarjeta que más te conviene</p>
-          </div>
-          <div class="visible-xs">
-
-            <div class="container">
-              <div class="tab-active-mobile pull-left">
-                <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
-                <span>Cashback clásica</span>
+      <div class="tabs-content">
+        <div >
+          <div class="container">
+            <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
+            <div class="row space-bottom-3">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
               </div>
-              <button type="button" class="nav-wrap-btn">
-                <span class="line"></span>
-              </button>
-            </div>
-          </div>
-          <nav class="nav nav-cards" >
-            <div class="container">
-                <a role="presentation" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab"  class="active">
-                  <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
-                  Cashback clásica
-                </a>
-                <a role="presentation" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
-                  <img class="hidden-sm" src="/images/tarjeta-icon-dorada.png" alt="" />
-                  Cashback Dorada
-                </a>
-              <a role="presentation" href="#tab-3" aria-controls="tab-2" role="tab" data-toggle="tab">
-                <img class="hidden-sm" src="/images/tarjeta-icon-platino.png" alt="" />
-                Cashback Platino
-              </a>
-              <div class="button hidden-xs">
-                <a href="#" class="btn btn--green">Solicitela ahora</a>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-house.png" alt="" />
+                <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
               </div>
             </div>
-          </nav>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-cards.png" alt="" />
+                <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
+              </div>
+              <div class="col-xs-12 col-sm-8 text-center">
+                <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="tabs">
-        <div role="tabpanel" class="tab-pane active" id="tab-1">
-          <div class="tabs-heading">
-            <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
-          </div>
-          <div class="tabs-content">
-            <div >
-              <div class="container">
-                <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
-                <div class="row space-bottom-3">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-house.png" alt="" />
-                    <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-cards.png" alt="" />
-                    <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-8 text-center">
-                    <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
-                  </div>
-                </div>
+        <div class="tabs-secondary">
+
+          <div class="container">
+            <h2 class="title-secondary">Beneficios Exclusivos</h2>
+            <a role="presentation" href="#dorada-1" aria-controls="dorada-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
+            <a role="presentation" href="#dorada-2" aria-controls="dorada-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
+            <a role="presentation" href="#dorada-3" aria-controls="dorada-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
+            <div class="tabs-inner-content">
+              <div role="tabpanel" class="tab-pane active" id="dorada-1">
+                <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
               </div>
-            </div>
-            <div class="tabs-secondary">
 
-              <div class="container">
-                <h2 class="title-secondary">Beneficios Exclusivos</h2>
-                <a role="presentation" href="#clasica-1" aria-controls="clasica-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
-                <a role="presentation" href="#clasica-2" aria-controls="clasica-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
-                <a role="presentation" href="#clasica-3" aria-controls="clasica-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
-                <div class="tabs-inner-content">
-                  <div role="tabpanel" class="tab-pane active" id="clasica-1">
-                    <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
+              <div role="tabpanel" class="tab-pane" id="dorada-2">
+                <img class="pull-left" src="/images/logo-amex.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
 
-                  <div role="tabpanel" class="tab-pane" id="clasica-2">
-                    <img class="pull-left" src="/images/logo-amex.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-
-                  <div role="tabpanel" class="tab-pane" id="clasica-3">
-                    <img class="pull-left" src="/images/logo-visa.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-                </div>
+              <div role="tabpanel" class="tab-pane" id="dorada-3">
+                <img class="pull-left" src="/images/logo-visa.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
               </div>
             </div>
           </div>
 
-          <section class="condiciones">
-            <div class="container">
-              <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Moneda</h2>
-                      <p>Colones, Dólares</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Lealtad</h2>
-                      <p>Cashback</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Acumulación</h2>
-                      <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
-                    </li>
-                    <li>
-                      <h2>Mínimo de Redención</h2>
-                      <p>15.000 colones</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Máximo de Acumulación</h2>
-                      <p>250.000 colones anuales</p>
-                    </li>
-                    <li>
-                      <h2>Vencimiento de colones Cashback</h2>
-                      <p>Cada dos años móviles</p>
-                    </li>
-                    <li>
-                      <h2>Opciones de Canje</h2>
-                      <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
-                    </li>
-                    <li>
-                      <h2>Comercios Afiliados</h2>
-                      <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <div class="card">
-                    <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
-                    <ul>
-                      <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
-                      <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
-                      <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
-                  <h2>información clave</h2>
-                  <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
-                  <ul class="list" id="select-links">
-                    <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
-                    <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
-                    <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
-                    <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="tasa-intereses">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
-                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                </div>
-                <div class="col-xs-12 col-sm-7">
-                  <div class="cards">
-                    <div class="card blue">
-                      <h3 class="blue">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="blue">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="blue">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card purple">
-                      <h3 class="purple">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="purple">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="purple">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="disclaimer">
-                <h2>Donde no Acumula</h2>
-                <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
-              </div>
-            </div>
-          </section>
         </div>
-
-
-        <div role="tabpanel" class="tab-pane" id="tab-2">
-          <div class="tabs-heading">
-            <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢515000 netos</p>
-          </div>
-          <div class="tabs-content">
-            <div >
-              <div class="container">
-                <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
-                <div class="row space-bottom-3">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-house.png" alt="" />
-                    <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-cards.png" alt="" />
-                    <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-8 text-center">
-                    <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tabs-secondary">
-
-              <div class="container">
-                <h2 class="title-secondary">Beneficios Exclusivos</h2>
-                <a role="presentation" href="#dorada-1" aria-controls="dorada-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
-                <a role="presentation" href="#dorada-2" aria-controls="dorada-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
-                <a role="presentation" href="#dorada-3" aria-controls="dorada-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
-                <div class="tabs-inner-content">
-                  <div role="tabpanel" class="tab-pane active" id="dorada-1">
-                    <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-
-                  <div role="tabpanel" class="tab-pane" id="dorada-2">
-                    <img class="pull-left" src="/images/logo-amex.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-
-                  <div role="tabpanel" class="tab-pane" id="dorada-3">
-                    <img class="pull-left" src="/images/logo-visa.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-
-          <section class="condiciones">
-            <div class="container">
-              <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Moneda</h2>
-                      <p>Colones, Dólares</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Lealtad</h2>
-                      <p>Cashback</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Acumulación</h2>
-                      <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
-                    </li>
-                    <li>
-                      <h2>Mínimo de Redención</h2>
-                      <p>15.000 colones</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Máximo de Acumulación</h2>
-                      <p>250.000 colones anuales</p>
-                    </li>
-                    <li>
-                      <h2>Vencimiento de colones Cashback</h2>
-                      <p>Cada dos años móviles</p>
-                    </li>
-                    <li>
-                      <h2>Opciones de Canje</h2>
-                      <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
-                    </li>
-                    <li>
-                      <h2>Comercios Afiliados</h2>
-                      <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <div class="card">
-                    <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
-                    <ul>
-                      <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
-                      <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
-                      <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
-                  <h2>información clave</h2>
-                  <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
-                  <ul class="list" id="select-links">
-                    <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
-                    <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
-                    <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
-                    <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="tasa-intereses">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
-                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                </div>
-                <div class="col-xs-12 col-sm-7">
-                  <div class="cards">
-                    <div class="card blue">
-                      <h3 class="blue">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="blue">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="blue">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card purple">
-                      <h3 class="purple">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="purple">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="purple">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="disclaimer">
-                <h2>Donde no Acumula</h2>
-                <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
-              </div>
-            </div>
-          </section>
-        </div>
-
-
-        <div role="tabpanel" class="tab-pane" id="tab-3">
-          <div class="tabs-heading">
-            <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
-          </div>
-          <div class="tabs-content">
-            <div >
-              <div class="container">
-                <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
-                <div class="row space-bottom-3">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-house.png" alt="" />
-                    <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-currency.png" alt="" />
-                    <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-4">
-                    <img class="feature-icon" src="/images/icon-cards.png" alt="" />
-                    <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
-                  </div>
-                  <div class="col-xs-12 col-sm-8 text-center">
-                    <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="tabs-secondary">
-
-              <div class="container">
-                <h2 class="title-secondary">Beneficios Exclusivos</h2>
-                <a role="presentation" href="#platino-1" aria-controls="platino-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
-                <a role="presentation" href="#platino-2" aria-controls="platino-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
-                <a role="presentation" href="#platino-3" aria-controls="platino-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
-                <div class="tabs-inner-content">
-                  <div role="tabpanel" class="tab-pane active" id="platino-1">
-                    <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-
-                  <div role="tabpanel" class="tab-pane" id="platino-2">
-                    <img class="pull-left" src="/images/logo-amex.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-
-                  <div role="tabpanel" class="tab-pane" id="platino-3">
-                    <img class="pull-left" src="/images/logo-visa.png" alt="" />
-                    <ul class="pull-left">
-                      <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <section class="condiciones">
-            <div class="container">
-              <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Moneda</h2>
-                      <p>Colones, Dólares</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Lealtad</h2>
-                      <p>Cashback</p>
-                    </li>
-                    <li>
-                      <h2>Forma de Acumulación</h2>
-                      <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
-                    </li>
-                    <li>
-                      <h2>Mínimo de Redención</h2>
-                      <p>15.000 colones</p>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <ul class="checklist">
-                    <li>
-                      <h2>Máximo de Acumulación</h2>
-                      <p>250.000 colones anuales</p>
-                    </li>
-                    <li>
-                      <h2>Vencimiento de colones Cashback</h2>
-                      <p>Cada dos años móviles</p>
-                    </li>
-                    <li>
-                      <h2>Opciones de Canje</h2>
-                      <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
-                    </li>
-                    <li>
-                      <h2>Comercios Afiliados</h2>
-                      <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <div class="card">
-                    <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
-                    <ul>
-                      <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
-                      <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
-                      <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
-                  <h2>información clave</h2>
-                  <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
-                  <ul class="list" id="select-links">
-                    <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
-                    <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
-                    <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
-                    <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="tasa-intereses">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12 col-sm-5">
-                  <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
-                  <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-                </div>
-                <div class="col-xs-12 col-sm-7">
-                  <div class="cards">
-                    <div class="card blue">
-                      <h3 class="blue">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="blue">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="blue">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card purple">
-                      <h3 class="purple">Taza Preferencial mensual</h3>
-                      <div class="card-content">
-                        <div class="card-left">
-                          <h4 class="purple">Colones</h4>
-                          <strong>¢3.84%</strong>
-                        </div>
-                        <div class="card-right">
-                          <h4 class="purple">Dólares</h4>
-                          <strong>$2.75 %</strong>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="disclaimer">
-                <h2>Donde no Acumula</h2>
-                <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
-              </div>
-            </div>
-          </section>
-        </div>
-
-
-
       </div>
 
-    </section>
 
-
-    <section class="banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-9 col-md-8">
-            <h2 class="title">¿Estás listo para acumular dinero con tus compras?</h2>
-            <p class="description">Solicita hoy mismo tu tarjeta Cashback y empieza a ahorar.</p>
+      <section class="condiciones">
+        <div class="container">
+          <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Moneda</h2>
+                  <p>Colones, Dólares</p>
+                </li>
+                <li>
+                  <h2>Forma de Lealtad</h2>
+                  <p>Cashback</p>
+                </li>
+                <li>
+                  <h2>Forma de Acumulación</h2>
+                  <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
+                </li>
+                <li>
+                  <h2>Mínimo de Redención</h2>
+                  <p>15.000 colones</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Máximo de Acumulación</h2>
+                  <p>250.000 colones anuales</p>
+                </li>
+                <li>
+                  <h2>Vencimiento de colones Cashback</h2>
+                  <p>Cada dos años móviles</p>
+                </li>
+                <li>
+                  <h2>Opciones de Canje</h2>
+                  <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
+                </li>
+                <li>
+                  <h2>Comercios Afiliados</h2>
+                  <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-md-push-1">
-            <a href="#" class="btn btn--green btn--big">Solicitar</a>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <div class="card">
+                <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
+                <ul>
+                  <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
+                  <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
+                  <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
+              <h2>información clave</h2>
+              <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
+              <ul class="list" id="select-links">
+                <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
+                <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
+                <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
+                <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tasa-intereses">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
+              <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            </div>
+            <div class="col-xs-12 col-sm-7">
+              <div class="cards">
+                <div class="card blue">
+                  <h3 class="blue">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="blue">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="blue">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="card purple">
+                  <h3 class="purple">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="purple">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="purple">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="disclaimer">
+            <h2>Donde no Acumula</h2>
+            <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+    <div role="tabpanel" class="tab-pane" id="tab-3">
+      <div class="tabs-heading">
+        <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
+      </div>
+      <div class="tabs-content">
+        <div >
+          <div class="container">
+            <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
+            <div class="row space-bottom-3">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Porcentaje de acumulación de colones CashBack: 3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, restaurantes y comida rápida , ropa y zapaterías</p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-house.png" alt="" />
+                <p class="feature-text">Acumulación de CashBack en los comercios afiliados al programa de lealtad</p>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-currency.png" alt="" />
+                <p class="feature-text">Acceso a eventos de Momentos CREDOMATIC</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-sm-4">
+                <img class="feature-icon" src="/images/icon-cards.png" alt="" />
+                <p class="feature-text">Este programa aplican las marcas MasterCard, Visa y American Express®</p>
+              </div>
+              <div class="col-xs-12 col-sm-8 text-center">
+                <img class="card" src="/images/tarjeta-clasica-grande.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-secondary">
+          <div class="container">
+            <h2 class="title-secondary">Beneficios Exclusivos</h2>
+            <a role="presentation" href="#platino-1" aria-controls="platino-1" role="tab" data-toggle="tab"  class="active"><img src="/images/logo-mastercard.png" alt="" /></a>
+            <a role="presentation" href="#platino-2" aria-controls="platino-2" role="tab" data-toggle="tab" ><img src="/images/logo-amex.png" alt="" /></a>
+            <a role="presentation" href="#platino-3" aria-controls="platino-3" role="tab" data-toggle="tab" ><img src="/images/logo-visa.png" alt="" /></a>
+            <div class="tabs-inner-content">
+              <div role="tabpanel" class="tab-pane active" id="platino-1">
+                <img class="pull-left" src="/images/logo-mastercard.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>2x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+
+              <div role="tabpanel" class="tab-pane" id="platino-2">
+                <img class="pull-left" src="/images/logo-amex.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>3x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+
+              <div role="tabpanel" class="tab-pane" id="platino-3">
+                <img class="pull-left" src="/images/logo-visa.png" alt="" />
+                <ul class="pull-left">
+                  <li><p>4x1 en Cinépolis <br />(Martes, Jueves &amp; Viernes)</p></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
 
-  <footer class="footer" role="footer">
-    <h2><img src="/images/logo-BAC.png" alt="" /></h2>
-    <nav>
-      <li><a href="">COOKIES</a></li>
-      <li><a href="">SEGURIDAD</a></li>
-      <li><a href="">POLÍTICA DE PRIVACIDAD</a></li>
-      <li><a href="">TÉRMINOS Y CONDICIONES</a></li>
-    </nav>
-    <p class="disclaimer">Todos los Derechos Reservados. 2016 © BAC International Bank.</p>
-    </footer>
+      <section class="condiciones">
+        <div class="container">
+          <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Moneda</h2>
+                  <p>Colones, Dólares</p>
+                </li>
+                <li>
+                  <h2>Forma de Lealtad</h2>
+                  <p>Cashback</p>
+                </li>
+                <li>
+                  <h2>Forma de Acumulación</h2>
+                  <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
+                </li>
+                <li>
+                  <h2>Mínimo de Redención</h2>
+                  <p>15.000 colones</p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <ul class="checklist">
+                <li>
+                  <h2>Máximo de Acumulación</h2>
+                  <p>250.000 colones anuales</p>
+                </li>
+                <li>
+                  <h2>Vencimiento de colones Cashback</h2>
+                  <p>Cada dos años móviles</p>
+                </li>
+                <li>
+                  <h2>Opciones de Canje</h2>
+                  <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
+                </li>
+                <li>
+                  <h2>Comercios Afiliados</h2>
+                  <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <div class="card">
+                <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
+                <ul>
+                  <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
+                  <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
+                  <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
+              <h2>información clave</h2>
+              <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
+              <ul class="list" id="select-links">
+                <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
+                <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
+                <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
+                <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.1/jquery.magnific-popup.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
-    <script src="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script> -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
+      <section class="tasa-intereses">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
+              <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
+              <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+            </div>
+            <div class="col-xs-12 col-sm-7">
+              <div class="cards">
+                <div class="card blue">
+                  <h3 class="blue">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="blue">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="blue">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="card purple">
+                  <h3 class="purple">Taza Preferencial mensual</h3>
+                  <div class="card-content">
+                    <div class="card-left">
+                      <h4 class="purple">Colones</h4>
+                      <strong>¢3.84%</strong>
+                    </div>
+                    <div class="card-right">
+                      <h4 class="purple">Dólares</h4>
+                      <strong>$2.75 %</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="disclaimer">
+            <h2>Donde no Acumula</h2>
+            <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
+          </div>
+        </div>
+      </section>
+    </div>
 
-  </body>
-  </html>
+
+
+  </div>
+
+</section>
+
+
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-9 col-md-8">
+        <h2 class="title">¿Estás listo para acumular dinero con tus compras?</h2>
+        <p class="description">Solicita hoy mismo tu tarjeta Cashback y empieza a ahorar.</p>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-md-push-1">
+        <a href="#" class="btn btn--green btn--big">Solicitar</a>
+      </div>
+    </div>
+  </div>
+</section>

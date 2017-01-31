@@ -11,6 +11,7 @@ page '/*.txt', layout: false
 
 data.tarjetas.productos.each do |producto|
   proxy "/revision/#{producto[1]['titulo'].parameterize}.html", "/revision/template.html", :locals => { :producto => producto[1], :titulo => producto[1]['titulo']}
+  proxy "/#{producto[1]['titulo'].parameterize}.html", "/card-template.html", :locals => { :producto => producto[1], :titulo => producto[1]['titulo']}
 end
 
 # General configuration

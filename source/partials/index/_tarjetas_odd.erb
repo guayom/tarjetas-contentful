@@ -1,0 +1,35 @@
+<%
+if section > 0
+  @rowclasses = "id='section-#{section}' data-section='#{section}'"
+else
+  @rowclasses = ""
+end
+%>
+<div class="row" <%= @rowclasses %>>
+  <div class="col-xs-12 col-sm-6 col-md-5">
+    <h2><%= title %></h2>
+    <p><%= get_category_description(categoria) %></p>
+    <ul class="hidden-xs col-sm-7 col-md-7 list-unstyled tab-nav">
+      <% get_grouped_products(categoria).each_with_index do |producto, index| %>
+        <li <%= 'class="active"' unless index > 0 %>>
+          <a role="tab" data-toggle="tab" href="<%= "##{categoria}-#{index + 1}" %>"><%= producto[1]['titulo'] %></a>
+        </li>
+      <% end %>
+    </ul>
+    <a class="hidden-xs col-sm-7 col-md-7 orphan-link1" href="">VER DETALLES</a>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-7">
+    <div class="carousel">
+      <% get_grouped_products(categoria).each_with_index do |producto, index| %>
+        <div role="tabpanel" class="tab-pane rotate-card-1 <%= 'active' unless index > 0 %>" id="<%= "#{categoria}-#{index + 1}" %>">
+          <a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>">
+            <img class="image-tab" src="<%= producto[1]['variacion'][0]['arte']['url'] unless producto[1]['variacion'][0]['arte'].nil? %>?w=450" alt="<%= producto[1]['titulo'] %>" />
+          </a>
+          <div class="visible-xs button-mobile">
+            <a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
