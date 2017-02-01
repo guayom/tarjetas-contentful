@@ -46,6 +46,13 @@ helpers do
     @category = data.tarjetas.categorias.find{|a| a[1]['identificador'] == category}
     @category[1]['descripcionCorta']
   end
+  def get_row_classes(section)
+    if section > 0
+      "id='section-#{section}' data-section='#{section}'"
+    else
+      ""
+    end
+  end
   # def markdown_to_html(input)
   #   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
   #   markdown.render(input)

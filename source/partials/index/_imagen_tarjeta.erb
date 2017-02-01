@@ -1,0 +1,3 @@
+<a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>">
+  <img class="image-tab" src="<%= producto[1]['variacion'][0]['arte']['url'] unless producto[1]['variacion'][0]['arte'].nil? %>?w=<%= w %>" alt="<%= producto[1]['titulo'] %>" />
+</a>

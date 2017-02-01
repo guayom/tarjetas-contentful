@@ -20,7 +20,11 @@ beneficios:
       :title => "Tarjetas Cashback",
       :section => 1
     } %>
-    <%= partial "partials/index/supermercados" %>
+    <%= partial "partials/index/tarjetas_even", :locals => {
+      :categoria => 'supermercados',
+      :title => "Tarjetas promocionales",
+      :section => 2
+    } %>
   </div>
 </div>
 <div class="row section-container-3">
@@ -30,7 +34,11 @@ beneficios:
       :title => "Tarjetas de viajes",
       :section => 3
     } %>
-    <%= partial "partials/index/promocionales" %>
+    <%= partial "partials/index/tarjetas_even", :locals => {
+      :categoria => 'promocionales',
+      :title => "Tarjetas promocionales",
+      :section => 4
+    } %>
   </div>
 </div>
 <section id="section-5" data-section="5">
