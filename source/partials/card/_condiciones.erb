@@ -1,0 +1,77 @@
+<section class="condiciones">
+  <div class="container">
+    <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <ul class="checklist">
+          <li>
+            <h2>Moneda</h2>
+            <p><%= producto.monedas.join(', ') %></p>
+          </li>
+          <li>
+            <h2>Forma de Lealtad</h2>
+            <p><%= producto.planDeLealtad.titulo %></p>
+          </li>
+          <li>
+            <h2>Forma de Acumulación</h2>
+            <p>
+              <% producto.planDeLealtad.reglasDeAcumulacion.each do |regla| %>
+                <%= regla.reglas %><br/>
+              <% end %>
+            </p>
+          </li>
+          <li>
+            <h2>Mínimo de Redención</h2>
+            <p><%= producto.planDeLealtad.minimoDeRedencion %></p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <ul class="checklist">
+          <li>
+            <h2>Máximo de Acumulación</h2>
+            <p><%= producto.planDeLealtad.maximoDeAcumulacion %></p>
+          </li>
+          <li>
+            <h2>Vencimiento de colones Cashback</h2>
+            <p><%= producto.planDeLealtad.vencimientoDePuntos %></p>
+          </li>
+          <li>
+            <h2>Opciones de Canje</h2>
+            <p><%= producto.planDeLealtad.metodoDeRedencion %></p>
+          </li>
+          <li>
+            <h2>Comercios Afiliados</h2>
+            <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        <div class="card">
+          <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
+          <ul>
+            <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
+            <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
+            <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
+        <h2>información clave</h2>
+        <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
+        <ul class="list" id="select-links">
+          <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
+          <li><a href="<%= data.links.folleto_informativo %>" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
+          <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
+          <!-- <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

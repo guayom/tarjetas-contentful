@@ -1,0 +1,16 @@
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 hero-text">
+        <h2><%= titulo %></h2>
+        <p><%= producto.oneLiner %></p>
+        <a href="<%= producto.form %>" class="btn btn--green"><%= data.links.cta %></a>
+      </div>
+      <div class="col-xs-12 col-sm-6 hero-image">
+        <% producto.variacion.select{|v| v.arte != nil}.first(3).each do |variacion| %>
+          <img src="<%= variacion.arte.url unless variacion.arte.nil? %>?w=100" alt="<%= variacion.titulo %>" />
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

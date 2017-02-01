@@ -1,20 +1,7 @@
 ---
 page_classes: main
 ---
-<section class="hero">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 hero-text">
-        <h2><%= titulo %></h2>
-        <p>¡Ahorrar nunca ha sido tan fácil! Reciba un retorno en efectivo por sus compras y utilícelo como quiera.</p>
-        <a href="#" class="btn btn--green">Solicitela ahora</a>
-      </div>
-      <div class="col-xs-12 col-sm-6 hero-image">
-        <img src="/images/hero-cards.png" alt="" />
-      </div>
-    </div>
-  </div>
-</section>
+<%= partial "partials/card/hero", :locals => { :titulo => titulo, :producto => producto} %>
 
 <section class="feature">
   <div class="container">
@@ -25,21 +12,17 @@ page_classes: main
         <p>Las tarjetas Cashback se dirigen a personas a las que les gusta comprar en forma segura y práctica,  y acumular dinero por las compras realizadas.</p>
       </div>
     </div>
-
-
-
-
   </div>
 </section>
+
 <section>
   <div class="nav-holder">
     <div class="nav-wrap">
       <div class="row" id="section-tarjetas">
         <hr />
-        <p class="descrip">Elige la tarjeta que más te conviene</p>
+        <p class="descrip">Elegí la tarjeta que más te conviene</p>
       </div>
       <div class="visible-xs">
-
         <div class="container">
           <div class="tab-active-mobile pull-left">
             <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
@@ -52,20 +35,14 @@ page_classes: main
       </div>
       <nav class="nav nav-cards" >
         <div class="container">
-            <a role="presentation" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab"  class="active">
-              <img class="hidden-sm" src="/images/tarjeta-icon-clasica.png" alt="" />
-              Cashback clásica
+          <% producto.variacion.first(3).each_with_index do |variacion, index| %>
+            <a role="presentation" href="#tab-<%= index + 1 %>" aria-controls="tab-<%= index + 1 %>" role="tab" data-toggle="tab"  class="active">
+              <img class="hidden-sm" src="<%= variacion.arte ? "#{variacion.arte.url}?w=55" : "https://placehold.it/55x34" %>" alt="" />
+              Cashback <%= variacion.color.titulo %>
             </a>
-            <a role="presentation" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
-              <img class="hidden-sm" src="/images/tarjeta-icon-dorada.png" alt="" />
-              Cashback Dorada
-            </a>
-          <a role="presentation" href="#tab-3" aria-controls="tab-2" role="tab" data-toggle="tab">
-            <img class="hidden-sm" src="/images/tarjeta-icon-platino.png" alt="" />
-            Cashback Platino
-          </a>
+          <% end %>
           <div class="button hidden-xs">
-            <a href="#" class="btn btn--green">Solicitela ahora</a>
+            <a href="<%= producto.form %>" class="btn btn--green"><%= data.links.cta %></a>
           </div>
         </div>
       </nav>
@@ -74,7 +51,7 @@ page_classes: main
   <div class="tabs">
     <div role="tabpanel" class="tab-pane active" id="tab-1">
       <div class="tabs-heading">
-        <p class="text-center">Par obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
+        <p class="text-center">Para obtener esta tarjeta debes contar con un Ingreso mínimo de ¢615000 netos</p>
       </div>
       <div class="tabs-content">
         <div >
@@ -138,79 +115,7 @@ page_classes: main
         </div>
       </div>
 
-      <section class="condiciones">
-        <div class="container">
-          <h2 class="title-secondary"><i class="icon-circle icon-circle-list"></i> Condiciones</h2>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <ul class="checklist">
-                <li>
-                  <h2>Moneda</h2>
-                  <p>Colones, Dólares</p>
-                </li>
-                <li>
-                  <h2>Forma de Lealtad</h2>
-                  <p>Cashback</p>
-                </li>
-                <li>
-                  <h2>Forma de Acumulación</h2>
-                  <p>3% en supermercados, 2% farmacias, 1% en gasolineras, tiendas por departamento, ropa, zapaterías, restaurantes y comida rápida</p>
-                </li>
-                <li>
-                  <h2>Mínimo de Redención</h2>
-                  <p>15.000 colones</p>
-                </li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <ul class="checklist">
-                <li>
-                  <h2>Máximo de Acumulación</h2>
-                  <p>250.000 colones anuales</p>
-                </li>
-                <li>
-                  <h2>Vencimiento de colones Cashback</h2>
-                  <p>Cada dos años móviles</p>
-                </li>
-                <li>
-                  <h2>Opciones de Canje</h2>
-                  <p>Sucursal Telefónica al 2295-9100* Sucursales BAC | CREDOMATIC* Sucursal Electrónica (sin costo) *Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.</p>
-                </li>
-                <li>
-                  <h2>Comercios Afiliados</h2>
-                  <p>Conoce los comercios afiliados <a href="" target="_blank">aquí</a></p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-5">
-              <div class="card">
-                <h2 class="title-secondary">¿Qué necesitás para obtener esta tarjeta?</h2>
-                <ul>
-                  <li><img src="/images/icon-checklist.png" alt="" /><span>Lená el siguiente formulario.</span></li>
-                  <li><img src="/images/icon-envelope.png" alt="" /><span>Revisá tu correo electrónico.</span></li>
-                  <li><img src="/images/icon-clock.png" alt="" /><span>Tardarás al rededor de 3 minutos</span></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-sm-push-1 info">
-              <h2>información clave</h2>
-              <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
-              <ul class="list" id="select-links">
-                <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
-                <li><a href="" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
-                <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
-                <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      <%= partial "partials/card/condiciones", :locals => {:producto => producto} %>
 
       <section class="tasa-intereses">
         <div class="container">
@@ -627,7 +532,7 @@ page_classes: main
           </div>
           <div class="disclaimer">
             <h2>Donde no Acumula</h2>
-            <p>Cargos automáticos, extra financiamiento, compras con Tasa Cero y MiniCuotas o cualquier otra transacción de un comercio que no esté clasificado dentro de las categorías aprobadas por el programa no contabilizan en la acumulación de este programa de lealtad, retiros de efectivos (cajeros automáticos o ventanillas), transacciones en casinos y lugares de juegos de azar, night clubs, pagos de seguros, programas cero por ciento interés, comisiones por retiros de efectivo, servicios de telecomunicaciones, pagos de peajes o parqueos, cargos por concepto de membresías, administración de cuenta, intereses corrientes, intereses moratorios o anualidades, cargos por servicios públicos: electricidad, servicio de telecomunicaciones, agua, impuestos, marchamos del INS, permisos de construcción, pagos de multas, tasas y cualquiera otro ente gubernamental o débitos de beneficencia, los créditos o pagos que en su caso se apliquen a la cuenta del tarjetahabiente que correspondan o deriven de haber hecho efectivo alguno de los beneficios del programa o de contracargos, cargos por aclaraciones, reclamaciones, quejas de cargos que resulten improcedentes y en general todos aquellos que CREDOMATIC llegue a determinar no aplican, siendo en caso de duda determinante la existencia de el criterio de "ánimo de lucro" en la transacción comercial efectuada, en cuya ausencia la transacción no acumularán</p>
+            <p><%= data.tarjetas.generalidades.dondeNoAcumula %></p>
           </div>
         </div>
       </section>
@@ -645,10 +550,10 @@ page_classes: main
     <div class="row">
       <div class="col-xs-12 col-sm-9 col-md-8">
         <h2 class="title">¿Estás listo para acumular dinero con tus compras?</h2>
-        <p class="description">Solicita hoy mismo tu tarjeta Cashback y empieza a ahorar.</p>
+        <p class="description">Solicitá hoy mismo tu tarjeta <%= producto.titulo %> y empezá a ahorar.</p>
       </div>
       <div class="col-xs-12 col-sm-3 col-md-3 col-md-push-1">
-        <a href="#" class="btn btn--green btn--big">Solicitar</a>
+        <a href="#" class="btn btn--green btn--big"><%= data.links.cta %></a>
       </div>
     </div>
   </div>
