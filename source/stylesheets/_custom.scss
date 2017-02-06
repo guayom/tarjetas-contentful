@@ -86,6 +86,8 @@
 }
 
 .hero-image{
+  @include bottom-shadow(70%, 10%);
+  padding-bottom: 150px;
   img{
     display: block;
   }
@@ -101,5 +103,11 @@
   img:nth-child(3){
     margin-top: 40px;
     transform: rotate(-20deg);
+  }
+}
+
+.tabs-heading{
+  p{
+    font-size: 1.5em;
   }
 }
