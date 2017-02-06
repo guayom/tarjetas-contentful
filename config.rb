@@ -53,6 +53,15 @@ helpers do
       ""
     end
   end
+  def get_variations_by_color(producto)
+    producto.variacion.first(3)
+  end
+  def get_salario_minimo(producto, variacion)
+    number_to_currency(producto.planDeLealtad.reglasDeAcumulacion.detect{|regla| regla.colores.detect{|color| color.titulo == variacion.color.titulo} }.colores.detect{|color| color.titulo == variacion.color.titulo}.salarioMinimo, unit: "&#8353;")
+  end
+  def get_product_brands(producto)
+    producto.variacion.map{ |variacion| variacion.emisor.nombre }.uniq
+  end
   # def markdown_to_html(input)
   #   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
   #   markdown.render(input)

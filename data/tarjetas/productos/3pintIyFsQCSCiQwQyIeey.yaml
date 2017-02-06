@@ -234,6 +234,11 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
+:beneficiosGenerales:
+- :id: 1UHJ4EzrU4ic4AYwKmCIIY
+  :titulo: Redima sus colones CashBack en el stand de CREDOMATIC en City Mall
+- :id: 1SraIb9Y4wuwGOEW4qKssM
+  :titulo: Acceso a preventa de entradas para eventos de Momentos Credomatic
 :monedas:
 - Dólares
 - Colones
@@ -307,7 +312,7 @@
 - :id: 2jLS03pzY40c8qCgS8W6OQ
   :titulo: Cashback
   :identificador: cashback
-  :descripcionCorta: Descripci´øn corta para tarjetas cashback
+  :descripcionCorta: Descripción corta para tarjetas cashback
 :metaDescripcion: Cash Back, la única tarjeta de crédito que te devuelve dinero por
   cada compra que realices. Conocé más y solicitala en línea.
 :metaTags:
@@ -319,3 +324,5 @@
 - visa
 - mastercard
 :form: https://www.baccredomatic.com/es-cr/form/2191
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_cashback_21102016.pdf
+:comerciosAfiliados: https://www.baccredomatic.com/es-cr/promociones/cashback

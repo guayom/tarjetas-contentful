@@ -66,10 +66,10 @@
         <h2>información clave</h2>
         <p>Explora toda la información adicional sobre las tarjetas Cashback</p>
         <ul class="list" id="select-links">
-          <li><a href="" class="icon-small icon-paper">Ver Reglamento</a></li>
+          <li><a href="<%= producto.reglamento %>" class="icon-small icon-paper" target="_blank">Ver Reglamento</a></li>
           <li><a href="<%= data.links.folleto_informativo %>" class="icon-small icon-download active">Descargar el Folleto Explicativo</a></li>
-          <li><a href="" class="icon-small icon-pin">Comercios Afiliados</a></li>
-          <!-- <li><a href="" class="icon-small icon-user">Recomiende a un amigo</a></li> -->
+          <li><a href="<%= producto.comerciosAfiliados %>" class="icon-small icon-pin" target="_blank">Comercios Afiliados</a></li>
+          <li><a href="<%= data.links.recomiende_un_amigo %>" class="icon-small icon-user" target="_blank">Recomiende a un amigo</a></li>
         </ul>
       </div>
     </div>

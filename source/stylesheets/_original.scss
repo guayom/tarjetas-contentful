@@ -4325,12 +4325,12 @@ hr {
     margin-bottom: 20px;
   }
 
-  .tabs .card {
+  .tabs .card-image {
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: -45px;
     margin: 0 auto;
-    top: -160px;
+    @include rotated-card(16deg);
   }
 
   .tabs-secondary {
