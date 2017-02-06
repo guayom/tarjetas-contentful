@@ -58,7 +58,7 @@ page_classes: main
           <div >
             <div class="container">
               <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Beneficios</h2>
-              <%= partial 'partials/card/beneficios', :locals => { :producto => producto } %>
+              <%= partial 'partials/card/beneficios', :locals => { :producto => producto } unless producto.beneficiosGenerales.nil? %>
               <div class="row">
                 <div class="col-xs-12 col-sm-4">
                   <img class="feature-icon" src="/images/icon-cards.png" alt="" />

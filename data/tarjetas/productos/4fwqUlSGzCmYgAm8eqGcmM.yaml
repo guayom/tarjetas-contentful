@@ -64,6 +64,15 @@
       :tasaPreferencialDolares: 2.5
       :tasaNormalColones: 4.16
       :tasaNormalDolares: 2.5
+    - :id: 5d3gXbuveoIUAWCA4yQsGm
+      :titulo: Black
+      :limiteMinimoDeCredito: 10000
+      :limiteMaximoDeCredito: 100000
+      :salarioMinimo: 1500000
+      :tasaPreferencialColones: 3.7
+      :tasaPreferencialDolares: 2.5
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.5
   :maximoDeAcumulacion: "₡250.000 colones anuales"
   :minimoDeRedencion: "₡15.000 colones"
   :costoDeRedencion: Gratis
