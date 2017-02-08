@@ -25,7 +25,11 @@
     :nombre: American Express
   :maximoDeAcumulacion: 360.000 Puntos Auto Frecuentes Anuales
 - :id: 1GPfxb9Hu4SsMea8CgIcEA
-  :titulo: Automercado Platino American Express
+  :titulo: Auto Mercado Platino American Express
+  :arte:
+    :title: Automercado Platino American Express
+    :description: Tarjeta Auto Mercado Platino
+    :url: "//images.contentful.com/9cds0lha1plv/7BEqHka2jusoEAgkEM4aAo/4a0dbdd1183b4d7528e638ebbad6ab08/cr-tarjeta-autom-platino-amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino

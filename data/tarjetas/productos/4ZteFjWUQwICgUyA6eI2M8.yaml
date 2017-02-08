@@ -9,11 +9,12 @@
     :description: 
     :url: "//images.contentful.com/9cds0lha1plv/1Xjd5UJN00SgGoSekyGOem/4077455b774e4f6ceac11165c1b218c6/cr-tarjeta-incae-amex.png"
   :color:
-    :id: 5d3gXbuveoIUAWCA4yQsGm
-    :titulo: Black
-    :limiteMinimoDeCredito: 10000
-    :limiteMaximoDeCredito: 100000
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16
