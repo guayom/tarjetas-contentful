@@ -1,0 +1,44 @@
+<section class="tasa-intereses">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        <h2 class="title-secondary"><i class="icon-circle icon-circle-graph"></i> Tasa de intereses</h2>
+        <p>La tasa preferencial aplica siempre y cuando el cliente esté al día. En caso de atraso se suspende por 6 meses.</p>
+      </div>
+      <div class="col-xs-12 col-sm-7">
+        <div class="cards">
+          <div class="card blue">
+            <h3 class="blue">Tasa Preferencial mensual</h3>
+            <div class="card-content">
+              <div class="card-left">
+                <h4 class="blue">Colones</h4>
+                <strong><%= variacion.color.tasaPreferencialColones %>%</strong>
+              </div>
+              <div class="card-right">
+                <h4 class="blue">Dólares</h4>
+                <strong><%= variacion.color.tasaPreferencialDolares %>%</strong>
+              </div>
+            </div>
+          </div>
+          <div class="card purple">
+            <h3 class="purple">Tasa Normal mensual</h3>
+            <div class="card-content">
+              <div class="card-left">
+                <h4 class="purple">Colones</h4>
+                <strong><%= variacion.color.tasaNormalColones %>%</strong>
+              </div>
+              <div class="card-right">
+                <h4 class="purple">Dólares</h4>
+                <strong><%= variacion.color.tasaNormalDolares %>%</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="disclaimer">
+      <h2>Donde no Acumula</h2>
+      <p><%= data.tarjetas.generalidades.Y230IMEza66248CIewMmu.dondeNoAcumula %></p>
+    </div>
+  </div>
+</section>
