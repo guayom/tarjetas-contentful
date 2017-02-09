@@ -24,6 +24,20 @@
     :nombre: American Express
   :maximoDeAcumulacion: 180.000 puntos Anuales
   :costo: 0
+:beneficiosGenerales:
+- :id: 4FGOA3kckoqkykYAUySICa
+  :titulo: Acumulación 1.5 puntos por cada dólar en compras, a su vez CREDOMATIC aporta
+    un 0.5 al fondo patrimonial de becas
+- :id: 2ikirRqBdySCmE0kU6WGa2
+  :titulo: Beneficios exclusivos en INCAE
+- :id: 58sIY9tnfGAqmmGsg2mmOy
+  :titulo: Planes de ahorro y financiamiento especiales
+- :id: 3ud3XZAdKwgAgQkemwwWgw
+  :titulo: Línea de asistencia premium (22959100)
+- :id: 46z22AqYOQCESW8sCyaWSa
+  :titulo: Descuentos y beneficios para clientes American Express por medio de www.pasaporteamex.com
+- :id: 6T7O85jzEsgmgEkQm4Es4M
+  :titulo: Acceso a la sala Juan Santamaría VIP
 :monedas:
 - Dólares
 - Colones

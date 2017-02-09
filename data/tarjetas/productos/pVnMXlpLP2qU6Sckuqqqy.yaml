@@ -24,6 +24,9 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: dRUOKCXt1CMeAi6SwaSCO
+    :titulo: 1.500 millas de bienvenida
   :maximoDeAcumulacion: 22.000 millas
   :costo: 5
   :tipoDeCosto:
@@ -50,6 +53,9 @@
   :emisor:
     :id: 54Q7cV0sGQUEWMsc6seOiy
     :nombre: Master Card
+  :beneficiosEspecificos:
+  - :id: dRUOKCXt1CMeAi6SwaSCO
+    :titulo: 1.500 millas de bienvenida
   :maximoDeAcumulacion: 22.000 millas
   :costo: 5
   :tipoDeCosto:
@@ -76,6 +82,9 @@
   :emisor:
     :id: 26udEtcJrCEEySgkqc2KAY
     :nombre: Visa
+  :beneficiosEspecificos:
+  - :id: dRUOKCXt1CMeAi6SwaSCO
+    :titulo: 1.500 millas de bienvenida
   :maximoDeAcumulacion: 22.000 millas
   :costo: 5
   :tipoDeCosto:
@@ -101,6 +110,9 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: 1fMq2gRAkesmQemy6EwK44
+    :titulo: 8.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 10
   :tipoDeCosto:
@@ -127,6 +139,9 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: 3mkKok3xYkc28IS2iiQCq4
+    :titulo: 3.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
@@ -153,6 +168,9 @@
   :emisor:
     :id: 54Q7cV0sGQUEWMsc6seOiy
     :nombre: Master Card
+  :beneficiosEspecificos:
+  - :id: 3mkKok3xYkc28IS2iiQCq4
+    :titulo: 3.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
@@ -179,12 +197,38 @@
   :emisor:
     :id: 26udEtcJrCEEySgkqc2KAY
     :nombre: Visa
+  :beneficiosEspecificos:
+  - :id: 3mkKok3xYkc28IS2iiQCq4
+    :titulo: 3.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
   - Costo de administración
   :monedaDeCosto:
   - "$"
+:beneficiosGenerales:
+- :id: LZYNouYWeO4C0KmAcISeW
+  :titulo: Membresía Priority Pass de cortesía
+- :id: 2ZLraycFSEUUgAqMAiecIG
+  :titulo: Utilización de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
+    a viajescredomatic.com
+- :id: 3t6kjtzYXScgsaUKwky6ao
+  :titulo: Redención de millas por paquetes vacacionales a través de Credomatic Turismo
+    llamando al 2295-9898 (opción 4)
+- :id: 6T7O85jzEsgmgEkQm4Es4M
+  :titulo: Acceso a la sala Juan Santamaría VIP
+- :id: 3VMeWwWCVaY6KY4m6oywA
+  :titulo: Acceso a salas VIP en Honduras y Sala Los Añejos en Guatemala
+- :id: 1krdynkGU8wICuSO4uYQK6
+  :titulo: Acumulación acelerada de millas
+- :id: 2QCeMTY8NGOGWEaYUCeYW4
+  :titulo: No requiere viajero frecuente
+- :id: 6q3iEiCwTeseS8QG4Ouk4c
+  :titulo: Valet Parking en Avenida Escazú
+- :id: 6aIYEVsUY82cwOC08CoWao
+  :titulo: Valet Parking en City Mall
+- :id: 5BnNOvCjF6SKgKo402EGm0
+  :titulo: Valet Parking en Multiplaza Escazú
 :monedas:
 - Dólares
 - Colones

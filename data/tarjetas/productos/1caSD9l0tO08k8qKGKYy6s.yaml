@@ -30,6 +30,13 @@
   - Costo de administración
   :monedaDeCosto:
   - "$"
+:beneficiosGenerales:
+- :id: 5JnBDox75mW2Wq4aoGmwus
+  :titulo: Traslado de puntos a socios internacionales
+- :id: 6T7O85jzEsgmgEkQm4Es4M
+  :titulo: Acceso a la sala Juan Santamaría VIP
+- :id: xGWjHmqZ0sgWWmyMewgWa
+  :titulo: Acceso a The Centurion (SM) Lounge
 :monedas:
 - Dólares
 - Colones

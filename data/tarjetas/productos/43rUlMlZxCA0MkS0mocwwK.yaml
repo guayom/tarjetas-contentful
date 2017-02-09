@@ -23,6 +23,9 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: 43KPKu4CbmMkcMUGw04mSS
+    :titulo: Descuentos y beneficios por medio de www.pasaporteamex.com
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
   :costo: 5
   :tipoDeCosto:
@@ -48,6 +51,13 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: LZYNouYWeO4C0KmAcISeW
+    :titulo: Membresía Priority Pass de cortesía
+  - :id: 4b8SUGJMPK0AO6ekGGuEIO
+    :titulo: Servicio concierge Premium
+  - :id: 6T7O85jzEsgmgEkQm4Es4M
+    :titulo: Acceso a la sala Juan Santamaría VIP
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
   :costo: 10
   :tipoDeCosto:
@@ -74,12 +84,26 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: OcVOdbBUC4MQwC4KQEOGk
+    :titulo: Membresía Priority Pass con 10 accesos gratis para titular y adicional
+  - :id: 4b8SUGJMPK0AO6ekGGuEIO
+    :titulo: Servicio concierge Premium
+  - :id: 6T7O85jzEsgmgEkQm4Es4M
+    :titulo: Acceso a la sala Juan Santamaría VIP
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
   :costo: 8
   :tipoDeCosto:
   - Costo de administración
   :monedaDeCosto:
   - "$"
+:beneficiosGenerales:
+- :id: 43KPKu4CbmMkcMUGw04mSS
+  :titulo: Descuentos y beneficios por medio de www.pasaporteamex.com
+- :id: 1rZuY1P5H6S0kqqsKsquEa
+  :titulo: Cuenta con seguros American Express®
+- :id: 59A2EZHLReE0icCYK8Wow2
+  :titulo: 'Membresía Herts #1, sin costo. Consultas o reservaciones al 2202-3147'
 :monedas:
 - Dólares
 - Colones

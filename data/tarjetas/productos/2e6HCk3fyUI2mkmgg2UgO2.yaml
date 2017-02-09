@@ -80,6 +80,12 @@
   :retoDeFacturacion: '0'
   :maximoDeAcumulacion: 250.000 Colones Anuales
   :costo: 0
+:beneficiosGenerales:
+- :id: 2XNy1Yqrss2cE8eUuiuSaa
+  :titulo: Promociones y descuentos en más de 120 comercios dentro del centro comercial
+    City Mall
+- :id: 1UHJ4EzrU4ic4AYwKmCIIY
+  :titulo: Redima sus colones CashBack en el stand de CREDOMATIC en City Mall
 :monedas:
 - Dólares
 - Colones

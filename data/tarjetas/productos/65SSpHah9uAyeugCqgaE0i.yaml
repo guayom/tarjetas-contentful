@@ -10,10 +10,10 @@
     :description: 
     :url: "//images.contentful.com/9cds0lha1plv/3HbCCp3rfGuQoSuGSgWeke/f85119a127d4582fac51060a8e2680d2/cr-tarjeta-autom-dorada-amex.png"
   :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
+    :id: 4GfWAPeIM0oSu4KOSOAkAq
+    :titulo: Gold
+    :limiteMinimoDeCredito: 1000
+    :limiteMaximoDeCredito: 4900
     :salarioMinimo: 750000
     :salarioMaximo: 1500000
     :tasaPreferencialColones: 3.7
@@ -31,9 +31,9 @@
     :description: Tarjeta Auto Mercado Platino
     :url: "//images.contentful.com/9cds0lha1plv/7BEqHka2jusoEAgkEM4aAo/4a0dbdd1183b4d7528e638ebbad6ab08/cr-tarjeta-autom-platino-amex.png"
   :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
+    :id: 5iQbf4T6WW8UWAgqMC8eGG
+    :titulo: Platinum
+    :limiteMinimoDeCredito: 5000
     :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
     :salarioMaximo: 10000000
@@ -45,6 +45,15 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: 360.000 Puntos Auto Frecuentes Anuales
+:beneficiosGenerales:
+- :id: 4oaXSk65nicU8UmssUaIq6
+  :titulo: Acumulá 10 veces más puntos* que la Tarjeta Auto Frecuente de la cadena
+    Automercado y Vindi
+- :id: 59pZybMWaIy0cqSeAuQGsO
+  :titulo: Canjee los puntos acumulados aplicándolos en paquetes turísticos nacionales
+    e internacionales a través de Credomatic Turismo
+- :id: 5px65ogDoAuaoEqqO2mE4G
+  :titulo: Sin costo de administración
 :monedas:
 - Dólares
 - Colones
@@ -53,14 +62,13 @@
   :titulo: Auto Frecuente
   :unidadDeAcumulacion: Puntos
   :vencimientoDePuntos: De acuerdo al programa Auto Frecuente de Auto Mercado vencen
-    cada 4 meses
+    cada 24 meses móviles
   :reglasDeAcumulacion:
   - :id: 2fVo2rvDzeUKye2wucAyGY
-    :titulo: Automercado
+    :titulo: Auto Mercado Gold
     :reglas: |-
-      Puntaje doble por cada ₵300 colones en compras dentro de Auto Mercado
-      Un punto por cada ₵300 colones por compras en el resto de comercios
-      No aplica para compras en el extranjero.
+      10 Puntos por cada 300 colones de compras en Auto Mercado y vindi
+      2 Puntos en el resto de comercios
     :colores:
     - :id: 1IMtYtblSsWyOc0KkgWS8E
       :titulo: Dorado
@@ -72,6 +80,14 @@
       :tasaPreferencialDolares: 2.5
       :tasaNormalColones: 4.16
       :tasaNormalDolares: 2.5
+    :topeDeAcumulacion: '13.333'
+  - :id: 6pelWRly0g4k8EYMAQCs2q
+    :titulo: Auto Mercado Platino
+    :reglas: |-
+      10 Puntos por cada 300 colones de compra en Auto Mercado y Vindi
+      4 Puntos en restaurantes y comida rápidas
+      2 Puntos en el resto de comercios
+    :colores:
     - :id: 3lyNqciAdOMeIagKWeSya6
       :titulo: Platino
       :limiteMinimoDeCredito: 7500
@@ -82,8 +98,11 @@
       :tasaPreferencialDolares: 2.5
       :tasaNormalColones: 4.16
       :tasaNormalDolares: 2.5
-  :maximoDeAcumulacion: Se rige bajo el programa de lealtad Auto Frecuente de Auto
-    Mercado. [Ver reglamento aquí](http://www.automercado.cr/auto-frecuente/reglamento-auto-frecuente/)
+    :topeDeAcumulacion: 30.000 Puntos
+  :maximoDeAcumulacion: "-1"
+  :minimoDeRedencion: No tiene mínimo
+  :costoDeRedencion: No tiene costo
+  :metodoDeRedencion: En Auto Mercado y Credomatic Turismo
 :requisitos:
 - Cédula de identidad
 - Orden patronal

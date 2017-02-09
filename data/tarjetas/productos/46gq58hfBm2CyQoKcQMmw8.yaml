@@ -66,6 +66,14 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: Máximo anual $500 o su equivalente en colones
+:beneficiosGenerales:
+- :id: 3uyGlKvURioUAMoiIaUQas
+  :titulo: Servicio de concierge
+- :id: 6ZYlTfseFqqgiyugS0Uic
+  :titulo: Inscrito en el programa pasaporte Amex, donde puede disfrutar de descuentos
+    en viajes restaurantes, eventos y compras
+- :id: 7a2zxyPy9iuK4KQo0QE2qq
+  :titulo: Tarjeta dual de ingreso al club Pricesmart
 :monedas:
 - Dólares
 - Colones

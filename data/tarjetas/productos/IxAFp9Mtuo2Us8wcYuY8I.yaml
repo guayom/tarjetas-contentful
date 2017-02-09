@@ -5,6 +5,10 @@
 :variacion:
 - :id: 1Nlo4b6AI4WWEQQcgyqa2s
   :titulo: Gane Premios Clásica Mastercard
+  :arte:
+    :title: Gane Premios Clásica Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2pOTvJIV84iWkaWGKIeWIQ/a126024cb4fd66c97af2f55f9cfc690d/cr-tarjeta-ganepremios-clasica-mc.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -26,6 +30,10 @@
   - "₡"
 - :id: 5BkL8p8S52MUK8cOkAYcQY
   :titulo: Gane Premios Clásica Visa
+  :arte:
+    :title: Gane Premios Clásica Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/hEMQkURd84C0ei0qSEg2Q/69f357384baf5b4ef59b7394c7182fdc/cr-tarjeta-ganepremios-clasica-visa.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -220,6 +228,14 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
+:beneficiosGenerales:
+- :id: 3U34i6eNYko2ugI82KEI0a
+  :titulo: Promociones Exclusivas
+- :id: 2ZLraycFSEUUgAqMAiecIG
+  :titulo: Utilización de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
+    a viajescredomatic.com
+- :id: 1krdynkGU8wICuSO4uYQK6
+  :titulo: Acumulación acelerada de millas
 :monedas:
 - Colones
 :planDeLealtad:

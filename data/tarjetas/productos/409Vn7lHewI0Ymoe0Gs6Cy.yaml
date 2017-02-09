@@ -26,6 +26,17 @@
   :retoDeFacturacion: '0'
   :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
   :costo: 0
+:beneficiosGenerales:
+- :id: 3ATHSSGNvieCiocQkAY8aO
+  :titulo: Acceso a eventos exclusivos para socios y familiares de Club La Nación
+    en Parque Viva
+- :id: 5l4yZ1jw1aM48omEoGeIUY
+  :titulo: Redención de Puntos Viva por compra de Productos de Grupo Nación, en eventos
+    Parque Viva y en los comercios afiliados
+- :id: 5KHnqpVEOW8gQIogG42OEy
+  :titulo: Dispositivo Compass de cortesía
+- :id: 3qKYb0w6wEUce4c8QyKua6
+  :titulo: Descuentos superiores al 20% en más de 150 comercios
 :monedas:
 - Dólares
 - Colones
