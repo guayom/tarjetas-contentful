@@ -70,10 +70,10 @@
       10 Puntos por cada 300 colones de compras en Auto Mercado y vindi
       2 Puntos en el resto de comercios
     :colores:
-    - :id: 1IMtYtblSsWyOc0KkgWS8E
-      :titulo: Dorado
-      :limiteMinimoDeCredito: 3000
-      :limiteMaximoDeCredito: 7500
+    - :id: 4GfWAPeIM0oSu4KOSOAkAq
+      :titulo: Gold
+      :limiteMinimoDeCredito: 1000
+      :limiteMaximoDeCredito: 4900
       :salarioMinimo: 750000
       :salarioMaximo: 1500000
       :tasaPreferencialColones: 3.7
@@ -88,9 +88,9 @@
       4 Puntos en restaurantes y comida rápidas
       2 Puntos en el resto de comercios
     :colores:
-    - :id: 3lyNqciAdOMeIagKWeSya6
-      :titulo: Platino
-      :limiteMinimoDeCredito: 7500
+    - :id: 5iQbf4T6WW8UWAgqMC8eGG
+      :titulo: Platinum
+      :limiteMinimoDeCredito: 5000
       :limiteMaximoDeCredito: 10000
       :salarioMinimo: 1500000
       :salarioMaximo: 10000000

@@ -43,12 +43,12 @@
 - Colones
 :planDeLealtad:
   :id: 7jshMcQ3qEY8wcmQ0cS6sS
-  :titulo: Chasback Premium
+  :titulo: Cash Back Premium
   :unidadDeAcumulacion: Cashback
   :vencimientoDePuntos: Cada dos años móviles
   :reglasDeAcumulacion:
   - :id: 3afaf1B2ZquM8O2qSu4s6U
-    :titulo: Cashback Premium
+    :titulo: CashBack Premium
     :reglas: |-
       5% en supermercados, farmacias, restaurantes y comidas rápidas
       2% gasolineras
@@ -103,7 +103,7 @@
   :titulo: Cashback
   :identificador: cashback
   :descripcionCorta: Acumulá efectivo que podés transferir a tu cuenta o aplicarlo
-    al estado de cuenta
+    al estado de cuenta.
 :metaDescripcion: CashBack Premium es la única tarjeta de crédito que te devuelve
   dinero por cada compra que realices. Conocé más y solicitala en línea.
 :metaTags:
@@ -114,3 +114,4 @@
 - vida
 - mastercard
 :form: https://www.baccredomatic.com/es-cr/form/3686
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_cashbackpremium_211016.pdf
