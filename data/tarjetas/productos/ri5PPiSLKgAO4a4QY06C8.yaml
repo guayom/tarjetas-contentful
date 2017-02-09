@@ -3,6 +3,27 @@
 :titulo: AAdvantage
 :oneLiner: Las millas de AAdvantage pueden ser utilizadas en más de 1.000 destinos
 :variacion:
+- :id: 550WvycKhyQIKig82uKiQM
+  :titulo: AAdvantage Black American Express
+  :arte:
+    :title: Aadvantage Black American Express
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2PCYqYSJIAASKoaGsMosus/f6fe509a6cfa578ae0204e0170e0d493/cr-tarjeta-aadvantage-prestige-amex.png"
+  :color:
+    :id: 4PPgfG0P1KSK2K4mceUkKY
+    :titulo: Premium
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 1000000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 100000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 3sYokiA8PYKicSoms2ugkA
   :titulo: AAdvantage Platino Visa
   :color:
@@ -125,27 +146,6 @@
     :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
     :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :maximoDeAcumulacion: 30.000 Millas Mensuales
-- :id: 550WvycKhyQIKig82uKiQM
-  :titulo: AAdvantage Black American Express
-  :arte:
-    :title: Aadvantage Black American Express
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2PCYqYSJIAASKoaGsMosus/f6fe509a6cfa578ae0204e0170e0d493/cr-tarjeta-aadvantage-prestige-amex.png"
-  :color:
-    :id: 4PPgfG0P1KSK2K4mceUkKY
-    :titulo: Premium
-    :limiteMinimoDeCredito: 10000
-    :limiteMaximoDeCredito: 1000000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 100000000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16

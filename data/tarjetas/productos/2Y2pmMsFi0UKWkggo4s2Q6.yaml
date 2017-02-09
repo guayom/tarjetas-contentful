@@ -3,6 +3,32 @@
 :titulo: ConnectMiles
 :oneLiner: Obtené hasta 15.000 millas de bienvenida & acceso al Status Silver
 :variacion:
+- :id: 5WgL7IRsu4GsmsAmY8Yyuw
+  :titulo: ConnectMiles Dorada
+  :arte:
+    :title: ConnectMiles Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4DQ8VCrrfWq6iw2SC2sWGg/fe3737dc6e538ba7c147f4db911e89fb/cr-tarjeta-connectmiles-dorada-visa.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :maximoDeAcumulacion: 30.000 millas mensuales
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
 - :id: 1cWfAgxGeiIMo44owogMQ4
   :titulo: " ConnectMiles Platino Visa "
   :arte:
@@ -51,32 +77,6 @@
   :retoDeFacturacion: "$1000"
   :maximoDeAcumulacion: 30.000 Millas Mensuales
   :costo: 10
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "$"
-- :id: 5WgL7IRsu4GsmsAmY8Yyuw
-  :titulo: ConnectMiles Dorada
-  :arte:
-    :title: ConnectMiles Dorada
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4DQ8VCrrfWq6iw2SC2sWGg/fe3737dc6e538ba7c147f4db911e89fb/cr-tarjeta-connectmiles-dorada-visa.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 26udEtcJrCEEySgkqc2KAY
-    :nombre: Visa
-  :maximoDeAcumulacion: 30.000 millas mensuales
-  :costo: 8
   :tipoDeCosto:
   - Costo de administración
   :monedaDeCosto:

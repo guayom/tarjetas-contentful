@@ -52,7 +52,7 @@ page_classes: main
     <% get_variations_by_color(producto).each_with_index do |variacion, index| %>
       <div role="tabpanel" class="tab-pane<%= " active" if index == 0 %>" id="tab-<%= index + 1 %>">
         <div class="tabs-heading">
-          <p class="text-center">Para obtener esta tarjeta debes contar con un Ingreso mínimo de <%= get_salario_minimo(producto, variacion) %> netos</p>
+          <p class="text-center">Para obtener esta tarjeta debes contar con un ingreso mínimo de <%= get_salario_minimo(producto, variacion) %> netos</p>
         </div>
         <div class="tabs-content">
           <div >

@@ -86,6 +86,10 @@
   - "₡"
 - :id: 5LA0JqDm1imckK0SUCyqWm
   :titulo: 'CashBack Clásica Mastercard '
+  :arte:
+    :title: 'CashBack Clásica Mastercard '
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/54b4lFSM3uQSue8Ks2I4CS/86a971238345bd6e420e369e5a899877/cr-tarjeta-cashback-clasica-mc.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
@@ -190,6 +194,10 @@
   - "₡"
 - :id: 5sZAOacTGEqKs4i42c86oW
   :titulo: 'Cashback Dorada Visa '
+  :arte:
+    :title: Cashback Dorada Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1ScRtaxZSImYyqEWQSyU06/2266e5ce2b220fb08d81b4a409387513/cr-tarjeta-cashback-dorada-visa.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
