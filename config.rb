@@ -23,7 +23,8 @@ activate :contentful do |f|
   f.content_types = {productos: 'producto', generalidades: 'generalidades', categorias: 'categorias'}
 end
 
-#set :markdown_engine, :redcarpet
+set :markdown_engine, :redcarpet
+#set :markdown, parse_block_html: true
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -62,10 +63,12 @@ helpers do
   def get_product_brands(producto)
     producto.variacion.map{ |variacion| variacion.emisor.nombre }.uniq
   end
-  # def markdown_to_html(input)
-  #   markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
-  #   markdown.render(input)
-  # end
+  def markdown(text)
+    require 'redcarpet'
+    require 'redcarpet/render_strip'
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::StripDown)
+    Markdown.new(text).to_html
+  end
 end
 
 # Build-specific configuration

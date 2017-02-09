@@ -14,3 +14,5 @@ gem 'middleman-livereload'
 
 gem "contentful_middleman"
 gem 'middleman-dotenv'
+
+gem 'redcarpet'
