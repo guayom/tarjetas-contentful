@@ -302,9 +302,11 @@
   :descripcion: Tasa Cero
 :categorias:
 - :id: 2ea888wZYEacAiEC6UeO6Y
-  :titulo: Promocionales
-  :identificador: promocionales
-  :descripcionCorta: Texto para tarjetas promocionales
+  :titulo: Puntos y Premios
+  :identificador: puntospremios
+  :descripcionCorta: |-
+    Acumulá puntos, aprovechá ofertas y promociones.
+    Tambien redimí tus puntos por pasajes aéreos o en cientos de comercios afiliados.
 :metaDescripcion: Conozca la tarjeta que le permite acumular Puntos Credomatic por
   cada compras y redimirlos en diversos comercios afiliados al programa. Más info
   aquí.
@@ -315,3 +317,5 @@
 - puntos
 - mastercard
 :form: https://www.baccredomatic.com/es-cr/form/2191
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programa_acumulacion_millas_empresariales2016.pdf
+:trminosYCondiciones: https://www.baccredomatic.com/es-cr/catalogo-puntos-credomatic

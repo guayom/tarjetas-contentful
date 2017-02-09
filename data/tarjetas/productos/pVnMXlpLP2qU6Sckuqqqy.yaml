@@ -299,7 +299,8 @@
 - :id: 5X4JRmW0OQSYamy2W2SYW8
   :titulo: Viajes
   :identificador: viajes
-  :descripcionCorta: Descripción corta para tarjetas de viajes
+  :descripcionCorta: Acumulá millas que podés cambiar por tiquetes de avion, hospedaje
+    en hoteles y renta de automóviles.
 :metaDescripcion: Tarjeta dirigida a las personas que les gusta viajar y prefieren
   tener la libertad de escoger la aerolínea y la fecha en que viajan. Solicítala Aquí.
 :metaTags:
@@ -312,3 +313,4 @@
 - tiquetes
 - pasajes
 :form: https://www.baccredomatic.com/es-cr/form/271
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_acumulacion_millasplus_com_11_2016.pdf

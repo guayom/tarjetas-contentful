@@ -300,9 +300,11 @@
   :descripcion: Tasa Cero
 :categorias:
 - :id: 2ea888wZYEacAiEC6UeO6Y
-  :titulo: Promocionales
-  :identificador: promocionales
-  :descripcionCorta: Texto para tarjetas promocionales
+  :titulo: Puntos y Premios
+  :identificador: puntospremios
+  :descripcionCorta: |-
+    Acumulá puntos, aprovechá ofertas y promociones.
+    Tambien redimí tus puntos por pasajes aéreos o en cientos de comercios afiliados.
 :metaDescripcion: Gane Millas por cada compra que realice y utilice las millas para
   darse algún gusto. Más información aquí.
 :metaTags:
