@@ -20,6 +20,7 @@
 </head>
 
   <body class="<%= current_page.data.page_classes %>">
+    <%= partial "partials/analytics" if build? %>
     <main role="main">
     <%= partial 'partials/header' %>
     <%= yield %>
