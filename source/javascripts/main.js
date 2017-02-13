@@ -1,7 +1,3 @@
-
-
-
-
 function getOffsetNav() {
   var $nav = $('.nav-wrap');
   var $navholder = $('.nav-holder');
@@ -11,15 +7,9 @@ function getOffsetNav() {
 }
 
 $(document).on('ready', function(){
-
   getOffsetNav();
-
-
-
-
   $("a[href^='#section-']").on('click',function(e) {
     var target = $(this.getAttribute('href'));
-
     if( target.length ) {
       e.preventDefault();
       $('html, body').stop().animate({
@@ -34,10 +24,10 @@ $(document).on('ready', function(){
     $('.nav-cards').toggleClass('nav--is-active');
   });
 
-$('.secondary-page .nav li a').on('click', function() {
-  $('.nav').toggleClass('nav--is-active');
-  $('.nav-wrap-btn').toggleClass('nav-wrap-btn--is-active');
-});
+  $('.secondary-page .nav li a').on('click', function() {
+    $('.nav').toggleClass('nav--is-active');
+    $('.nav-wrap-btn').toggleClass('nav-wrap-btn--is-active');
+  });
 
   $('.nav-cards [data-toggle="tab"]').on('click', function(){
     // $('.nav-cards [data-toggle="tab"]').removeClass('active');
@@ -62,16 +52,10 @@ $('.secondary-page .nav li a').on('click', function() {
     $('#select-links li a').removeClass('active');
     $(this).addClass('active');
   });
-
-
-
   $('.nav-wrap-btn').on('click', function() {
-		// var menuHeight = $('.main-navigation ul').height();
 		$(this).toggleClass('nav-wrap-btn--is-active');
-		// $('.main-navigation ul').height(menuHeight);
 		$('.nav').toggleClass('nav--is-active');
 	});
-
 
   function breakpointDetect () {
     // console.log(breakpoint.value);
@@ -90,7 +74,6 @@ $('.secondary-page .nav li a').on('click', function() {
     }
 
     if (breakpoint.value == 'tablet') {
-      getOffsetNav();
       // console.log("unslick");
       if($('.carousel.slick-initialized').length > 0) {
         $('.carousel').slick('unslick');
@@ -110,54 +93,46 @@ $('.secondary-page .nav li a').on('click', function() {
     getOffsetNav();
   }).resize();
 
+  var stickyNav = function(){
+    var stickyNavTop = $('.nav-wrap').attr('data-offset-top');
+    var scrollTop = $(window).scrollTop();
 
-
-
-
-
-
-
-
-
-
-
-
-    var stickyNav = function(){
-      var stickyNavTop = $('.nav-wrap').attr('data-offset-top');
-      var scrollTop = $(window).scrollTop();
-
-      if (scrollTop > stickyNavTop) {
-        $('.nav-wrap').addClass('affix');
-      } else {
-        $('.nav-wrap').removeClass('affix');
-      }
-    };
-
-    stickyNav();
-
-    function isScrolledIntoView(el) {
-        var elemTop = el.getBoundingClientRect().top;
-        var elemBottom = el.getBoundingClientRect().bottom;
-
-        var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
-        return isVisible;
+    if (scrollTop > stickyNavTop) {
+      $('.nav-wrap').addClass('affix');
+    } else {
+      $('.nav-wrap').removeClass('affix');
     }
+  };
 
-    $(window).on('scroll',function() {
-      stickyNav();
+  stickyNav();
 
-      $('[data-section]').each(function(index) {
-        var top = $(window).scrollTop(),
-        divBottom = $(this).offset().top + $(this).outerHeight();
-        if (divBottom > top) {
-          if( $(document).scrollTop() > $(this).offset().top  - ($('.nav-holder').outerHeight() + 5) )  {
-            console.log("view " + (index + 1) );
-            $('.nav-cards li').removeClass('active');
-            $($('.nav-cards li')[index]).addClass('active');
+  function isScrolledIntoView(el) {
+      var elemTop = el.getBoundingClientRect().top;
+      var elemBottom = el.getBoundingClientRect().bottom;
+      var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+      return isVisible;
+  }
 
-          }
+  $(window).on('scroll',function() {
+    stickyNav();
+    $('[data-section]').each(function(index) {
+      var top = $(window).scrollTop(),
+      divBottom = $(this).offset().top + $(this).outerHeight();
+      if (divBottom > top) {
+        if( $(document).scrollTop() > $(this).offset().top  - ($('.nav-holder').outerHeight() + 5) )  {
+          console.log("view " + (index + 1) );
+          $('.nav-cards li').removeClass('active');
+          $($('.nav-cards li')[index]).addClass('active');
         }
-      });
+      }
     });
+  });
+
+  $('.toggle-link').click(function(){
+    var categoria = $(this).data('categoria');
+    var link = $(this).data('link');
+    console.log(link);
+    $('#boton-'+categoria).attr('href', link);
+  });
 
 });

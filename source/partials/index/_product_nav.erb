@@ -1,0 +1,22 @@
+<div class="col-xs-12 col-sm-6 col-md-5 <%= extraclass unless extraclass.nil? %>">
+  <% @first_product_link = "" %>
+  <h2><%= title %></h2>
+  <p><%= get_category_description(categoria) %></p>
+  <ul class="hidden-xs col-sm-7 col-md-7 list-unstyled tab-nav">
+    <% get_grouped_products(categoria).each_with_index do |producto, index| %>
+      <%
+        if index == 0
+          @first_product_link = "/#{producto[1]['titulo'].parameterize}.html"
+        end
+       %>
+      <li <%= 'class="active"' unless index > 0 %>>
+        <a href="<%= "##{categoria}-#{index + 1}" %>" role="tab" data-toggle="tab" data-categoria="<%= categoria %>" data-link="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="toggle-link">
+          <%= producto[1]['titulo'] %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+  <a id="boton-<%= categoria %>" class="hidden-xs col-sm-7 col-md-7 orphan-link1" href="<%= @first_product_link %>">
+    VER DETALLES
+  </a>
+</div>

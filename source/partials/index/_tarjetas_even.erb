@@ -7,16 +7,7 @@
       </div>
     <% end %>
   </div>
-  <div class="col-xs-12 col-sm-6 col-md-5 col-md-push-2">
-    <h2><%= title %></h2>
-    <p><%= get_category_description(categoria) %></p>
-    <ul class="hidden-xs col-sm-7 col-md-7 list-unstyled tab-nav">
-      <% get_grouped_products(categoria).each_with_index do |producto, index| %>
-        <li <%= 'class="active"' unless index > 0 %>><a href="<%= "##{categoria}-#{index + 1}" %>" role="presentation" role="tab" data-toggle="tab"><%= producto[1]['titulo'] %></a></li>
-      <% end %>
-    </ul>
-    <a class="hidden-xs col-sm-7 col-md-7 orphan-link1" href="">VER DETALLES</a>
-  </div>
+  <%= partial "partials/index/product_nav", :locals => {:extraclass => "col-md-push-2", :categoria => categoria, :title => title} %>
   <div class="col-xs-12 visible-xs">
     <div class="carousel">
       <% get_grouped_products(categoria).each_with_index do |producto, index| %>
