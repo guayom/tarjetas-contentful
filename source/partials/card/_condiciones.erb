@@ -17,23 +17,27 @@
           <li>
             <h2>Forma de Acumulación</h2>
             <p>
-              <% producto.planDeLealtad.reglasDeAcumulacion.each do |regla| %>
-                <%= regla.reglas %><br/>
+              <% producto.planDeLealtad.reglasDeAcumulacion.select{|regla| regla.colores.detect{|color| color.titulo == variacion.color.titulo}}.each do |regla| %>
+                <%= regla.reglas %>
               <% end %>
             </p>
           </li>
+          <% unless producto.planDeLealtad.minimoDeRedencion.nil? %>
           <li>
             <h2>Mínimo de Redención</h2>
             <p><%= producto.planDeLealtad.minimoDeRedencion %></p>
           </li>
+          <% end %>
         </ul>
       </div>
       <div class="col-xs-12 col-sm-6">
         <ul class="checklist">
+          <% unless producto.planDeLealtad.maximoDeAcumulacion.nil? %>
           <li>
             <h2>Máximo de Acumulación</h2>
             <p><%= producto.planDeLealtad.maximoDeAcumulacion %></p>
           </li>
+          <% end %>
           <li>
             <h2>Vencimiento de colones Cashback</h2>
             <p><%= producto.planDeLealtad.vencimientoDePuntos %></p>
