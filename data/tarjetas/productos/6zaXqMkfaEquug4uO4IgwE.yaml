@@ -29,11 +29,38 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
+- :id: 1TuXSif0kw2Gw02q4M4SaS
+  :titulo: Megasuper Dorada Visa
+  :arte:
+    :title: Megasuper Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4a9kLjtHfa4CC6Gkoe2oww/4ff2746357283fe968c2a90fa1e3115b/cr-tarjeta-megasuper-dorada-visa.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
 :beneficiosGenerales:
 - :id: 5w39JeHnvaEGmWawgq004
   :titulo: Canje de Megaguinaldo en los supermercados en Diciembre de cada año
 - :id: 6o6tTFxUHukkEi2K0GqGGe
   :titulo: Aplica para compras en el exterior
+- :id: 1JuYBsWTxGA0iMKema6ie8
+  :titulo: 'Se acumula 1% en otros comercios. '
 :monedas:
 - Dólares
 - Colones

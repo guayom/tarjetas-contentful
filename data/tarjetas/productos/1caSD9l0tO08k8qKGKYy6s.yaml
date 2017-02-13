@@ -32,12 +32,20 @@
   :monedaDeCosto:
   - "$"
 :beneficiosGenerales:
-- :id: 5JnBDox75mW2Wq4aoGmwus
-  :titulo: Traslado de puntos a socios internacionales
 - :id: 6T7O85jzEsgmgEkQm4Es4M
   :titulo: Acceso a la sala Juan Santamaría VIP
 - :id: xGWjHmqZ0sgWWmyMewgWa
   :titulo: Acceso a The Centurion (SM) Lounge
+- :id: 3uyGlKvURioUAMoiIaUQas
+  :titulo: Servicio de concierge con asesoría grátis
+- :id: 73mPDWO3Vmec86e8GkquQG
+  :titulo: 'Traslados de puntos a: LifeMiles®, Iberia Plus®, Delta Skymiles®, SPG
+    Starwood Preferred Guest®, Hilton HHonors®'
+- :id: 5OFx6NdM76MWisssoS86ww
+  :titulo: Traslado grátis al aeropuerto si compra el tiquete con la tarjeta (aplica
+    en Costa Rica y Centroamérica)
+- :id: 4b8SUGJMPK0AO6ekGGuEIO
+  :titulo: Servicio Concierge Premium (asistencia en cotizaciones, asesorías y reservas)
 :monedas:
 - Dólares
 - Colones

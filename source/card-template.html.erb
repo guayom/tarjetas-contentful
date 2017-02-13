@@ -1,6 +1,14 @@
 ---
 page_classes: main
 ---
+<% content_for :title do %><%= producto.titulo %><% end %>
+
+<% content_for :head do %>
+  <meta name="description" content="<%= producto.metaDescripcion %>">
+  <meta name="keywords" content="<%= producto.metaTags.join(',') %>">
+  <meta name="author" content="Bac | Credomatic">
+<% end %>
+
 <%= partial "partials/card/hero", :locals => { :titulo => titulo, :producto => producto} %>
 
 <!-- <section class="feature">

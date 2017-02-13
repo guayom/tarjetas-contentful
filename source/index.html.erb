@@ -5,6 +5,14 @@ hero:
   title: Un mundo de posibilidades
   text: Nuestras tarjetas tienen beneficios para todas las necesidades. ¿Cuál es la tuya?
 ---
+<% content_for :title do %><%= data.tarjetas.generalidades.Y230IMEza66248CIewMmu.metaTitle %><% end %>
+
+<% content_for :head do %>
+  <meta name="description" content="<%= data.tarjetas.generalidades.Y230IMEza66248CIewMmu.metaDescripcion %>">
+  <meta name="keywords" content="<%= data.tarjetas.generalidades.Y230IMEza66248CIewMmu.metaKeywords.join(',') %>">
+  <meta name="author" content="Bac | Credomatic">
+<% end %>
+
 <%= partial 'partials/index/hero' %>
 <%= partial 'partials/index/beneficios' %>
 <%= partial "partials/index/navigation" %>
@@ -15,7 +23,7 @@ hero:
       :title => "Tarjetas Cashback",
       :section => 1
     } %>
-    <%= partial "partials/index/tarjetas_even", :locals => {
+    <%= partial "partials/index/tarjetas_even", :locals => {r
       :categoria => 'supermercados',
       :title => "Tarjetas de Supermercados",
       :section => 2
