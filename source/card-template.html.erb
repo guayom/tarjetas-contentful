@@ -46,7 +46,7 @@ page_classes: main
           <% get_variations_by_color(producto).each_with_index do |variacion, index| %>
             <a role="presentation" href="#tab-<%= index + 1 %>" aria-controls="tab-<%= index + 1 %>" role="tab" data-toggle="tab" class="<%= "active" if index == 0 %>">
               <img class="hidden-sm" src="<%= variacion.arte ? "#{variacion.arte.url}?w=55" : "https://placehold.it/55x34" %>" alt="" />
-              <%= "#{producto.titulo} #{variacion.color.titulo}" %>
+              <%= "#{producto.titulo unless producto.nil? } #{variacion.color.titulo unless variacion.color.nil?}" %>
             </a>
           <% end %>
           <div class="button hidden-xs">

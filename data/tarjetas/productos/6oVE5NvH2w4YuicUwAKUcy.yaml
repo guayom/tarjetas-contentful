@@ -29,6 +29,56 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
+- :id: 4SnBCoHdS8SuCmogMyigoU
+  :titulo: Puntos Credomatic Dorada Mastercard
+  :arte:
+    :title: Puntos Credomatic Dorada Mastercard
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3EK36dXABOqk26iCEUMuoW/82f02f22e554aa6ef31538a9ed0b32a8/cr-tarjeta-puntos-dorada-mc.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 6wp0XKpTjiWKIMaCo6Ca0C
+  :titulo: Puntos Credomatic Platino Visa
+  :arte:
+    :title: Puntos Credomatic Platino Visa
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1IPGx0UaWwCoge8QYSkSua/c0e6a514c5eb5ee1fc0bf75e9884c3f0/cr-tarjeta-puntos-platino-visa.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 26udEtcJrCEEySgkqc2KAY
+    :nombre: Visa
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
 - :id: 4XeTCehkfm6WgAsSaaYiii
   :titulo: Puntos Credomatic Clásica Mastercard
   :arte:
@@ -104,31 +154,6 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
-- :id: 4SnBCoHdS8SuCmogMyigoU
-  :titulo: Puntos Credomatic Dorada Mastercard
-  :arte:
-    :title: Puntos Credomatic Dorada Mastercard
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/3EK36dXABOqk26iCEUMuoW/82f02f22e554aa6ef31538a9ed0b32a8/cr-tarjeta-puntos-dorada-mc.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 54Q7cV0sGQUEWMsc6seOiy
-    :nombre: Master Card
-  :costo: 700
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "₡"
 - :id: 44BgBj9jXWE6KC8c2yYK4W
   :titulo: Puntos Credomatic Dorada Visa
   :arte:
@@ -199,31 +224,6 @@
   :emisor:
     :id: 54Q7cV0sGQUEWMsc6seOiy
     :nombre: Master Card
-  :costo: 700
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "₡"
-- :id: 6wp0XKpTjiWKIMaCo6Ca0C
-  :titulo: Puntos Credomatic Platino Visa
-  :arte:
-    :title: Puntos Credomatic Platino Visa
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1IPGx0UaWwCoge8QYSkSua/c0e6a514c5eb5ee1fc0bf75e9884c3f0/cr-tarjeta-puntos-platino-visa.png"
-  :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 26udEtcJrCEEySgkqc2KAY
-    :nombre: Visa
   :costo: 700
   :tipoDeCosto:
   - Costo de administración
