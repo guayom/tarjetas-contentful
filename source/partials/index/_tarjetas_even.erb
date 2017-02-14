@@ -12,7 +12,11 @@
     <div class="carousel">
       <% get_grouped_products(categoria).each_with_index do |producto, index| %>
         <div role="tabpanel" class="tab-pane <%= 'active' unless index > 0 %>" id="<%= "#{categoria}-#{index + 1}" %>">
-          <img class="image-tab" src="<%= producto[1]['variacion'][0]['arte']['url'] unless producto[1]['variacion'][0]['arte'].nil? %>" alt="<%= producto[1]['titulo'] %>" />
+          <%
+          @imagen_number = producto[1]['titulo'] == 'City Mall' ? 1 : 0
+          @imagen_path = producto[1]['variacion'][@imagen_number]['arte']['url']
+          %>
+          <img class="image-tab" src="<%= @imagen_path unless producto[1]['variacion'][0]['arte'].nil? %>" alt="<%= producto[1]['titulo'] %>" />
           <div class="visible-xs button-mobile">
             <a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
           </div>

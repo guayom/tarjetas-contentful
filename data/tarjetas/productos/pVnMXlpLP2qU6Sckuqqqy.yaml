@@ -32,6 +32,63 @@
   - Costo de administración
   :monedaDeCosto:
   - "$"
+- :id: 7qHKuyqENyysoOOO88SYY0
+  :titulo: Millas Plus Platino American Express
+  :arte:
+    :title: Millas Plus Platino AMEX
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3pFYnT5Vp6YsQiA48oWEqe/f14873527b646475f5ea1e524137992d/cr-tarjeta-millasplus-platino-amex.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: 3mkKok3xYkc28IS2iiQCq4
+    :titulo: 3.000 millas de bienvenida
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 8
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
+- :id: 4YnnUPPGQwOUGOO86kaCsC
+  :titulo: Millas Plus Black American Express
+  :arte:
+    :title: Tarjeta MillasPlus Black AMEX
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/2lWL8eWrsUWKqoK8YKwO8m/f5d261aeb3c0d5a3e7aa64fc2d3b9dfd/cr-tarjeta-millasplus-black-amex.png"
+  :color:
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :beneficiosEspecificos:
+  - :id: 1fMq2gRAkesmQemy6EwK44
+    :titulo: 8.000 millas de bienvenida
+  :maximoDeAcumulacion: 30.000 millas
+  :costo: 10
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "$"
 - :id: 5jIEFamnQAeoeiASS6Wsou
   :titulo: Millas Plus Dorada Master Card
   :arte:
@@ -86,63 +143,6 @@
     :titulo: 1.500 millas de bienvenida
   :maximoDeAcumulacion: 22.000 millas
   :costo: 5
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "$"
-- :id: 4YnnUPPGQwOUGOO86kaCsC
-  :titulo: Millas Plus Black American Express
-  :arte:
-    :title: Tarjeta MillasPlus Black AMEX
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/2lWL8eWrsUWKqoK8YKwO8m/f5d261aeb3c0d5a3e7aa64fc2d3b9dfd/cr-tarjeta-millasplus-black-amex.png"
-  :color:
-    :id: 5d3gXbuveoIUAWCA4yQsGm
-    :titulo: Black
-    :limiteMinimoDeCredito: 10000
-    :limiteMaximoDeCredito: 100000
-    :salarioMinimo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :beneficiosEspecificos:
-  - :id: 1fMq2gRAkesmQemy6EwK44
-    :titulo: 8.000 millas de bienvenida
-  :maximoDeAcumulacion: 30.000 millas
-  :costo: 10
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "$"
-- :id: 7qHKuyqENyysoOOO88SYY0
-  :titulo: Millas Plus Platino American Express
-  :arte:
-    :title: Millas Plus Platino AMEX
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/3pFYnT5Vp6YsQiA48oWEqe/f14873527b646475f5ea1e524137992d/cr-tarjeta-millasplus-platino-amex.png"
-  :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :beneficiosEspecificos:
-  - :id: 3mkKok3xYkc28IS2iiQCq4
-    :titulo: 3.000 millas de bienvenida
-  :maximoDeAcumulacion: 30.000 millas
-  :costo: 8
   :tipoDeCosto:
   - Costo de administración
   :monedaDeCosto:

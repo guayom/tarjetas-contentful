@@ -3,29 +3,6 @@
 :titulo: City Mall
 :oneLiner: Acumuá un 3% de devolución en efectivo por tus compras en City Mall.
 :variacion:
-- :id: 4jmZ5hGL7qewWSse4m6ace
-  :titulo: 'City Mall Platino Mastercard '
-  :arte:
-    :title: Tarjeta CityMall Platino
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4dWntDRSJqWW8WUqa0WgQi/6316ee2fa7bfa2dcbb008ded08c40518/cr-tarjeta-citymall-platino-mc.png"
-  :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 54Q7cV0sGQUEWMsc6seOiy
-    :nombre: Master Card
-  :retoDeFacturacion: '0'
-  :maximoDeAcumulacion: 250.000 Colones Anuales
-  :costo: 0
 - :id: 5dxbEhZfu0eQysEmW6qsUI
   :titulo: 'City Mall Clásica Mastercard '
   :arte:
@@ -53,6 +30,29 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
+- :id: 4jmZ5hGL7qewWSse4m6ace
+  :titulo: 'City Mall Platino Mastercard '
+  :arte:
+    :title: Tarjeta CityMall Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/4dWntDRSJqWW8WUqa0WgQi/6316ee2fa7bfa2dcbb008ded08c40518/cr-tarjeta-citymall-platino-mc.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: 250.000 Colones Anuales
+  :costo: 0
 - :id: 4QosPDbjMcqA68k2K4u2iC
   :titulo: 'City Mall Dorada Mastercard '
   :arte:

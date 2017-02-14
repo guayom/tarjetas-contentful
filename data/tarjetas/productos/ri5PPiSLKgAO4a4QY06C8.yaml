@@ -4,6 +4,48 @@
 :oneLiner: Viaje con American Airlines y todas sus aliados. Las millas AAdvantage
   pueden ser utilizadas en más de 1.000 destinos.
 :variacion:
+- :id: 18NZNLUXRuuCAKSGMk0Iqo
+  :titulo: AAdvantage Dorada America Express
+  :arte:
+    :title: Tarjeta Aadvantage Gold
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/Zc7Nd0iR8I8Ygw00CeIcs/34529163965ccc6709b67591cb79ca20/cr-tarjeta-aadvantage-prestige-dorada-amex.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
+- :id: 2rhJ9Pdw1ayC66QkUSykoy
+  :titulo: AAdvantage Platino American Express
+  :arte:
+    :title: Tarjeta Aadvantage Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1xHbxucqUcaugkcUSom4wK/c2177c4f4e5f8ee52ac1b5e0ae662ea7/cr-tarjeta-aadvantage-prestige-platino-amex.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 550WvycKhyQIKig82uKiQM
   :titulo: AAdvantage Black American Express
   :arte:
@@ -24,18 +66,19 @@
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
   :maximoDeAcumulacion: 30.000 Millas Mensuales
-- :id: 7lhJTmo6VUQsqgQoKmmMsg
-  :titulo: AAdvantage Black Master Card
+- :id: 2eUPvuPnkQwS6Kk28A8oSK
+  :titulo: AAdvantage Dorada Master Card
   :arte:
-    :title: AAdvantage Black Master Card
-    :description: AAdvantage Black Master Card
-    :url: "//images.contentful.com/9cds0lha1plv/A6laopgk2ycwiI0AU8QSe/e0aa27abf8e04aad4584e83d25005393/cr-tarjeta-aadvantage-black-mc.png"
+    :title: AAdvantage Dorada Master Card
+    :description: AAdvantage Dorada Master Card
+    :url: "//images.contentful.com/9cds0lha1plv/2Xp2ZBzktywkW4smkAOkus/23be538b13505d0b1d0b2e3861ba5b12/cr-tarjeta-aadvantage-prestige-dorada-mc.png"
   :color:
-    :id: 6Y5q1pV3Soe8cEWywgUWOs
-    :titulo: Elite
-    :limiteMinimoDeCredito: 10000
-    :limiteMaximoDeCredito: 100000000
-    :salarioMinimo: 1500000
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16
@@ -82,6 +125,26 @@
   - :id: 1x36clZWqoGIMMaYoAUCYi
     :titulo: Evacuación Medica en caso emergencia
   :maximoDeAcumulacion: 30.000 Millas Mensuales
+- :id: 7lhJTmo6VUQsqgQoKmmMsg
+  :titulo: AAdvantage Black Master Card
+  :arte:
+    :title: AAdvantage Black Master Card
+    :description: AAdvantage Black Master Card
+    :url: "//images.contentful.com/9cds0lha1plv/A6laopgk2ycwiI0AU8QSe/e0aa27abf8e04aad4584e83d25005393/cr-tarjeta-aadvantage-black-mc.png"
+  :color:
+    :id: 6Y5q1pV3Soe8cEWywgUWOs
+    :titulo: Elite
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000000
+    :salarioMinimo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 54Q7cV0sGQUEWMsc6seOiy
+    :nombre: Master Card
+  :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 2RM0wcuF9KswkW00iGymuA
   :titulo: AAdvantage Platino Master Card
   :color:
@@ -98,69 +161,6 @@
   :emisor:
     :id: 54Q7cV0sGQUEWMsc6seOiy
     :nombre: Master Card
-  :maximoDeAcumulacion: 30.000 Millas Mensuales
-- :id: 2rhJ9Pdw1ayC66QkUSykoy
-  :titulo: AAdvantage Platino American Express
-  :arte:
-    :title: Tarjeta Aadvantage Platino
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1xHbxucqUcaugkcUSom4wK/c2177c4f4e5f8ee52ac1b5e0ae662ea7/cr-tarjeta-aadvantage-prestige-platino-amex.png"
-  :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :maximoDeAcumulacion: 30.000 Millas Mensuales
-- :id: 2eUPvuPnkQwS6Kk28A8oSK
-  :titulo: AAdvantage Dorada Master Card
-  :arte:
-    :title: AAdvantage Dorada Master Card
-    :description: AAdvantage Dorada Master Card
-    :url: "//images.contentful.com/9cds0lha1plv/2Xp2ZBzktywkW4smkAOkus/23be538b13505d0b1d0b2e3861ba5b12/cr-tarjeta-aadvantage-prestige-dorada-mc.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 54Q7cV0sGQUEWMsc6seOiy
-    :nombre: Master Card
-  :maximoDeAcumulacion: 30.000 Millas Mensuales
-- :id: 18NZNLUXRuuCAKSGMk0Iqo
-  :titulo: AAdvantage Dorada America Express
-  :arte:
-    :title: Tarjeta Aadvantage Gold
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/Zc7Nd0iR8I8Ygw00CeIcs/34529163965ccc6709b67591cb79ca20/cr-tarjeta-aadvantage-prestige-dorada-amex.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 :beneficiosGenerales:
 - :id: 1mzFDghiP2SIsm0aaAokIC
