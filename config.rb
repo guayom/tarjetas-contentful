@@ -23,6 +23,13 @@ activate :contentful do |f|
   f.content_types = {productos: 'producto', generalidades: 'generalidades', categorias: 'categorias'}
 end
 
+after_build do |builder|
+  src = File.join(config[:source],"_redirects")
+  dst = File.join(config[:build_dir],"_redirects")
+  builder.source_paths << File.dirname(__FILE__)
+  builder.copy_file(src,dst)
+end
+
 set :markdown_engine, :redcarpet
 #set :markdown, parse_block_html: true
 
