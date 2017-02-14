@@ -6,7 +6,7 @@
         <div role="tabpanel" class="tab-pane rotate-card-1 <%= 'active' unless index > 0 %>" id="<%= "#{categoria}-#{index + 1}" %>">
           <%= partial "partials/index/imagen_tarjeta", :locals => { :producto => producto, :w => 450} %>
           <div class="visible-xs button-mobile">
-            <a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
+            <a href="<%= "/es-cr/tarjetas-credito/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
           </div>
         </div>
       <% end %>

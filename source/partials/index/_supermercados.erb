@@ -23,7 +23,7 @@
         <div role="tabpanel" class="tab-pane <%= 'active' unless index > 0 %>" id="<%= "#{categoria}-#{index + 1}" %>">
           <img class="image-tab" src="<%= producto[1]['variacion'][0]['arte']['url'] unless producto[1]['variacion'][0]['arte'].nil? %>" alt="" />
           <div class="visible-xs button-mobile">
-            <a href="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
+            <a href="<%= "/es-cr/tarjetas-credito/#{producto[1]['titulo'].parameterize}.html" %>" class="orphan-link1"><%= producto[1]['titulo'] %></a>
           </div>
         </div>
       <% end %>

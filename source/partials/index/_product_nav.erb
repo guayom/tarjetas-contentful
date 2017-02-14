@@ -6,11 +6,11 @@
     <% get_grouped_products(categoria).each_with_index do |producto, index| %>
       <%
         if index == 0
-          @first_product_link = "/#{producto[1]['titulo'].parameterize}.html"
+          @first_product_link = "/es-cr/tarjetas-credito/#{producto[1]['titulo'].parameterize}.html"
         end
        %>
       <li <%= 'class="active"' unless index > 0 %>>
-        <a href="<%= "##{categoria}-#{index + 1}" %>" role="tab" data-toggle="tab" data-categoria="<%= categoria %>" data-link="<%= "/#{producto[1]['titulo'].parameterize}.html" %>" class="toggle-link">
+        <a href="<%= "##{categoria}-#{index + 1}" %>" role="tab" data-toggle="tab" data-categoria="<%= categoria %>" data-link="<%= "/es-cr/tarjetas-credito/#{producto[1]['titulo'].parameterize}.html" %>" class="toggle-link">
           <%= producto[1]['titulo'] %>
         </a>
       </li>
