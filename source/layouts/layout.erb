@@ -16,18 +16,17 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-
-  <body class="<%= current_page.data.page_classes %>">
-    <%= partial "partials/analytics" if build? %>
-    <main role="main">
-    <%= partial 'partials/header' %>
-    <%= yield %>
-    </main>
-    <%= partial 'partials/footer' %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="/javascripts/slick.min.js"></script>
-    <script src="/javascripts/bootstrap.js"></script>
-    <script src="/javascripts/main.js"></script>
-    <%= javascript_include_tag :all %>
-  </body>
+<body class="<%= current_page.data.page_classes %>">
+  <%= partial "partials/analytics" if build? %>
+  <main role="main">
+  <%= partial 'partials/header' %>
+  <%= yield %>
+  </main>
+  <%= partial 'partials/footer' %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/javascripts/slick.min.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+  <script src="/javascripts/main.js"></script>
+  <%= javascript_include_tag :all %>
+</body>
 </html>
