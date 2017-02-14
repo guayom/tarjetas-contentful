@@ -93,18 +93,44 @@
   img{
     display: block;
   }
-  img:nth-child(1){
-    margin-top: 30px;
-    transform: rotate(-10deg);
+
+  &.variaciones-1{
+    text-align: center;
+    img{
+      margin-top: 60px;
+      text-align: center;
+      position: relative;
+      //transform: rotate(-10deg);
+    }
+    &:after{
+      left: 0;
+    }
   }
-  img:nth-child(2){
-    margin-left: 270px;
-    margin-top: 15px;
-    transform: rotate(25deg);
+  &.variaciones-2{
+    img:nth-child(1){
+      margin-top: 30px;
+      transform: rotate(-10deg);
+    }
+    img:nth-child(2){
+      margin-left: 270px;
+      margin-top: 15px;
+      transform: rotate(25deg);
+    }
   }
-  img:nth-child(3){
-    margin-top: -10px;
-    transform: rotate(-20deg);
+  &.variaciones-3{
+    img:nth-child(1){
+      margin-top: 30px;
+      transform: rotate(-10deg);
+    }
+    img:nth-child(2){
+      margin-left: 270px;
+      margin-top: 15px;
+      transform: rotate(25deg);
+    }
+    img:nth-child(3){
+      margin-top: -10px;
+      transform: rotate(-20deg);
+    }
   }
 }
 

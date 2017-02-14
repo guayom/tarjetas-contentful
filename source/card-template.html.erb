@@ -79,7 +79,7 @@ page_classes: main
                   </p>
                 </div>
                 <div class="col-xs-12 col-sm-8 text-center">
-                  <div class="card-image">
+                  <div class="card-image <%= @cantidad_de_variaciones %>">
                     <img src="<%= variacion.arte ? "#{variacion.arte.url}?w=300" : "https://placehold.it/306x222" %>" alt="<%= variacion.titulo %>" />
                   </div>
                 </div>

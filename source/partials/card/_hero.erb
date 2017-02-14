@@ -1,3 +1,16 @@
+<%
+  case producto.variacion.count
+  when 1
+    @cantidad_de_variaciones = "variaciones-1"
+    @size = 400
+  when 2
+    @cantidad_de_variaciones = "variaciones-2"
+    @size = 300
+  else
+    @cantidad_de_variaciones = "variaciones-3"
+    @size = 240
+  end
+%>
 <section class="hero">
   <div class="container">
     <div class="row">
@@ -6,9 +19,9 @@
         <p><%= producto.oneLiner %></p>
         <a href="<%= producto.form %>" class="btn btn--green"><%= data.links.cta %></a>
       </div>
-      <div class="col-xs-12 col-sm-6 hero-image">
+      <div class="col-xs-12 col-sm-6 hero-image <%= @cantidad_de_variaciones %>">
         <% producto.variacion.select{|v| v.arte != nil}.first(3).each do |variacion| %>
-          <img src="<%= variacion.arte.url unless variacion.arte.nil? %>?w=240" alt="<%= variacion.titulo %>" />
+          <img src="<%= variacion.arte.url unless variacion.arte.nil? %>?w=<%= @size %>" alt="<%= variacion.titulo %>" />
         <% end %>
       </div>
     </div>
