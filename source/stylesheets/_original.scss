@@ -2734,7 +2734,9 @@ hr {
   margin: 0;
   border-top: 1px solid #eef2f7;
   margin-top: 0;
-  font-size: 16px;
+  font-size: 12px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .secondary-page .feature h2 {
@@ -4475,6 +4477,9 @@ hr {
 
   .pull-right--desktop {
     float: right !important;
+  }
+  .secondary-page .middle-cont1-p {
+    font-size: 16px;
   }
 }
 
