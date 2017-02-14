@@ -15,10 +15,10 @@
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <%= partial "partials/analytics" if build? %>
 </head>
 
   <body class="<%= current_page.data.page_classes %>">
-    <%= partial "partials/analytics" if build? %>
     <main role="main">
     <%= partial 'partials/header' %>
     <%= yield %>
