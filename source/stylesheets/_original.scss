@@ -3433,7 +3433,7 @@ hr {
 .secondary-page #section-1 .slick-dots {
   width: 100%;
   position: absolute;
-  bottom: 135px;
+  bottom: 100px;
 }
 
 .secondary-page #section-1 .button-mobile {
@@ -3508,7 +3508,7 @@ hr {
 .secondary-page #section-3 .slick-dots {
   width: 100%;
   position: absolute;
-  bottom: 135px;
+  bottom: 100px;
 }
 
 .secondary-page #section-3 .button-mobile {
@@ -3589,7 +3589,7 @@ hr {
 .secondary-page #section-5 .slick-dots {
   width: 100%;
   position: absolute;
-  bottom: 140px;
+  bottom: 100px;
 }
 
 .secondary-page #section-5 .button-mobile {
@@ -5660,6 +5660,10 @@ hr {
   .space-bottom-7-mobile {
     margin-bottom: 3.5rem;
   }
+  .secondary-page .slick-slide img {
+    max-width: 320px;
+    width: 85%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -5674,7 +5678,7 @@ hr {
 
 @media (max-width: 370px) {
   .secondary-page #section-2 .slick-dots {
-    bottom: 135px;
+    bottom: 100px;
   }
 }
 

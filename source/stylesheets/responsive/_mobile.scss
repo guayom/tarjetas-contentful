@@ -1,0 +1,20 @@
+@media (max-width: 450px) {
+  .secondary-page .slick-slide img {
+    margin-bottom: 40px;
+  }
+  .rotate-card-1:after {
+    content: "";
+    width: 85%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    top: 270px;
+    /* bottom: 0; */
+    left: 8.5%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    z-index: -1;
+  }
+}
