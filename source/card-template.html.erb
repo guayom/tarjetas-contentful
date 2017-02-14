@@ -26,10 +26,12 @@ page_classes: main
 <section>
   <div class="nav-holder">
     <div class="nav-wrap">
+      <% if producto.variacion.count > 1 %>
       <div class="row" id="section-tarjetas">
         <hr />
         <p class="descrip">Elegí la tarjeta que más te conviene</p>
       </div>
+      <% end %>
       <div class="visible-xs">
         <div class="container">
           <div class="tab-active-mobile pull-left">
