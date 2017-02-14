@@ -134,6 +134,29 @@
       transform: rotate(-20deg);
     }
   }
+
+  @media (max-width: $mobile){
+    &.variaciones-1, &.variaciones-2, &.variaciones-3{
+      img{
+        width: 180px;
+      }
+      img:nth-child(1){
+        margin-top: 60px;
+        margin-left: 10px;
+      }
+      img:nth-child(2){
+        margin-left: 200px;
+        margin-top: 0px;
+        transform: rotate(25deg);
+      }
+      img:nth-child(3){
+        margin-top: -10px;
+        margin-left: 20px;
+        transform: rotate(-20deg);
+      }
+    }
+  }
+
 }
 
 .tabs-heading{

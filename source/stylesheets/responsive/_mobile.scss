@@ -17,4 +17,8 @@
     filter: blur(10px);
     z-index: -1;
   }
+
+  body.main .hero-image{
+    position: static;
+  }
 }
