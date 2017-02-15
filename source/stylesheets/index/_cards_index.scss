@@ -1,0 +1,43 @@
+#section-1, #section-2, #section-3, #section-4, .secondary-page #section-5{
+  ul.tab-nav{
+    li{
+      position: relative;
+      display: block;
+      &.toggle-link:after{
+        display: none;
+      }
+    }
+  }
+}
+.secondary-page .section-container-1, .secondary-page .section-container-2, .secondary-page .section-container-3, .secondary-page .section-container-4, .secondary-page #section-5{
+  ul li a.ver-mas{
+    display: none;
+  }
+}
+.secondary-page{
+  .section-container-2 ul li.active a.ver-mas, #section-2 ul li.active a.ver-mas, .section-container-3 ul li.active a.ver-mas, #section-5 ul li.active a.ver-mas{
+    padding: 3px 8px;
+    font-size: 12px;
+    background: $verde;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    height: auto;
+    width: auto;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 2;
+    margin-top: -1em;
+    cursor: pointer;
+    box-shadow: none;
+    &:after{
+      display: none;
+    }
+    &:hover{
+      background: darken($verde, 10%);
+    }
+  }
+}

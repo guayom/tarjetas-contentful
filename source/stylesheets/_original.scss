@@ -2996,14 +2996,14 @@ hr {
   top: 20px;
 }
 
-.secondary-page .section-container-2 ul li.active a {
+.secondary-page .section-container-2 ul li.active a.toggle-link {
   border-radius: 3px;
   border: 1px solid #fff;
   text-decoration: none;
   position: relative;
 }
 
-.secondary-page .section-container-2 ul li.active a::after {
+.secondary-page .section-container-2 ul li.active a.toggle-link::after {
   display: block;
 }
 
@@ -3137,14 +3137,14 @@ hr {
   top: 24px;
 }
 
-.secondary-page .section-container-3 ul li.active {
+.secondary-page .section-container-3 ul li.active a.toggle-link {
   border-radius: 3px;
   border: 1px solid #fff;
   text-decoration: none;
   position: relative;
 }
 
-.secondary-page .section-container-3 ul li.active a::after {
+.secondary-page .section-container-3 ul li.active a.toggle-link::after {
   display: block;
 }
 
