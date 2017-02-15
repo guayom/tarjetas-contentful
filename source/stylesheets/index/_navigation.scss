@@ -1,0 +1,69 @@
+#section-tarjetas.row{
+  max-width: 1000px;
+  margin: 0 auto;
+  @include mq("phablet"){
+    border-bottom: 1px solid #ddd;
+  }
+  @include mq("tablet-wide"){
+    border-bottom: none;
+  }
+}
+.main-logo{
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
+  @include mq("desktop"){
+    margin-top: 0;
+  }
+}
+.main-logo-container{
+  text-align: center;
+  @include mq("phone-wide"){
+    .main-logo{
+      width: 300px;
+    }
+  }
+  @include mq("phablet"){
+    width: 50%;
+    padding: 18px 30px 15px 30px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    .main-logo{
+      max-width: 100%;
+    }
+  }
+  @include mq("desktop"){
+    width: 20%;
+    padding: 33px 0 33px 0;
+    display: inline-block;
+    float: left;
+  }
+}
+.header-text-container{
+  @include mq("phablet"){
+    width: 50%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    .middle-cont1-p{
+      text-align: left;
+      margin: 0;
+    }
+  }
+  @include mq("desktop"){
+    width: 80%;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    .middle-cont1-p{
+      text-align: left;
+      margin: 0;
+    }
+  }
+}
+.secondary-page .middle-cont1-p{
+  border-top: none;
+}
