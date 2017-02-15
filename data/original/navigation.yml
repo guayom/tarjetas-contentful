@@ -1,0 +1,179 @@
+---
+items:
+  - title: TARJETAS DE CREDITO
+    link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas
+    items:
+
+- title: CashBack
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback
+- title: Supermercados, Clubes y Tiendas
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas
+  items:
+    - title: Walmart
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/walmart
+    - title: PriceSmart
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/pricesmart
+    - title: Club Nación
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/club-nacion-american-express
+    - title: CityMall
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/city-mall-mastercard
+    - title: Megasuper
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/megasuper
+    - title: Auto Mercado
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/automercado
+- title: Viajes
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes
+  items:
+    - title: LifeMiles
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-lifemiles-de-credomatic
+    - title: ConnectMiles
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-connectmiles-de-credomatic
+    - title: MillasPlus
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-millas-plus-de-credomatic
+    - title: AAdvantage®
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-aadvantage-de-credomatic
+- title: Acumula Puntos
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos
+  items:
+    - title: Gane Premios
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-gane-premios
+    - title: Puntos Credomatic
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-puntos-credomatic
+- title: Estilo de Vida
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida
+  items:
+    - title: The Platinum Card®
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/the-platinum-card-de-credomatic
+    - title: Platinum American Express
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-american-express-platinum-de-credomatic
+    - title: CashBack Premium
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-cashback-premium
+    - title: MasterCard Black™
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-mastercard-black
+- title: Empresariales
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas
+  items:
+    - title: Business
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjetas-business
+    - title: Central Travel Account
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-central-travel-account
+    - title: Delta
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-de-credito-flota-delta
+    - title: Total
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/empresarial-total
+- title: Otras Tarjetas
+  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras
+  items:
+    - title: Incae
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/incae-american-express
+    - title: Dinners Club
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/diners-club-internacional
+    - title: Libertad
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/libertad-american-express
+    - title: Solidarista
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/solidarista
+    - title: Compay
+      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/compay
+
+  - title: PROGRAMAS DE LEALTAD
+    link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad
+    items:
+      - title: Auto Frecuente
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/auto-frecuente
+      - title: CashBack
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/cashback
+      - title: CashBack Premium
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/cashback-premium
+      - title: City Cash
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/city-cash
+      - title: ConnectMiles
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/connectmiles
+      - title: Enjoy Points
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/enjoy-points
+      - title: LifeMiles
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/lifemiles
+      - title: Megaguinaldo
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/megaguinaldo
+      - title: Memberships Rewards
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/membership-rewards
+      - title: Millas AAdvantage®
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/millas-aadvantage
+      - title: Millas Gane Premios
+        link: https://www.baccredomatic.com/es-cr/tarjetas-credito/programas-de-lealtad/gane-premios
+      - title: Millas Plus
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/millas-plus
+      - title: PriceCash
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/pricecash
+      - title: Puntos Viva
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/puntos-viva
+
+  - title: FACILIDADES DE CRÉDITO
+    link: https://www.baccredomatic.com/es-cr/tarjetas/credito/facilidades-de-credito
+    items:
+      - title: Tasa 0
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/facilidades-de-credito/tasa-cero
+      - title: Extrafinanciamiento
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/facilidades-de-credito/extrafinanciamiento
+      - title: Minicuotas
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/facilidades-de-credito/minicuotas
+      - title: Rapicash
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/facilidades-de-credito/rapicash
+      - title: Préstamos personales Credomatic
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/prestamos-personales-credomatic
+
+  - title: SEGUROS
+    link: https://www.baccredomatic.com/es-cr/seguros
+    items:
+      - title: Asistencia en emergencia SOS
+        link: https://www.baccredomatic.com/es-cr/seguros/nuestros-seguros/plan-asistencia-en-emergencias-sos
+      - title: Protección PRF para tarjetas de crédito
+        link: https://www.baccredomatic.com/es-cr/seguros/nuestros-seguros/plan-de-proteccion-prf-credito
+      - title: Seguro viajero
+        link: https://www.baccredomatic.com/es-cr/seguros/nuestros-seguros/seguro-viajero
+      - title: Seguros American Express®
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/informacion-seguros-american-express
+
+  - title: GESTIONES
+    link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones-complementarias
+    items:
+      - title: Renovación de tarjeta
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones-complementarias/renovacion-de-tarjeta
+      - title: Reporte de tarjeta por pérdida o robo
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones-complementarias/informar-tarjeta-perdida-o-robada
+      - title: Reposición de tarjeta
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones-complementarias/reposicion-de-tarjeta
+      - title: Solicitud de tarjeta adicional
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones-complementarias/solicitud-de-tarjeta-adicional
+      - title: Promesa de pago
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/gestiones/promesa-de-pago
+
+  - title: SERVICIOS
+    link: https://www.baccredomatic.com/es-cr/tarjetas/credito/servicios
+    items:
+      - title: Monitoreo de tarjeta por viaje
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/servicios/monitoreo-de-tarjeta-por-viaje
+      - title: Solicitud de PRF
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/servicios/solicitud-de-prf
+      - title: Aeropost
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/servicios/aeropost
+      - title: Hertz Gold
+        link: https://www.baccredomatic.com/es-cr/tarjetas/servicios/hertz-gold-plus-rewards
+      - title: Momentos Credomatic
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/servicios/momentos-credomatic
+      - title: Asistencia en emergencia SOS
+        link: https://www.baccredomatic.com/es-cr/seguros/nuestros-seguros/plan-asistencia-en-emergencias-sos
+
+  - title: PROMOCIONES
+    link: https://www.baccredomatic.com/es-cr/promotions-page
+    items:
+      - title: Descuentos BAC | Credomatic
+        link: https://www.baccredomatic.com/es-cr/promotions-page
+      - title: Comercios participantes
+        link: https://www.baccredomatic.com/es-cr/business-catalog
+      - title: Credomatic turismo
+        link: https://www.baccredomatic.com/es-cr/credomatic-turismo
+      - title: Festival de la música
+        link: https://www.baccredomatic.com/es-cr/festival-de-la-musica-credomatic
+      - title: Reglamentos
+        link: https://www.baccredomatic.com/es-cr/promociones/reglamentos
+---

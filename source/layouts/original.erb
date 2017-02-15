@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang='es'>
 <head>
   <%= partial "partials/gtm_head" if build? %>
   <meta charset="utf-8">
@@ -8,7 +8,7 @@
   <title><%= yield_content :title %></title>
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <%= yield_content :head %>
-  <%= stylesheet_link_tag :site %>
+  <%= stylesheet_link_tag :original %>
   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,17 +17,10 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-<body class="<%= current_page.data.page_classes %>">
-  <%= partial "partials/gtm_body" if build? %>
-  <main role="main">
-  <%= partial 'partials/header' %>
+
+<body>
+  <%= partial 'partials/original/header' %>
   <%= yield %>
-  </main>
-  <%= partial 'partials/footer' %>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="/javascripts/slick.min.js"></script>
-  <script src="/javascripts/bootstrap.js"></script>
-  <script src="/javascripts/main.js"></script>
-  <%= javascript_include_tag :all %>
 </body>
+
 </html>
