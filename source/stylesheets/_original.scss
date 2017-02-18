@@ -2001,8 +2001,17 @@ main {
 }
 
 .hero {
-  background: url("../images/hero.png") no-repeat top center;
+  background: url("../images/bg2-480px.png") no-repeat top center;
   color: #fff;
+  @include mq("phone-wide"){
+    background: url("../images/bg2-720px.png") no-repeat top center;
+  }
+  @include mq("tablet-small"){
+    background: url("../images/bg2-1200px.png") no-repeat top center;
+  }
+  @include mq("desktop"){
+    background: url("../images/bg2-2560px.png") no-repeat top center;
+  }
 }
 
 .hero-text {
@@ -2242,8 +2251,37 @@ hr {
 }
 
 .tabs {
-  background: url("../images/bg-tabs.png") no-repeat top center transparent;
-  background-size: 3000px auto;
+  $bg-image: "https://images.contentful.com/9cds0lha1plv/YoaseRSwUgwUMmcGWeq02/a443e797fb68b6496c1a675df1ce8d1c/bg-tabs.png?w=";
+  background: url($bg-image + "400") no-repeat top center transparent;
+  background-size: 400px auto;
+  @include mq("phone-wide"){
+    background: url($bg-image + "560") no-repeat top center transparent;
+    background-size: 560px auto;
+  }
+  @include mq("phablet"){
+    background: url($bg-image + "640") no-repeat top center transparent;
+    background-size: 640px auto;
+  }
+  @include mq("tablet-small"){
+    background: url($bg-image + "768") no-repeat top center transparent;
+    background-size: 768px auto;
+  }
+  @include mq("tablet"){
+    background: url($bg-image + "1024") no-repeat top center transparent;
+    background-size: 1024px auto;
+  }
+  @include mq("tablet-wide"){
+    background: url($bg-image + "1248") no-repeat top center transparent;
+    background-size: 1248px auto;
+  }
+  @include mq("desktop"){
+    background: url($bg-image + "1440") no-repeat top center transparent;
+    background-size: 1440px auto;
+  }
+  @include mq("desktop-wide"){
+    background: url($bg-image + "2500") no-repeat top center transparent;
+    background-size: 2500px auto;
+  }
 }
 
 .tabs-content h2 {
@@ -2314,8 +2352,11 @@ hr {
 }
 
 .main .condiciones {
-  background: url("../images/bg-condiciones-mobile.png") no-repeat top center transparent;
-  background-size: 768px 100%;
+  @include contentfulbg("https://images.contentful.com/9cds0lha1plv/giRWKxW9ag2aysGA0O4uu/78004bc752f3e37f119437944d843300/bg-condiciones.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: transparent;
+  background-size: auto 100%;
   padding-top: 80px;
 }
 
@@ -2492,7 +2533,9 @@ hr {
 }
 
 .tasa-intereses {
-  background: url("../images/bg-tasa-de-intereses.png") no-repeat center bottom;
+  @include contentfulbg("https://images.contentful.com/9cds0lha1plv/19O3TQnLVyEKiOw6UuYWYc/96179d9fd192a308ae5fce98f570c798/bg-tasa-de-intereses.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: auto 100%;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -2816,8 +2859,9 @@ hr {
 
 .secondary-page .section-container-1 {
   height: auto;
-  background: url("../assets/bg1.jpg") no-repeat;
+  @include contentfulbg("https://images.contentful.com/9cds0lha1plv/2jjDraxpo8GuWYiGIKQYOY/9423d38b9323b89f7beae3c2ef3f9506/bg1.jpg");
   background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .secondary-page .section-container-1 .left-col-top p {
@@ -2938,10 +2982,11 @@ hr {
 
 .secondary-page .section-container-2 {
   height: auto;
-  background: url("../assets/bg2.png") no-repeat;
+  @include contentfulbg("https://images.contentful.com/9cds0lha1plv/HoINUQmAScW4OsyCwusak/b1b3eb7454917fde32f171c40c25898b/bg2.png");
+  background-repeat: no-repeat;
   background-position: center top;
   position: relative;
-  background-size: 3200px auto;
+  background-size: auto auto;
 }
 
 .secondary-page .section-container-2 .slick-prev {
@@ -3098,7 +3143,9 @@ hr {
 
 .secondary-page .section-container-3 {
   height: auto;
-  background: url("../assets/bg3.png") no-repeat center top;
+  @include contentfulbg("https://images.contentful.com/9cds0lha1plv/3bnmJQCxt608GikSiAICyG/673d76711d8ad2a84c8a37c898283501/bg3.png");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .secondary-page .section-container-3 h2 {
@@ -4314,10 +4361,6 @@ hr {
     width: 64px;
   }
 
-  .tabs {
-    background-size: 3560px auto;
-  }
-
   .tabs-content {
     min-height: 560px;
   }
@@ -4351,8 +4394,8 @@ hr {
   }
 
   .main .condiciones {
-    background: url("../images/bg-condiciones.png") no-repeat top center transparent;
-    background-size: 2500px auto;
+    //background: url("../images/bg-condiciones.png") no-repeat top center transparent;
+    //background-size: 2500px auto;
   }
 
   .main .condiciones .card {
@@ -4365,7 +4408,7 @@ hr {
 
   .tasa-intereses {
     min-height: 840px;
-    background-size: 2560px auto;
+    //background-size: 2560px auto;
     padding-bottom: 0;
   }
 
@@ -4422,8 +4465,8 @@ hr {
   }
 
   .secondary-page .section-container-2 {
-    background: url("../assets/bg2.png") no-repeat center top;
-    background-size: auto;
+    //background: url("../assets/bg2.png") no-repeat center top;
+    //background-size: auto;
   }
 
   .secondary-page .section-container-2 h2 {
@@ -4818,10 +4861,6 @@ hr {
     bottom: -37px;
   }
 
-  .tabs {
-    background-size: 2875px auto;
-  }
-
   .tabs .card {
     top: -135px;
   }
@@ -5212,10 +5251,6 @@ hr {
 
   .hidden-lg {
     display: none !important;
-  }
-
-  .tabs {
-    background-size: 2560px auto;
   }
 
   .tabs .card {

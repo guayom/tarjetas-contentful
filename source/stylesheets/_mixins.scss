@@ -47,3 +47,28 @@ $breakpoints: (
         }
     }
 }
+
+@mixin contentfulbg($url){
+  background-image: url($url + "?w=400");
+  @include mq("phone"){
+    background-image: url($url + "?w=480");
+  }
+  @include mq("phone-wide"){
+    background-image: url($url + "?w=560");
+  }
+  @include mq("tablet-small"){
+    background-image: url($url + "?w=768");
+  }
+  @include mq("tablet"){
+    background-image: url($url + "?w=1024");
+  }
+  @include mq("tablet-wide"){
+    background-image: url($url + "?w=1100");
+  }
+  @include mq("desktop"){
+    background-image: url($url + "?w=2000");
+  }
+  @include mq("desktop-wide"){
+    background-image: url($url + "?w=2560");
+  }
+}
