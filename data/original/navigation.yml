@@ -3,77 +3,76 @@ items:
   - title: TARJETAS DE CREDITO
     link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas
     items:
-
-- title: CashBack
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback
-- title: Supermercados, Clubes y Tiendas
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas
-  items:
-    - title: Walmart
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/walmart
-    - title: PriceSmart
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/pricesmart
-    - title: Club Nación
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/club-nacion-american-express
-    - title: CityMall
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/city-mall-mastercard
-    - title: Megasuper
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/megasuper
-    - title: Auto Mercado
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/automercado
-- title: Viajes
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes
-  items:
-    - title: LifeMiles
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-lifemiles-de-credomatic
-    - title: ConnectMiles
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-connectmiles-de-credomatic
-    - title: MillasPlus
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-millas-plus-de-credomatic
-    - title: AAdvantage®
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-aadvantage-de-credomatic
-- title: Acumula Puntos
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos
-  items:
-    - title: Gane Premios
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-gane-premios
-    - title: Puntos Credomatic
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-puntos-credomatic
-- title: Estilo de Vida
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida
-  items:
-    - title: The Platinum Card®
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/the-platinum-card-de-credomatic
-    - title: Platinum American Express
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-american-express-platinum-de-credomatic
-    - title: CashBack Premium
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-cashback-premium
-    - title: MasterCard Black™
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-mastercard-black
-- title: Empresariales
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas
-  items:
-    - title: Business
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjetas-business
-    - title: Central Travel Account
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-central-travel-account
-    - title: Delta
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-de-credito-flota-delta
-    - title: Total
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/empresarial-total
-- title: Otras Tarjetas
-  link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras
-  items:
-    - title: Incae
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/incae-american-express
-    - title: Dinners Club
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/diners-club-internacional
-    - title: Libertad
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/libertad-american-express
-    - title: Solidarista
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/solidarista
-    - title: Compay
-      link: https://www.baccredomatic.com/es-cr/tarjetas/credito/compay
+      - title: CashBack
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback
+      - title: Supermercados, Clubes y Tiendas
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas
+        items:
+          - title: Walmart
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/walmart
+          - title: PriceSmart
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/pricesmart
+          - title: Club Nación
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/club-nacion-american-express
+          - title: CityMall
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/city-mall-mastercard
+          - title: Megasuper
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/megasuper
+          - title: Auto Mercado
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/automercado
+      - title: Viajes
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes
+        items:
+          - title: LifeMiles
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-lifemiles-de-credomatic
+          - title: ConnectMiles
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-connectmiles-de-credomatic
+          - title: MillasPlus
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-millas-plus-de-credomatic
+          - title: AAdvantage®
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-aadvantage-de-credomatic
+      - title: Acumula Puntos
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos
+        items:
+          - title: Gane Premios
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-gane-premios
+          - title: Puntos Credomatic
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-puntos-credomatic
+      - title: Estilo de Vida
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida
+        items:
+          - title: The Platinum Card®
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/the-platinum-card-de-credomatic
+          - title: Platinum American Express
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-american-express-platinum-de-credomatic
+          - title: CashBack Premium
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-cashback-premium
+          - title: MasterCard Black™
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-mastercard-black
+      - title: Empresariales
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas
+        items:
+          - title: Business
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjetas-business
+          - title: Central Travel Account
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-central-travel-account
+          - title: Delta
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/tarjeta-de-credito-flota-delta
+          - title: Total
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/empresas/empresarial-total
+      - title: Otras Tarjetas
+        link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras
+        items:
+          - title: Incae
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/incae-american-express
+          - title: Dinners Club
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/diners-club-internacional
+          - title: Libertad
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/libertad-american-express
+          - title: Solidarista
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/otras/solidarista
+          - title: Compay
+            link: https://www.baccredomatic.com/es-cr/tarjetas/credito/compay
 
   - title: PROGRAMAS DE LEALTAD
     link: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad
