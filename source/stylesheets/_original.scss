@@ -2005,6 +2005,7 @@ main {
   color: #fff;
   @include mq("phone-wide"){
     background: url("../images/bg2-720px.png") no-repeat top center;
+    background-size: 100% auto;
   }
   @include mq("tablet-small"){
     background: url("../images/bg2-1200px.png") no-repeat top center;
@@ -2862,6 +2863,11 @@ hr {
   @include contentfulbg("https://images.contentful.com/9cds0lha1plv/2jjDraxpo8GuWYiGIKQYOY/9423d38b9323b89f7beae3c2ef3f9506/bg1.jpg");
   background-position: center top;
   background-repeat: no-repeat;
+
+  @media (max-width: 560px){
+    background-image: url("https://images.contentful.com/9cds0lha1plv/2jjDraxpo8GuWYiGIKQYOY/9423d38b9323b89f7beae3c2ef3f9506/bg1.jpg?h=700");
+    background-size: auto 100%;
+  }
 }
 
 .secondary-page .section-container-1 .left-col-top p {

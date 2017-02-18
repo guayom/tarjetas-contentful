@@ -53,9 +53,8 @@ $breakpoints: (
   @include mq("phone"){
     background-image: url($url + "?w=480");
   }
-  @include mq("phone-wide"){
-    background-image: url($url + "?w=560");
-  }
+
+
   @include mq("tablet-small"){
     background-image: url($url + "?w=768");
   }
