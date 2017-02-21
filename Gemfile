@@ -16,4 +16,4 @@ gem "contentful_middleman"
 gem 'middleman-dotenv'
 
 gem 'redcarpet'
-gem 'middleman-minify-html'
+#Uninstallergem 'middleman-minify-html'
