@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <% if build? %>
+    <% unless current_page.data.hero.nil? or current_page.data.hero.posttext == true %>
+      <%= partial "partials/experiment_1" %>
+    <% end %>
+  <% end %>
   <%= partial "partials/gtm_head" if build? %>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
