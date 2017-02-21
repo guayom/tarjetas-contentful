@@ -1,0 +1,33 @@
+#breadcrumbs{
+  color: $dorado-links;
+  font-size: 13px;
+  margin-bottom: 1.25rem;
+  ul{
+    background: $gris-claro-2;
+    border: solid 1px $gris-bordes;
+    border-radius: 3px;
+    padding: 0.5625rem 0.875rem 0.5625rem;
+    overflow: hidden;
+    margin-left: 0;
+    list-style: none;
+    margin: 0;
+  }
+  li{
+    display: inline-block;
+    &:after{
+      content: ">";
+      margin: 0 5px 0 10px;
+    }
+    &:last-child:after{
+      content: "";
+    }
+  }
+  a{
+    color: $dorado-links;
+    text-transform: none;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
