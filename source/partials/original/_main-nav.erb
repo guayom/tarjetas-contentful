@@ -1,25 +1,27 @@
-<ul id="main-navigation">
-  <% data.original.navigation.items.each do |item| %>
-    <li>
-      <a href="<%= item.link %>"><%= item.title %></a>
-      <% unless item.items.nil? %>
-        <ul>
-          <% item.items.each do |second_level_item| %>
-            <li>
-              <a href="<%= second_level_item.link %>"><%= second_level_item.title %></a>
-              <% unless second_level_item.items.nil? %>
-                <ul>
-                  <% second_level_item.items.each do |third_level_item| %>
-                    <li>
-                      <a href="<%= third_level_item.link %>"><%= third_level_item.title %></a>
-                    </li>
-                  <% end %>
-                </ul>
-              <% end %>
-            </li>
-          <% end %>
-        </ul>
-      <% end %>
-    </li>
-  <% end %>
-</ul>
+<nav id="main-navigation">
+  <ul id="main-navigation-menu">
+    <% data.original.navigation.items.each do |item| %>
+      <li>
+        <a href="<%= item.link %>"><%= item.title %></a>
+        <% unless item.items.nil? %>
+          <ul class="second-level-menu">
+            <% item.items.each do |second_level_item| %>
+              <li<%= " class='has-sub-items'" unless second_level_item.items.nil? %>>
+                <a href="<%= second_level_item.link %>"><%= second_level_item.title %></a>
+                <% unless second_level_item.items.nil? %>
+                  <ul class="third-level-menu">
+                    <% second_level_item.items.each do |third_level_item| %>
+                      <li>
+                        <a href="<%= third_level_item.link %>"><%= third_level_item.title %></a>
+                      </li>
+                    <% end %>
+                  </ul>
+                <% end %>
+              </li>
+            <% end %>
+          </ul>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+</nav>

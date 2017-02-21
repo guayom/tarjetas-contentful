@@ -1,0 +1,178 @@
+header{
+  @include grid-container;
+}
+.header-first-row{
+  @include grid-container;
+  margin-bottom: 20px;
+  .main-logo{
+    @include grid-column(5);
+    margin-top: 2em;
+  }
+  .top-nav{
+    @include grid-column(5);
+    @include grid-push(2);
+    position: relative;
+    text-align: right;
+    font-size: 0.8em;
+    a{
+      color: $dorado;
+      text-decoration: none;
+    }
+  }
+  #nuestra-empresa, #country-selector{
+    border-right: solid 1px $azul;
+    padding: 0 15px;
+  }
+  #country-selector{
+    background: #fff;
+    border: 0;
+    color: $dorado;
+    cursor: pointer;
+  }
+  #country-selector-menu{
+    position: absolute;
+    top: 1em;
+    border: solid 1px $dorado;
+    padding: 10px 5px 10px 7px;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    list-style: none;
+    text-align: left;
+    display: none;
+    li{
+      display: inline-block;
+      width: 32%;
+      margin: 0;
+      padding: 5px;
+      box-sizing: border-box;
+      a{
+        border: solid 1px $dorado;
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding: 5px 0;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .tabs-nav{
+    list-style: none;
+    border: solid 1px $gris-claro;
+    border-bottom: 0;
+    text-align: left;
+    margin: 30px 0 0 0;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+    li{
+      display: inline-block;
+      margin: 5px 10px;
+      &:nth-child(2) > a{
+        color: $rojo;
+        text-decoration: underline;
+      }
+    }
+    a{
+      color: $azul-oscuro;
+      font-size: 1em;
+      font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Tahoma","sans-serif";
+      text-transform: uppercase;
+    }
+  }
+}
+#main-navigation{
+  display: table;
+  width: 100%;
+  z-index: 100;
+}
+#main-navigation-menu{
+  display: table-row;
+  list-style: none;
+  padding: 0;
+  li{
+    display: table-cell;
+    border-right: 1px solid #fff;
+    max-width: 14%;
+    position: relative;
+    z-index: 99;
+    &:last-child{
+      border-right: 0;
+      .second-level-menu{
+        left: auto;
+        right: 0;
+      }
+    }
+    & ul.second-level-menu, ul.third-level-menu{
+      display: none;
+      z-index: -1;
+    }
+    a{
+      background: $gris-oscuro;
+      display: block;
+      text-align: center;
+      padding: 8px 30px;
+      color: #fff;
+      font-size: 0.8em;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+        background: #fff;
+        color: $rojo2;
+      }
+    }
+    &:hover{
+      & > ul.second-level-menu{
+        display: block;
+      }
+    }
+  }
+  ul.second-level-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    min-width: 212px;
+    height: auto;
+    border-bottom: $gris-oscuro 10px solid;
+    padding: 0 0 10px 0;
+    background: #fff;
+    -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
+    -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
+    box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
+    li{
+      display: block;
+      padding:0;
+      width: 100%;
+      max-width: 100%;
+      position: relative;
+    }
+    a{
+      background: none;
+      color: $gris-oscuro;
+      text-align: left;
+      padding: 6px 20px;
+      &:hover{
+        background: $rojo2;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    .has-sub-items:after{
+      content: ">";
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 15px;
+      color: $gris-oscuro;
+      line-height: 1.5em;
+    }
+    li.has-sub-items:hover:after{
+      color: #fff;
+    }
+  }
+  ul.third-level-menu{
+    display: none;
+  }
+}
