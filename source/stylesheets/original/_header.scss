@@ -131,6 +131,7 @@ header{
     font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Tahoma","sans-serif";
     padding: 12px 20px;
     display: block;
+    cursor: pointer;
   }
   ul.second-level-menu{
     display: none;
@@ -141,18 +142,23 @@ header{
   @include grid-media($desktop-grid){
     display: table-row;
     float: none;
+    border-bottom: 0;
     li{
       display: table-cell;
       border-right: 1px solid #fff;
       max-width: 14%;
       position: relative;
       z-index: 99;
+      border-bottom: 0;
       &:last-child{
         border-right: 0;
         .second-level-menu{
           left: auto;
           right: 0;
         }
+      }
+      &:after{
+        display: none;
       }
       & ul.second-level-menu, ul.third-level-menu{
         display: none;
@@ -166,6 +172,8 @@ header{
         color: #fff;
         font-size: 0.8em;
         text-decoration: none;
+        font-weight: 400;
+        font-family: 'Helvetica';
         &:hover{
           text-decoration: underline;
           background: #fff;
