@@ -4,4 +4,8 @@ body{
   font-weight: normal;
   z-index: 0;
   margin: 0;
+  @include grid-media($desktop-grid){
+    max-width: 1260px;
+    margin: 0 auto;
+  }
 }
