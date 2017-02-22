@@ -2,6 +2,7 @@
   color: $dorado-links;
   font-size: 13px;
   margin-bottom: 1.25rem;
+  display: none;
   ul{
     background: $gris-claro-2;
     border: solid 1px $gris-bordes;
@@ -29,5 +30,8 @@
     &:hover{
       text-decoration: underline;
     }
+  }
+  @include grid-media($desktop-grid){
+    display: block;
   }
 }

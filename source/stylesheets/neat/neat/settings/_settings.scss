@@ -72,3 +72,14 @@ $neat-grid: () !default;
 ///
 
 $neat-custom-grid: () !default;
+
+$mobile-grid: (
+  columns: 12,
+  gutter: 20px,
+  media: 480px,
+);
+$desktop-grid: (
+  columns: 12,
+  gutter: 40px,
+  media: 1280px,
+);
