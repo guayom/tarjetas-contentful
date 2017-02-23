@@ -18,5 +18,33 @@
   <body class="<%= page_classes %>">
     <h1><%= current_page.data.title || titulo %></h1>
     <%= yield %>
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+
+  <script type="text/javascript">
+    $.validate({
+        modules : 'date, security',
+        lang : 'es'
+    });
+    $(document).ready(function(){
+      $('#cambios-btn').click(function(){
+        $('#cambios-container').css('right', 0);
+      });
+      $('#ocultar-btn').click(function(){
+        $('#cambios-container').css('right', '-500px');
+      });
+      // $('#cambios-form').on('keyup keypress', function(e) {
+      //   var keyCode = e.keyCode || e.which;
+      //   if (keyCode === 13) {
+      //     e.preventDefault();
+      //     return false;
+      //   }
+      // });
+    });
+  </script>
   </body>
 </html>

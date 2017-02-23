@@ -1,6 +1,7 @@
 ---
 layout: revision
 ---
+<%= partial "partials/revision/form.erb" , :locals => {:producto => producto}%>
 <% @centered = centered_row(producto['variacion'].count).html_safe %>
 <table>
   <thead>

@@ -1,0 +1,29 @@
+<div id="cambios-container">
+  <a href="#" id="cambios-btn">Proponer cambios</a>
+  <a href="#" id="ocultar-btn">Ocultar</a>
+  <form action="https://formspree.io/eduardomena3+kw1mxitb7j96gysi1hz8@boards.trello.com" method="POST" id="cambios-form">
+    <label for=cambios>¿Qué cambios propone para esta página?</label>
+    <p>Todos los campos son requeridos. Los mensajes que no tengan toda la información solicitada serán ignorados por el servidor. Si provee une email incorrecto no podremos avisarle cuando los cambios estén listos.</p>
+    <br/>
+    <div class="textarea">
+      <textarea name="cambios" id="cambios" wrap="off" cols="30" rows="30" data-validation="length" data-validation-length="min1"></textarea>
+    </div>
+    <div class="half">
+      <label for="solicitante">¿Cuál es su nombre?</label>
+      <input type="text" name="solicitante" id="solicitante" data-validation="length" data-validation-length="min1" />
+    </div>
+    <div class="half">
+      <label for="solicitante">¿Cuál es su email?</label>
+      <input type="text" name="solicitante-email" id="solicitante-email" data-validation="email"/>
+    </div>
+    <br/>
+    <input type="hidden" name="_subject" value="Cambios en <%= producto.titulo %>" />
+    <input type="hidden" name="_next" value="/<%= producto.titulo.parameterize %>/mensaje-enviado.html" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <div></div>
+    <div style="width: 100%; float: left;">
+      <input type="submit" value="Enviar" />
+    </div>
+    <p><small>Sólamente recibiremos los cambios solicitados por medio de este form</small></p>
+  </form>
+</div>
