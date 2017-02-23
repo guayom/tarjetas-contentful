@@ -133,6 +133,8 @@ th{
   -webkit-box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
   -moz-box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
   box-shadow: 3px 3px 3px -2px rgba(0,0,0,0.75);
+  -webkit-transition: right 0.5s;
+  transition: right 0.5s;
   label{
     display: block;
     font-weight: bold;
