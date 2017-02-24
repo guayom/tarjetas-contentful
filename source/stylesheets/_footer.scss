@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f7f7f7;
+  padding: 2rem;
+  text-align: center;
+  min-height: 130px;
+}
+
+.footer__logo {
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("../images/logo-icon.png") no-repeat center 0;
+  background-size: cover;
+  margin: 0 auto 20px;
+  height: 3.3rem;
+  width: 5rem;
+}
+.disclaimer{
+  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
