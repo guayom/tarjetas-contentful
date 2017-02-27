@@ -1,6 +1,7 @@
 ---
 layout: revision
 ---
+<a href="<%= producto.form %>" class="form-link" target="_blank">Ir al formulario</a>
 <%= partial "partials/revision/form.erb" , :locals => {:producto => producto}%>
 <% @centered = centered_row(producto['variacion'].count).html_safe %>
 <table>
