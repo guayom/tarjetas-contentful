@@ -5,7 +5,7 @@ title: Índice
 <p>En esta página encontrará todas las tarjetas de Credomatic. Para ver los detalles de cada una, haga click en el nombre en la columna de la izquierda.</p>
 <table>
   <tbody>
-    <% data.tarjetas.productos.each do |producto| %>
+    <% data.tarjetas.productos.sort_by{|producto| producto[1].titulo}.each do |producto| %>
       <tr>
         <td>
           <a href="/<%= producto[1].titulo.parameterize %>.html"><%= producto[1].titulo %></a>
