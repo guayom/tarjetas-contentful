@@ -91,6 +91,7 @@
   - :id: PhJwadEQogqU6YEiOA8yw
     :titulo: Pricesmart
     :reglas: |-
+      10% sobre el cargo automático de la membrecia PriceSmart.
       4% Por compras en la página web de PriceSmart.
       3% Aerolíneas, hoteles y restaurantes.
       2% Compras en PriceSmart.
@@ -129,7 +130,9 @@
   :maximoDeAcumulacion: "$500 anuales"
   :minimoDeRedencion: No hay
   :costoDeRedencion: Gratis
-  :metodoDeRedencion: Club de compras PriceSmart por artículos seleccionados
+  :metodoDeRedencion: |-
+    Club de compras PriceSmart por artículos seleccionados.
+    10% sobre el cargo automático de la membrecia PriceSmart.
 :requisitos:
 - Cédula de identidad
 - Orden patronal
