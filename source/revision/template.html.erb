@@ -26,7 +26,7 @@ layout: revision
       <th width="20%">Límite de crédito</th>
       <% producto['variacion'].sort_by { |k| k.emisor.nombre}.each do |variacion| %>
         <td>
-          <%= [number_to_currency(variacion['color']['salarioMinimo'], :precision => 0), number_to_currency(variacion['color']['limiteMaximoDeCredito'], :precision => 0)].join(' - ') %>
+          <%= [number_to_currency(variacion['color']['limiteMinimoDeCredito'], :precision => 0), number_to_currency(variacion['color']['limiteMaximoDeCredito'], :precision => 0)].join(' - ') %>
         </td>
       <% end %>
     </tr>
