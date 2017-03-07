@@ -1,0 +1,95 @@
+.card-row {
+
+  ul {
+    @include grid-container;
+    @include grid-collapse;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    @include grid-column(3);
+    background: $gris-claro;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+  }
+
+  h2 {
+    color: $gris-mas-oscuro;
+    display: inline-block;
+    font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans','Tahoma','sans-serif';
+    font-size: 30px;
+    margin: .8em 0 .3em;
+    padding: 0;
+
+    &::after {
+      content: '\2022';
+      margin: 0 10px;
+    }
+  }
+
+  h3 {
+    color: $gris-mas-oscuro;
+    display: inline-block;
+    font-family: 'Helvetica Neue',Helvetica,Roboto,Arial,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  h4 {
+    color: $gris-mas-oscuro;
+    line-height: 1.4;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 8px;
+    box-shadow: 2px 0 4px 0 $shadow-color;
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    color: $gris-mas-oscuro;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-size: .86em;
+    font-weight: normal;
+    text-align: left;
+  }
+
+  .oneliner {
+    color: $gris-oscuro;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 10px 0;
+  }
+
+  a {
+    color: $rojo2;
+    display: inline-block;
+    font-size: 0.86em;
+    font-weight: 400;
+    margin: 15px 0 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .btn {
+    background: $rojo2;
+    color: $blanco;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+  }
+}

@@ -147,6 +147,10 @@
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 - :id: 2RM0wcuF9KswkW00iGymuA
   :titulo: AAdvantage Platino Master Card
+  :arte:
+    :title: AAdvantage Platino Master Card
+    :description: AAdvantage Platino Master Card
+    :url: "//images.contentful.com/9cds0lha1plv/5TGNErj4mAeESY06UqSc4W/827bdec60a71f6ec1a06e3189bd65472/cr-tarjeta-aadvantage-prestige-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -262,3 +266,4 @@
 - millas
 :form: https://www.baccredomatic.com/es-cr/form/256
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_aadvantage.pdf
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-aadvantage-de-credomatic

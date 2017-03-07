@@ -11,9 +11,9 @@
     :description: 
     :url: "//images.contentful.com/9cds0lha1plv/1Xjd5UJN00SgGoSekyGOem/4077455b774e4f6ceac11165c1b218c6/cr-tarjeta-incae-amex.png"
   :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
+    :id: 69dy30Rs3YMQ6iwmWuwsoG
+    :titulo: Black (Incae)
+    :limiteMinimoDeCredito: 3500
     :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
     :salarioMaximo: 10000000
@@ -39,13 +39,15 @@
 - :id: 46z22AqYOQCESW8sCyaWSa
   :titulo: Descuentos y beneficios para clientes American Express por medio de www.pasaporteamex.com
 - :id: 6T7O85jzEsgmgEkQm4Es4M
-  :titulo: Acceso a la sala Juan Santamaría VIP
+  :titulo: Acceso a la sala Santamaría VIP
+- :id: 2Ekq2O0zxm0uuAKGkyQUSS
+  :titulo: Acceso preferencial en sucursales BAC San José
 :monedas:
 - Dólares
 - Colones
 :planDeLealtad:
   :id: 2p1EMiHxXuGK2ucuUC6ikI
-  :titulo: Incae
+  :titulo: Enjoy
   :unidadDeAcumulacion: Puntos
   :vencimientoDePuntos: 2 años móviles
   :reglasDeAcumulacion:
@@ -116,3 +118,4 @@
 - tarjeta
 :form: https://www.baccredomatic.com/es-cr/form/2191
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_incae_1016.pdf
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/incae-american-express

@@ -30,9 +30,9 @@
   - "$"
 :beneficiosGenerales:
 - :id: 6dJ2ZnYJKEusosqI2mYc8
-  :titulo: Acceso a Juan Santamaría VIP para el titular y el adicional
-- :id: 1iftFq5CUOymyqsaISy6I8
-  :titulo: Servicio de Concierge Travel & living
+  :titulo: Acceso a la sala Santamaría VIP para el titular y el adicional
+- :id: 5ljBHcP1jaiSoqywMSokcK
+  :titulo: Servicio de Concierge Travel & living por medio del número 2295-9100
 - :id: 3diK7nct2gq0g4ycoG4C0i
   :titulo: Servicio preferencial en sucursales BAC al presentar la tarjeta de crédito
 - :id: 6ZYlTfseFqqgiyugS0Uic
@@ -78,7 +78,7 @@
       :tasaPreferencialDolares: 2.5
       :tasaNormalColones: 4.16
       :tasaNormalDolares: 2.5
-  :maximoDeAcumulacion: "₡250.000 colones anuales"
+  :maximoDeAcumulacion: "₡1.500.000 colones anuales"
   :minimoDeRedencion: "₡15.000 colones"
   :costoDeRedencion: Gratis
   :metodoDeRedencion: |-
@@ -87,8 +87,6 @@
     Sucursal Electrónica (sin costo)
 
     Toda solicitud de cambios en colones CashBack tiene un costo de $3 por transacción.
-
-    Puede solicitar una Check Marketing
 :requisitos:
 - Cédula de identidad
 - Orden patronal
@@ -120,3 +118,4 @@
 - mastercard
 :form: https://www.baccredomatic.com/es-cr/form/3686
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_cashbackpremium_211016.pdf
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-cashback-premium

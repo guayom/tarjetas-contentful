@@ -1,0 +1,7 @@
+<% @tarjeta = data.tarjetas.productos.find{|t| t[1]['titulo'] == tarjeta[0] }[1] %>
+<h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><% else %><%= tarjeta[3] %><% end %></h4>
+<img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
+<p class="oneliner"><%= tarjeta[1] %></p>
+<p><%= tarjeta[2] %></p>
+<a href="<%= @tarjeta['productPage'] %>" class="btn">Más info aquí</a>
+<a href="<%= @tarjeta['form'] %>">Solicitala aquí</a>

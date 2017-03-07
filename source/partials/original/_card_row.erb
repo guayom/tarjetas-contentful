@@ -1,0 +1,9 @@
+<div class="card-row">
+  <h2><%= titulo %></h2>
+  <h3><%= subtitulo %></h3>
+  <ul>
+  <% tarjetas.each do |tarjeta| %>
+    <li><%= partial "partials/original/card", :locals => {tarjeta: tarjeta} %></li>
+  <% end %>
+  </ul>
+</div>

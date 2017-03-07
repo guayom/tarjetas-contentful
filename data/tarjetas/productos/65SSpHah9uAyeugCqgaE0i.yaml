@@ -33,7 +33,7 @@
   :color:
     :id: 5iQbf4T6WW8UWAgqMC8eGG
     :titulo: Platinum
-    :limiteMinimoDeCredito: 5000
+    :limiteMinimoDeCredito: 7500
     :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
     :salarioMaximo: 10000000
@@ -90,7 +90,7 @@
     :colores:
     - :id: 5iQbf4T6WW8UWAgqMC8eGG
       :titulo: Platinum
-      :limiteMinimoDeCredito: 5000
+      :limiteMinimoDeCredito: 7500
       :limiteMaximoDeCredito: 10000
       :salarioMinimo: 1500000
       :salarioMaximo: 10000000
@@ -135,3 +135,4 @@
 - frecuente
 :form: http://www.baccredomatic.com/es-cr/form/2671
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_automercado_17012017.pdf
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/automercado

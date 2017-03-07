@@ -58,8 +58,9 @@
     :titulo: Membresía Priority Pass con 10 accesos gratis para titular y adicional
   - :id: 4b8SUGJMPK0AO6ekGGuEIO
     :titulo: Servicio Concierge Premium (asistencia en cotizaciones, asesorías y reservas)
+      por medio del número 2295-9100
   - :id: 6T7O85jzEsgmgEkQm4Es4M
-    :titulo: Acceso a la sala Juan Santamaría VIP
+    :titulo: Acceso a la sala Santamaría VIP
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
   :costo: 8
   :tipoDeCosto:
@@ -90,8 +91,9 @@
     :titulo: Membresía Priority Pass de cortesía
   - :id: 4b8SUGJMPK0AO6ekGGuEIO
     :titulo: Servicio Concierge Premium (asistencia en cotizaciones, asesorías y reservas)
+      por medio del número 2295-9100
   - :id: 6T7O85jzEsgmgEkQm4Es4M
-    :titulo: Acceso a la sala Juan Santamaría VIP
+    :titulo: Acceso a la sala Santamaría VIP
   :maximoDeAcumulacion: Hasta 30,000 millas LifeMiles
   :costo: 10
   :tipoDeCosto:
@@ -104,11 +106,14 @@
 - :id: 1rZuY1P5H6S0kqqsKsquEa
   :titulo: Cuenta con seguros American Express®
 - :id: 59A2EZHLReE0icCYK8Wow2
-  :titulo: 'Membresía Herts #1, sin costo. Consultas o reservaciones al 2202-3147'
+  :titulo: 'Membresía Hertz #1, sin costo. Consultas o reservaciones al 2202-3147'
 - :id: 4T59WIyjq0cY020GQsUQ22
   :titulo: Viaje con cualquiera de las 29 aerolíneas de Star Alliance
 - :id: 6T7O85jzEsgmgEkQm4Es4M
-  :titulo: Acceso a la sala Juan Santamaría VIP
+  :titulo: Acceso a la sala Santamaría VIP
+- :id: 4b8SUGJMPK0AO6ekGGuEIO
+  :titulo: Servicio Concierge Premium (asistencia en cotizaciones, asesorías y reservas)
+    por medio del número 2295-9100
 :monedas:
 - Dólares
 - Colones
@@ -116,9 +121,7 @@
   :id: 5ISNm7sl8ISuSEUk26EsYW
   :titulo: LifeMiles de Avianca
   :unidadDeAcumulacion: Millas
-  :vencimientoDePuntos: Las millas LifeMiles nunca vencen, siempre que se realice
-    al menos una compra con la tarjeta de crédito al menos una vez durante los próximos
-    24 meses.
+  :vencimientoDePuntos: Cada 18 meses móviles
   :reglasDeAcumulacion:
   - :id: 64Vpwl9O6s2wSeu82i2SG8
     :titulo: Lifemiles Black
@@ -199,3 +202,4 @@
 :form: https://www.baccredomatic.com/es-cr/form/266
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_lifemiles_1016.pdf
 :trminosYCondiciones: https://www.lifemiles.com/esp/lan/all/alldislif.aspx
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-lifemiles-de-credomatic

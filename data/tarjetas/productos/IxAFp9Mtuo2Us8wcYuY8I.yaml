@@ -2,8 +2,83 @@
 :id: IxAFp9Mtuo2Us8wcYuY8I
 :titulo: Gane Premios
 :oneLiner: "¡Tus compras te premian! Acumulá millas canjeables por premios y regalos
-  en más de 600 puntos de venta."
+  en más de 1200 puntos de venta."
 :variacion:
+- :id: 3zmUatBgxycMkC8Kmcg8Cc
+  :titulo: Gane Premios Clásica American Express
+  :arte:
+    :title: Tarjeta GanePremios Clásica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5Y5U3mRi9i640KaSCSWSM8/5c176470dc5be13eb673dae30a196f79/cr-tarjeta-ganepremios-clasica-amex.png"
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 6AulpJymdiCi88CQECyCgw
+  :titulo: Gane Premios Dorada American Express
+  :arte:
+    :title: Tarjeta GanePremios Dorada
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/65arMYwMp2AGmygg4SisMm/bfa4e7d0083995e107fd830b02de9b16/cr-tarjeta-ganepremios-dorada-amex.png"
+  :color:
+    :id: 1IMtYtblSsWyOc0KkgWS8E
+    :titulo: Dorado
+    :limiteMinimoDeCredito: 3000
+    :limiteMaximoDeCredito: 7500
+    :salarioMinimo: 750000
+    :salarioMaximo: 1500000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
+- :id: 34AWwtOxoQkKieyaUMwyA4
+  :titulo: Gane Premios Platino American Express
+  :arte:
+    :title: Tarjeta GanePremios Platino
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/40ufTSwZawWIiagooeysEi/a9e52a55271c16ac0a319c61e48a0e25/cr-tarjeta-ganepremios-platino-amex.png"
+  :color:
+    :id: 3lyNqciAdOMeIagKWeSya6
+    :titulo: Platino
+    :limiteMinimoDeCredito: 7500
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 1500000
+    :salarioMaximo: 10000000
+    :tasaPreferencialColones: 3.7
+    :tasaPreferencialDolares: 2.5
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.5
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :costo: 700
+  :tipoDeCosto:
+  - Costo de administración
+  :monedaDeCosto:
+  - "₡"
 - :id: 1Nlo4b6AI4WWEQQcgyqa2s
   :titulo: Gane Premios Clásica Mastercard
   :arte:
@@ -49,31 +124,6 @@
   :emisor:
     :id: 26udEtcJrCEEySgkqc2KAY
     :nombre: Visa
-  :costo: 700
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "₡"
-- :id: 6AulpJymdiCi88CQECyCgw
-  :titulo: Gane Premios Dorada American Express
-  :arte:
-    :title: Tarjeta GanePremios Dorada
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/65arMYwMp2AGmygg4SisMm/bfa4e7d0083995e107fd830b02de9b16/cr-tarjeta-ganepremios-dorada-amex.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
   :costo: 700
   :tipoDeCosto:
   - Costo de administración
@@ -129,31 +179,6 @@
   - Costo de administración
   :monedaDeCosto:
   - "₡"
-- :id: 34AWwtOxoQkKieyaUMwyA4
-  :titulo: Gane Premios Platino American Express
-  :arte:
-    :title: Tarjeta GanePremios Platino
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/40ufTSwZawWIiagooeysEi/a9e52a55271c16ac0a319c61e48a0e25/cr-tarjeta-ganepremios-platino-amex.png"
-  :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
-  :costo: 700
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "₡"
 - :id: 5YD8eka9mEASMwQE2se62q
   :titulo: Gane Premios Platino Mastercard
   :arte:
@@ -199,31 +224,6 @@
   :emisor:
     :id: 26udEtcJrCEEySgkqc2KAY
     :nombre: Visa
-  :costo: 700
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "₡"
-- :id: 3zmUatBgxycMkC8Kmcg8Cc
-  :titulo: Gane Premios Clásica American Express
-  :arte:
-    :title: Tarjeta GanePremios Clásica
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5Y5U3mRi9i640KaSCSWSM8/5c176470dc5be13eb673dae30a196f79/cr-tarjeta-ganepremios-clasica-amex.png"
-  :color:
-    :id: 5yzbT4gJP2ySGgiwwO80yU
-    :titulo: Clásico
-    :limiteMinimoDeCredito: 600
-    :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
-    :salarioMaximo: 750000
-    :tasaPreferencialColones: 3.84
-    :tasaPreferencialDolares: 2.75
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.75
-  :emisor:
-    :id: 4DMV5aPmOQAyWCIim0yyMU
-    :nombre: American Express
   :costo: 700
   :tipoDeCosto:
   - Costo de administración
@@ -323,3 +323,4 @@
 :form: https://www.baccredomatic.com/es-cr/form/2191
 :reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programaleatad_membership_rewards_2016.pdf
 :comerciosAfiliados: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/millas-gane-premios/catalogo
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/acumula-puntos/tarjetas-gane-premios
