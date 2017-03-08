@@ -1,59 +1,64 @@
 //estilos para el hamburger main-navigation-menu
 
-.navigation-container{
-  position: relative;
+.navigation-container {
   overflow: hidden;
-  @include grid-media($desktop-grid){
+  position: relative;
+
+  @include grid-media($desktop-grid) {
     overflow: visible;
   }
-  input[type=checkbox]{
+
+  input[type=checkbox] {
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0;
+
+    &:checked ~ #hamburger-icon {
+      display: none;
+    }
+    &:checked ~ #x-icon {
       display: block;
+    }
+    &:checked ~ #main-navigation {
+      display: table;
+    }
+    @include grid-media($desktop-grid) {
+      display: none;
+    }
+  }
+
+  .show-menu {
+    background: $gris-claro;
+    border-bottom: solid 1px $blanco;
+    box-sizing: border-box;
+    color: $dorado;
+    display: block;
+    float: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+
+    &::after {
       position: absolute;
       top: 0;
-      right: 100%;
-      &:checked ~ #hamburger-icon{
-          display: none;
-      }
-      &:checked ~ #x-icon{
-          display: block;
-      }
-      &:checked ~ #main-navigation{
-          display: table;
-      }
-      @include grid-media($desktop-grid){
-        display: none;
-      }
-  }
-  .show-menu {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      text-decoration: none;
-      padding: 10px 20px;
-      display: block;
-      float: left;
-      background: $gris-claro;
-      width: 100%;
+      right: 20px;
+      height: 100%;
+      width: 30px;
+      margin-right: 20px;
       color: $dorado;
-      font-size: 20px;
-      position: relative;
-      box-sizing: border-box;
-      font-weight: bold;
-      border-bottom: solid 1px #fff;
-      &:after{
-        position: absolute;
-        top: 0;
-        right: 20px;
-        height: 100%;
-        width: 30px;
-        margin-right: 20px;
-        color: $dorado;
-        line-height: 2em;
-      }
-      @include grid-media($desktop-grid){
+      line-height: 2em;
+    }
+      @include grid-media($desktop-grid) {
         display: none;
       }
   }
 }
-#hamburger-icon{
+#hamburger-icon {
   //display: none;
   $icon-size: 20px;
   width: $icon-size;
@@ -70,7 +75,7 @@
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-  span{
+  span {
     display: block;
     position: absolute;
     height: 3px;
@@ -99,7 +104,7 @@
     top: 14px;
   }
 }
-#x-icon{
+#x-icon {
   position: absolute;
   top: 5px;
   right: 22px;
@@ -110,21 +115,21 @@
   font-weight: bold;
 }
 
-header{
+header {
   @include grid-container;
   position: relative;
 }
-.header-first-row{
+.header-first-row {
   @include grid-container;
   margin-bottom: 20px;
-  .main-logo{
+  .main-logo {
     @include grid-column(12);
     margin-top: 2em;
     @include grid-media($desktop-grid){
       @include grid-column(5);
     }
   }
-  .top-nav{
+  .top-nav {
     display: none;
     @include grid-column(5);
     @include grid-push(2);
@@ -132,7 +137,7 @@ header{
     text-align: right;
     font-size: 0.8em;
     float: right;
-    a{
+    a {
       color: $dorado;
       text-decoration: none;
     }
@@ -141,17 +146,17 @@ header{
       margin-top: 3px;
     }
   }
-  #nuestra-empresa, #country-selector{
+  #nuestra-empresa, #country-selector {
     border-right: solid 1px $azul;
     padding: 0 15px;
   }
-  #country-selector{
+  #country-selector {
     background: #fff;
     border: 0;
     color: $dorado;
     cursor: pointer;
   }
-  #country-selector-menu{
+  #country-selector-menu {
     position: absolute;
     top: 1em;
     border: solid 1px $dorado;
@@ -162,13 +167,13 @@ header{
     list-style: none;
     text-align: left;
     display: none;
-    li{
+    li {
       display: inline-block;
       width: 32%;
       margin: 0;
       padding: 5px;
       box-sizing: border-box;
-      a{
+      a {
         border: solid 1px $dorado;
         text-align: center;
         width: 100%;
@@ -178,7 +183,7 @@ header{
       }
     }
   }
-  .tabs-nav{
+  .tabs-nav {
     list-style: none;
     border: solid 1px $gris-claro;
     border-bottom: 0;
@@ -187,15 +192,15 @@ header{
     padding: 5px;
     display: inline-block;
     font-weight: bold;
-    li{
+    li {
       display: inline-block;
       margin: 5px 10px;
-      &:nth-child(2) > a{
+      &:nth-child(2) > a {
         color: $rojo;
         text-decoration: underline;
       }
     }
-    a{
+    a {
       color: $azul-oscuro;
       font-size: 1em;
       font-family: "Trebuchet MS","Lucida Grande","Lucida Sans","Tahoma","sans-serif";
@@ -203,15 +208,15 @@ header{
     }
   }
 }
-#main-navigation{
+#main-navigation {
   display: none;
   width: 100%;
   z-index: 100;
-  @include grid-media($desktop-grid){
+  @include grid-media($desktop-grid) {
     display: table;
   }
 }
-#main-navigation-menu{
+#main-navigation-menu {
   display: block;
   list-style: none;
   padding: 0;
@@ -220,15 +225,15 @@ header{
   box-sizing: border-box;
   float: left;
   margin: 0;
-  @include grid-media($desktop-grid){
+  @include grid-media($desktop-grid) {
     display: table-row;
     float: none;
     border-bottom: 0;
   }
-  li{
+  li {
     border-bottom: 1px solid #fff;
     position: relative;
-    &:after{
+    &:after {
       content: ">";
       position: absolute;
       top: 0;
@@ -237,11 +242,11 @@ header{
       display: block;
       color: $dorado;
       font-weight: bold;
-      @include grid-media($desktop-grid){
+      @include grid-media($desktop-grid) {
         display: none;
       }
     }
-    @include grid-media($desktop-grid){
+    @include grid-media($desktop-grid) {
       display: table-cell;
       border-right: 1px solid #fff;
       max-width: 14%;
@@ -257,15 +262,15 @@ header{
       }
     }
     ul{
-      @include grid-media($desktop-grid){
+      @include grid-media($desktop-grid) {
         z-index: -1;
       }
     }
-    ul.second-level-menu, ul.third-level-menu{
+    ul.second-level-menu, ul.third-level-menu {
       display: none;
     }
   }
-  a{
+  a {
     text-transform: uppercase;
     text-decoration: none;
     color: $dorado;
@@ -277,7 +282,7 @@ header{
     display: block;
     cursor: pointer;
   }
-  @include grid-media($desktop-grid){
+  @include grid-media($desktop-grid) {
     li{
       a{
         background: $gris-oscuro;
@@ -289,17 +294,17 @@ header{
         text-decoration: none;
         font-weight: 400;
         font-family: 'Helvetica';
-        &:hover{
+        &:hover {
           text-decoration: underline;
           background: #fff;
           color: $rojo2;
         }
-        &:hover ~ ul.second-level-menu{
+        &:hover ~ ul.second-level-menu {
           display: block;
         }
       }
     }
-    ul.second-level-menu{
+    ul.second-level-menu {
       display: none;
       position: absolute;
       top: 100%;
@@ -313,14 +318,14 @@ header{
       -webkit-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
       -moz-box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
       box-shadow: 0px 3px 5px 1px rgba(0,0,0,0.22);
-      li{
+      li {
         display: block;
         padding:0;
         width: 100%;
         max-width: 100%;
         position: relative;
       }
-      a{
+      a {
         background: none;
         color: $gris-oscuro;
         text-align: left;
@@ -331,7 +336,7 @@ header{
           text-decoration: none;
         }
       }
-      .has-sub-items:after{
+      .has-sub-items:after {
         content: ">";
         position: absolute;
         top: 0;
@@ -341,13 +346,13 @@ header{
         color: $gris-oscuro;
         line-height: 1.5em;
       }
-      li.has-sub-items:hover:after{
+      li.has-sub-items:hover:after {
         color: #fff;
       }
     }
   }
 }
-#sucursal-link{
+#sucursal-link {
   background: $azul-oscuro;
   color: #fff;
   font-weight: bold;
@@ -360,7 +365,8 @@ header{
   display: inline-block;
   box-sizing: border-box;
   position: relative;
-  &:after{
+
+  &:after {
     content: ">";
     position: absolute;
     top: 10px;
