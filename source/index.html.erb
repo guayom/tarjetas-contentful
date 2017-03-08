@@ -4,6 +4,14 @@ title: Índice
 ---
 <p>En esta página encontrará todas las tarjetas de Credomatic. Para ver los detalles de cada una, haga click en el nombre en la columna de la izquierda.</p>
 <table>
+  <thead>
+    <tr>
+      <th width="20%">Producto</th>
+      <th width="40%">Plásticos</th>
+      <th width="40%">Links</th>
+    </tr>
+  </thead>
+  </thead>
   <tbody>
     <% data.tarjetas.productos.sort_by{|producto| producto[1].titulo}.each do |producto| %>
       <tr>
@@ -24,6 +32,40 @@ title: Índice
               </li>
             <% end %>
           </ul>
+        </td>
+        <td>
+          <dl>
+            <% unless producto[1].productPage.nil? %>
+              <dt>Página de producto</dt>
+              <dd><small><a href="<%= producto[1].productPage %>"><%= producto[1].productPage %></a></small></dd>
+            <% end %>
+          </dl>
+          <dl>
+            <% unless producto[1].form.nil? %>
+              <dt>Formulario de MAD</dt>
+              <dd><small><a href="<%= producto[1].form %>"><%= producto[1].form %></a></small></dd>
+            <% end %>
+          </dl>
+          <dl>
+            <% if producto[1].formOpa.nil? %>
+              <dt>Formulario en OPA <small>- Genérico</small></dt>
+              <% @formGenerico = "https://www.baccredomatic.com/es-cr/credit-cards/solicitud-de-tarjeta-de-credito" %>
+              <dd><small><a href="<%= @formGenerico %>"><%= @formGenerico %></a></small></dd>
+            <% else %>
+              <dt>Formulario en OPA <small>- Propio</small></dt>
+              <dd><small><a href="<%= producto[1].formOpa %>"><%= producto[1].formOpa %></a></small></dd>
+            <% end %>
+          </dl>
+          <dl>
+            <% if producto[1].thankYouPage.nil? %>
+              <% @typGenerico = "https://www.baccredomatic.com/es-cr/content/solicitud-completa" %>
+              <dt>Thank You Page <small>- Genérica</small></dt>
+              <dd><small><a href="<%= @typGenerico %>"><%= @typGenerico %></a></small></dd>
+            <% else %>
+              <dt>Thank You Page <small>- Propia</small></dt>
+              <dd><small><a href="<%= producto[1].thankYouPage %>"><%= producto[1].thankYouPage %></a></small></dd>
+            <% end %>
+          </dl>
         </td>
       </tr>
     <% end %>

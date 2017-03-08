@@ -1,6 +1,6 @@
 ---
 :id: 1caSD9l0tO08k8qKGKYy6s
-:titulo: Platinum Card
+:titulo: Platinum American Express® de Credomatic
 :oneLiner: Una tarjeta de privilegios insuperables, reservada para quienes exigen
   y aprecian lo mejor de la vida.
 :variacion:
@@ -11,8 +11,8 @@
     :description: 
     :url: "//images.contentful.com/9cds0lha1plv/1KdI3q3h0sgqsCU0eskyes/bf41c9b34082573ec9630512fa96713a/cr-tarjeta-platinumcard-amex.png"
   :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
+    :id: 5iQbf4T6WW8UWAgqMC8eGG
+    :titulo: Platinum
     :limiteMinimoDeCredito: 7500
     :limiteMaximoDeCredito: 10000
     :salarioMinimo: 1500000
@@ -33,11 +33,7 @@
   - "$"
 :beneficiosGenerales:
 - :id: 6T7O85jzEsgmgEkQm4Es4M
-  :titulo: Acceso a la sala Juan Santamaría VIP
-- :id: xGWjHmqZ0sgWWmyMewgWa
-  :titulo: Acceso a The Centurion (SM) Lounge
-- :id: 3uyGlKvURioUAMoiIaUQas
-  :titulo: Servicio de concierge con asesoría grátis
+  :titulo: Acceso a la sala Santamaría VIP
 - :id: 73mPDWO3Vmec86e8GkquQG
   :titulo: 'Traslados de puntos a: LifeMiles®, Iberia Plus®, Delta Skymiles®, SPG
     Starwood Preferred Guest®, Hilton HHonors®'
@@ -46,6 +42,10 @@
     en Costa Rica y Centroamérica)
 - :id: 4b8SUGJMPK0AO6ekGGuEIO
   :titulo: Servicio Concierge Premium (asistencia en cotizaciones, asesorías y reservas)
+    por medio del número 2295-9100
+- :id: 5lf9kh9Hd6YcomSAOICYuC
+  :titulo: 12 Traslados al aeropuerto con cobertura de $35 por evento si compra el
+    tiquete con la tarjeta (aplica en Costa Rica y Centroamérica)
 :monedas:
 - Dólares
 - Colones
@@ -73,8 +73,10 @@
   :maximoDeAcumulacion: 15.000 puntos mensuales
   :minimoDeRedencion: No hay
   :costoDeRedencion: Gratis
-  :metodoDeRedencion: "Socios Internacionales (aerolíneas, cadenas hoteleras..), comercios
-    afiliados y aplicarlo al saldo del estado de cuenta\n\n"
+  :metodoDeRedencion: |+
+    Socios Internacionales (aerolíneas, cadenas hoteleras..), comercios afiliados y aplicarlo al saldo del estado de cuenta.
+    Aplicando al saldo de la tarjeta en estado de cuenta.
+
 :requisitos:
 - Cédula de identidad
 - Orden patronal
@@ -96,12 +98,13 @@
     a un mundo de beneficios y privilegios.
 :metaDescripcion: Disfrute de los multiples beneficios que ofrece los puntos Membership
   Rewards. Conozca más aquí.
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programaleatad_membership_rewards_2016.pdf
+:comerciosAfiliados: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/millas-gane-premios/catalogo
 :metaTags:
 - american express
 - membership rewards
 - tarjeta platino
 - amex
 - la tarjeta platino
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/tarjetas-american-express-platinum-de-credomatic
 :form: https://www.baccredomatic.com/es-cr/form/276
-:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programaleatad_membership_rewards_2016.pdf
-:comerciosAfiliados: https://www.baccredomatic.com/es-cr/tarjetas/credito/programas-de-lealtad/millas-gane-premios/catalogo

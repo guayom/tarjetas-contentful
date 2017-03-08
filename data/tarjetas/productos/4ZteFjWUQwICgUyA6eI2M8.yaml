@@ -39,13 +39,15 @@
 - :id: 46z22AqYOQCESW8sCyaWSa
   :titulo: Descuentos y beneficios para clientes American Express por medio de www.pasaporteamex.com
 - :id: 6T7O85jzEsgmgEkQm4Es4M
-  :titulo: Acceso a la sala Juan Santamaría VIP
+  :titulo: Acceso a la sala Santamaría VIP
+- :id: 2Ekq2O0zxm0uuAKGkyQUSS
+  :titulo: Acceso preferencial en sucursales BAC San José
 :monedas:
 - Dólares
 - Colones
 :planDeLealtad:
   :id: 2p1EMiHxXuGK2ucuUC6ikI
-  :titulo: Incae
+  :titulo: Enjoy
   :unidadDeAcumulacion: Puntos
   :vencimientoDePuntos: 2 años móviles
   :reglasDeAcumulacion:
@@ -107,6 +109,7 @@
     a un mundo de beneficios y privilegios.
 :metaDescripcion: Tarjeta exclusiva para egresados de INCAE Business School. Que le
   brinda 1.5 Puntos Enjoy & 0.5 punto para el fondo patrimonial de Becas de INCAE
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_incae_1016.pdf
 :metaTags:
 - incae
 - business school
@@ -114,5 +117,5 @@
 - tarjeta incae
 - credito
 - tarjeta
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/incae-american-express
 :form: https://www.baccredomatic.com/es-cr/form/2191
-:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_incae_1016.pdf

@@ -40,7 +40,7 @@
 - :id: 2imqXwWgHSyucG2EKGcsmW
   :titulo: Descuentos exclusivos en Privilegios Credomtic
 - :id: 6T7O85jzEsgmgEkQm4Es4M
-  :titulo: Acceso a la sala Juan Santamaría VIP
+  :titulo: Acceso a la sala Santamaría VIP
 - :id: 6ZYlTfseFqqgiyugS0Uic
   :titulo: Inscrito en el programa pasaporte Amex, donde puede disfrutar de descuentos
     en viajes restaurantes, eventos y compras
@@ -75,8 +75,10 @@
   :maximoDeAcumulacion: 15.000 puntos mensuales
   :minimoDeRedencion: No hay
   :costoDeRedencion: Gratis
-  :metodoDeRedencion: "Socios Internacionales (aerolíneas, cadenas hoteleras..), comercios
-    afiliados y aplicarlo al saldo del estado de cuenta\n\n"
+  :metodoDeRedencion: |+
+    Socios Internacionales (aerolíneas, cadenas hoteleras..), comercios afiliados y aplicarlo al saldo del estado de cuenta.
+    Aplicando al saldo de la tarjeta en estado de cuenta.
+
 :requisitos:
 - Cédula de identidad
 - Orden patronal
@@ -99,12 +101,13 @@
     a un mundo de beneficios y privilegios.
 :metaDescripcion: Una de las tarjetas más prestigiosas con multiples beneficios de
   clase mundial. Disfrute de los puntos Membership Rewards. Conozca más aquí.
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programaleatad_membership_rewards_2016.pdf
+:trminosYCondiciones: https://www.baccredomatic.com/sites/default/files/cr_tarjetas_itrcp.pdf
 :metaTags:
 - platino
 - platinum
 - platinum card
 - american express
 - the platinum card
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/estilo-de-vida/the-platinum-card-de-credomatic
 :form: https://www.baccredomatic.com/es-cr/form/281
-:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_programaleatad_membership_rewards_2016.pdf
-:trminosYCondiciones: https://www.baccredomatic.com/sites/default/files/cr_tarjetas_itrcp.pdf
