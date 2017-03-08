@@ -189,3 +189,37 @@ layout: revision
     <% end %>
   </tbody>
 </table>
+
+<h3>Links</h3>
+<dl>
+  <% unless producto.productPage.nil? %>
+    <dt>Página de producto</dt>
+    <dd><small><a href="<%= producto.productPage %>"><%= producto.productPage %></a></small></dd>
+  <% end %>
+</dl>
+<dl>
+  <% unless producto.form.nil? %>
+    <dt>Formulario de MAD</dt>
+    <dd><small><a href="<%= producto.form %>"><%= producto.form %></a></small></dd>
+  <% end %>
+</dl>
+<dl>
+  <% if producto.formOpa.nil? %>
+    <dt>Formulario en OPA <small>- Genérico</small></dt>
+    <% @formGenerico = "https://www.baccredomatic.com/es-cr/credit-cards/solicitud-de-tarjeta-de-credito" %>
+    <dd><small><a href="<%= @formGenerico %>"><%= @formGenerico %></a></small></dd>
+  <% else %>
+    <dt>Formulario en OPA <small>- Propio</small></dt>
+    <dd><small><a href="<%= producto.formOpa %>"><%= producto.formOpa %></a></small></dd>
+  <% end %>
+</dl>
+<dl>
+  <% if producto.thankYouPage.nil? %>
+    <% @typGenerico = "https://www.baccredomatic.com/es-cr/content/solicitud-completa" %>
+    <dt>Thank You Page <small>- Genérica</small></dt>
+    <dd><small><a href="<%= @typGenerico %>"><%= @typGenerico %></a></small></dd>
+  <% else %>
+    <dt>Thank You Page <small>- Propia</small></dt>
+    <dd><small><a href="<%= producto.thankYouPage %>"><%= producto.thankYouPage %></a></small></dd>
+  <% end %>
+</dl>
