@@ -19,6 +19,7 @@ table {
   border-collapse: collapse;
   border-spacing: 2px;
   display: table;
+  table-layout: fixed;
   width: 100%;
 
   tr {
@@ -30,12 +31,28 @@ thead {
   border-color: inherit;
   display: table-header-group;
   vertical-align: middle;
+
+  tr {
+    display: table-row;
+    position: relative;
+    }
 }
 
 tbody {
   border-color: inherit;
   display: table-row-group;
+  height: 1vh;
   vertical-align: middle;
+  overflow: auto;
+  width: 100%;
+
+  tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  td:last-child {
+    vertical-align: top;
+  }
 }
 
 tfoot {
