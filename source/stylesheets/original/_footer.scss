@@ -1,0 +1,166 @@
+footer {
+  background: $gris-claro;
+  padding: 15px 0 30px;
+
+  h4 {
+    background: none;
+    color: $azul-oscuro;
+    font-family: $trebuschet;
+    font-size: .9em;
+    font-weight: 400;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    list-style: none;
+    width: 100%;
+    background: none;
+    float: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+      color: $dorado;
+      cursor: pointer;
+      font-size: 11.2px;
+      line-height: 24px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: $trebuschet;
+    }
+  }
+
+  .fa {
+    font-size: 4em;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-mobile-channels {
+    li {
+      box-sizing: border-box;
+      display: block;
+      float: left;
+      padding: 0 .625rem .4rem;
+      text-align: center;
+      width: 50%;
+    }
+
+    figure {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .footer-wrapper {
+    @include grid-container;
+    @include grid-media($desktop-grid){
+      @include grid-collapse;
+    }
+  }
+
+  .footer-column {
+    @include grid-media($desktop-grid){
+      @include grid-column(3);
+    }
+  }
+}
+
+.footer-sociallinks {
+  li {
+    display: inline-block;
+    width: auto;
+  }
+
+  a {
+    display: block;
+    color: $blanco;
+    background: $facebook;
+    border-radius: 8px;
+    font-size: 0.6em;
+    margin-right: 10px;
+    padding: 5px;
+    width: 3em;
+
+    &.twitter {
+      background: $twitter;
+    }
+
+    &.youtube {
+      background: $youtube;
+    }
+  }
+
+  .fa {
+    font-size: 3em;
+  }
+}
+
+.legal-footer {
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1260px;
+
+  span {
+    float: right;
+    text-align: right;
+  }
+}
+
+.footer-legalslinks {
+  width: 30%;
+
+  li {
+    text-transform: uppercase;
+    display: inline;
+    float: none;
+    padding: 0;
+    line-height: 9.8px;
+    height: 9.8px;
+    margin: 0;
+
+    &:after {
+      content: '|';
+      padding: 0 3px;
+      box-sizing: border-box;
+    }
+
+    &:last-child:after {
+      content: '';
+    }
+  }
+
+  a {
+    cursor: pointer;
+    color: $azul-oscuro;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 9.8px;
+    line-height: 9.8px;
+    line-height: 9.8px;
+    margin: 0;
+  }
+}
+
+.footer-legals-legend {
+  font-family: $trebuschet;
+  font-size: .7em;
+  color: $gris-oscuro;
+  text-transform: uppercase;
+}
+
+.footer-container {
+  margin: 0 auto;
+  //max-width: 1260px;
+  box-sizing: border-box;
+}

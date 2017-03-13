@@ -23,9 +23,12 @@
 </head>
 
 <body>
-  <%= partial 'partials/original/header' %>
-  <%= partial 'partials/original/breadcrumbs' %>
-  <%= yield %>
+  <div class="main-wrapper">
+    <%= partial 'partials/original/header' %>
+    <%= partial 'partials/original/breadcrumbs' %>
+    <%= yield %>
+  </div>
+  <%= partial 'partials/original/footer' %>
 </body>
 
 </html>
