@@ -78,6 +78,11 @@ $mobile-grid: (
   gutter: 20px,
   media: 480px
 );
+$tablet-wide-grid: (
+  columns: 12,
+  gutter: 40px,
+  media: 1028px
+);
 $desktop-grid: (
   columns: 12,
   gutter: 40px,

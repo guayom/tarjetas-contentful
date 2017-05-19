@@ -29,7 +29,7 @@
   }
 
   .show-menu {
-    background: $gris-claro;
+    background: $azul-oscuro;
     border-bottom: solid 1px $blanco;
     box-sizing: border-box;
     color: $dorado;
@@ -53,9 +53,9 @@
       color: $dorado;
       line-height: 2em;
     }
-      @include grid-media($desktop-grid) {
-        display: none;
-      }
+    @include grid-media($desktop-grid) {
+      display: none;
+    }
   }
 }
 #hamburger-icon {
@@ -125,6 +125,10 @@ header {
   .main-logo {
     @include grid-column(12);
     margin-top: 2em;
+    @include grid-media($tablet-wide-grid){
+      @include grid-column(6);
+      @include grid-push(3);
+    }
     @include grid-media($desktop-grid){
       @include grid-column(5);
     }
