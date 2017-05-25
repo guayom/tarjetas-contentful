@@ -2,18 +2,34 @@
 
   ul {
     @include grid-container;
-    @include grid-collapse;
+
+    @include grid-media($tablet-wide-grid){
+      @include grid-collapse;
+    }
+    @include grid-media($desktop-grid){
+      @include grid-collapse;
+    }
+
     list-style: none;
+    margin: 0;
     padding: 0;
   }
 
   li {
-    @include grid-column(3);
+    @include grid-column(12);
+
+    @include grid-media($tablet-wide-grid){
+      @include grid-column(4);
+    }
+    @include grid-media($desktop-grid){
+      @include grid-column(3);
+    }
     background: $gris-claro;
     box-sizing: border-box;
     display: block;
     padding: 15px 25px;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   h2 {
@@ -24,9 +40,11 @@
     margin: .8em 0 .3em;
     padding: 0;
 
-    &::after {
-      content: '\2022';
-      margin: 0 10px;
+    @include grid-media($tablet-wide-grid){
+      &::after {
+        content: '\2022';
+        margin: 0 10px;
+      }
     }
   }
 
@@ -93,5 +111,22 @@
     padding: 10px 0;
     text-align: center;
     text-decoration: none;
+  }
+}
+
+.title-line {
+  @include grid-column(12);
+  margin-bottom: 25px;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  @include grid-media($tablet-wide-grid){
+    text-align: left;
+  }
+  @include grid-media($desktop-grid){
+    text-align: left;
   }
 }

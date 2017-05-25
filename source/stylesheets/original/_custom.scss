@@ -1,0 +1,42 @@
+.head-side-menu a.link-sec-login {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  width: 232px;
+  text-align: left;
+  background: #394457;
+  padding: 10px;
+  text-transform: uppercase;
+  height: 35px;
+}
+
+.head-side-menu .head-countries {
+  &.show {
+    display: block;
+  }
+}
+
+.head-side-menu div.link-al-sec-movil {
+  width: 100%;
+  a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    background: #394457;
+  }
+}
+
+.top-bar{
+  h1 {
+    z-index: 1;
+    background: green;
+  }
+  .toggle-topbar {
+    z-index: 2;
+    cursor: pointer;
+  }
+  .expanded {
+    height: auto;
+  }
+}
