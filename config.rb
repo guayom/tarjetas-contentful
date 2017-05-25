@@ -32,6 +32,7 @@ end
 
 set :markdown_engine, :redcarpet
 #set :markdown, parse_block_html: true
+activate :directory_indexes
 
 # Reload the browser automatically whenever files change
 configure :development do
