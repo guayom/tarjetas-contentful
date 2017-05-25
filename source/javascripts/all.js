@@ -10,7 +10,10 @@ $(document).ready(function(){
   });
 
   $('.toggle-topbar a').click(function(){
-    console.log('hola');
     $('.top-bar').toggleClass('expanded');
+  });
+
+  $('.header-select-country').change(function(){
+    window.location.replace("https://www.baccredomatic.com/" + $(this).val())
   });
 });

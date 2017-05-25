@@ -30,7 +30,10 @@
 .top-bar{
   h1 {
     z-index: 1;
-    background: green;
+    margin: 0;
+    font-size: 2em;
+    line-height: 1em;
+    margin-left: 20px;
   }
   .toggle-topbar {
     z-index: 2;
@@ -39,4 +42,8 @@
   .expanded {
     height: auto;
   }
+}
+
+.head-side-menu div.link-al-sec-movil {
+  padding: 0;
 }
