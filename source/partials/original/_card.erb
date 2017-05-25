@@ -2,6 +2,12 @@
 <h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><% else %><%= tarjeta[3] %><% end %></h4>
 <img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
 <p class="oneliner"><%= tarjeta[1] %></p>
-<p><%= tarjeta[2] %></p>
+<p>
+<% if formato == "ingreso-minimo" %>
+   <%= "Ingreso mínimo requerido: &#8353;" + number_with_delimiter(@tarjeta.variacion[0]['color']['salarioMinimo'].to_i, :delimiter => '.').to_s %>
+<% else %>
+  <% tarjeta[2] %>
+<% end %>
+</p>
 <a href="<%= @tarjeta['productPage'] %>" class="btn">Más info aquí</a>
 <a href="<%= @tarjeta['form'] %>">Solicitala aquí</a>
