@@ -16,6 +16,8 @@
 }
 
 .hero-button {
+  padding: 0 20px;
+  margin-top: 30px;
 
   a {
     display: block;
@@ -26,12 +28,16 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 15px;
+    text-align: center;
   }
 
   @include grid-media($desktop-grid) {
+    padding: 0;
+    margin-top: 0;
     position: absolute;
     bottom: 70px;
     left: 65px;
+    text-align: left;
   }
 }

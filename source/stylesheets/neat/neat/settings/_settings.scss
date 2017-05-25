@@ -73,9 +73,14 @@ $neat-grid: () !default;
 
 $neat-custom-grid: () !default;
 
+$mobile-small: (
+  columns: 12,
+  gutter: 8px,
+  media: 320px
+);
 $mobile-grid: (
   columns: 12,
-  gutter: 20px,
+  gutter: 8px,
   media: 480px
 );
 $tablet-wide-grid: (
