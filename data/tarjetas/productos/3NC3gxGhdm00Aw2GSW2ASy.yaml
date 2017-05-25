@@ -1,0 +1,20 @@
+---
+:id: 3NC3gxGhdm00Aw2GSW2ASy
+:titulo: Blue
+:variacion:
+- :id: 2jDbdRnSXeeOSyqmAIAkO4
+  :titulo: Tarjeta BLUE American Express® de Credomatic
+  :arte:
+    :title: Tarjeta BLUE
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/5JTnVV6QJaO8yE4esuqQMM/9d696e69e8a0fefa92d0c496d083be29/cr-tarjeta-Blue-amex.jpg"
+  :color:
+    :id: 11teHRuSrWUywUiAsMGewQ
+    :titulo: Blue
+    :limiteMinimoDeCredito: 250000
+    :limiteMaximoDeCredito: 10000
+    :salarioMinimo: 335000
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+:form: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud/blue

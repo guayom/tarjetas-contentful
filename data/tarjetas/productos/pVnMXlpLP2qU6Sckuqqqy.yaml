@@ -54,7 +54,7 @@
     :nombre: American Express
   :beneficiosEspecificos:
   - :id: 3mkKok3xYkc28IS2iiQCq4
-    :titulo: 3.000 millas de bienvenida
+    :titulo: 5.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
@@ -89,77 +89,18 @@
   - Costo de administración
   :monedaDeCosto:
   - "$"
-- :id: 5jIEFamnQAeoeiASS6Wsou
-  :titulo: Millas Plus Dorada Master Card
-  :arte:
-    :title: Millas Plus Dorada Master Card
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5w5qISHupyyQymkyIeceUy/efded1bdc622747d61ccf4d675ba8b47/cr-tarjeta-millasplus-dorada-mc.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 54Q7cV0sGQUEWMsc6seOiy
-    :nombre: Master Card
-  :beneficiosEspecificos:
-  - :id: dRUOKCXt1CMeAi6SwaSCO
-    :titulo: 1.500 millas de bienvenida
-  :maximoDeAcumulacion: 22.000 millas
-  :costo: 5
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "$"
-- :id: 79pXCsdYE8SCCYuOSCWqYq
-  :titulo: Millas Plus Dorada Visa
-  :arte:
-    :title: Millas Plus Dorada Visa
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/DviG7qr4nQgyii2ioUI0Y/07e5649d8d1e9eabfadd19eddf74b708/cr-tarjeta-millasplus-dorada-visa.png"
-  :color:
-    :id: 1IMtYtblSsWyOc0KkgWS8E
-    :titulo: Dorado
-    :limiteMinimoDeCredito: 3000
-    :limiteMaximoDeCredito: 7500
-    :salarioMinimo: 750000
-    :salarioMaximo: 1500000
-    :tasaPreferencialColones: 3.7
-    :tasaPreferencialDolares: 2.5
-    :tasaNormalColones: 4.16
-    :tasaNormalDolares: 2.5
-  :emisor:
-    :id: 26udEtcJrCEEySgkqc2KAY
-    :nombre: Visa
-  :beneficiosEspecificos:
-  - :id: dRUOKCXt1CMeAi6SwaSCO
-    :titulo: 1.500 millas de bienvenida
-  :maximoDeAcumulacion: 22.000 millas
-  :costo: 5
-  :tipoDeCosto:
-  - Costo de administración
-  :monedaDeCosto:
-  - "$"
 - :id: 6BFFXUQlmEw0qgIEmkoOKA
-  :titulo: Millas Plus Platino Master Card
+  :titulo: 'Millas Plus Master Card Black '
   :arte:
-    :title: Millas Plus Platino Master Card
+    :title: Millas Plus Master Card Black
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/5WgWiralkAuUKQIkaG8MoK/138e9775b336d63adcc3016d1ef6e271/cr-tarjeta-millasplus-platino-mc.png"
+    :url: "//images.contentful.com/9cds0lha1plv/F0ePRjKMqkwk4sei0YGcg/0d9283d7774f70449435431aa49dfde3/cr-tarjeta-millasplus-infinite-mc.png"
   :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
     :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16
@@ -169,7 +110,7 @@
     :nombre: Master Card
   :beneficiosEspecificos:
   - :id: 3mkKok3xYkc28IS2iiQCq4
-    :titulo: 3.000 millas de bienvenida
+    :titulo: 5.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
@@ -177,18 +118,17 @@
   :monedaDeCosto:
   - "$"
 - :id: 5r5rzDPW8gasKIUKMIequO
-  :titulo: Millas Plus Platino Visa
+  :titulo: Millas Plus Visa Infinite
   :arte:
-    :title: Millas Plus Platino Visa
+    :title: Millas Plus Visa Infinite
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/1DRR3tOr3CmQEk8sgsugag/2f1f9974f985d09bef5f1b29c24a9024/cr-tarjeta-millasplus-platino-visa.png"
+    :url: "//images.contentful.com/9cds0lha1plv/5bgYStUMiQUAwYocgA06EA/4b8a59ebc9c81819466a2bf5651cf034/cr-tarjeta-millasplus-infinite-visa.png"
   :color:
-    :id: 3lyNqciAdOMeIagKWeSya6
-    :titulo: Platino
-    :limiteMinimoDeCredito: 7500
-    :limiteMaximoDeCredito: 10000
+    :id: 5d3gXbuveoIUAWCA4yQsGm
+    :titulo: Black
+    :limiteMinimoDeCredito: 10000
+    :limiteMaximoDeCredito: 100000
     :salarioMinimo: 1500000
-    :salarioMaximo: 10000000
     :tasaPreferencialColones: 3.7
     :tasaPreferencialDolares: 2.5
     :tasaNormalColones: 4.16
@@ -198,7 +138,7 @@
     :nombre: Visa
   :beneficiosEspecificos:
   - :id: 3mkKok3xYkc28IS2iiQCq4
-    :titulo: 3.000 millas de bienvenida
+    :titulo: 5.000 millas de bienvenida
   :maximoDeAcumulacion: 30.000 millas
   :costo: 8
   :tipoDeCosto:
@@ -302,6 +242,7 @@
     en hoteles y renta de automóviles.
 :metaDescripcion: Tarjeta dirigida a las personas que les gusta viajar y prefieren
   tener la libertad de escoger la aerolínea y la fecha en que viajan. Solicítala Aquí.
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_acumulacion_millasplus_com_11_2016.pdf
 :metaTags:
 - millas plus
 - millas
@@ -311,6 +252,5 @@
 - aerolineas
 - tiquetes
 - pasajes
-:form: https://www.baccredomatic.com/es-cr/form/271
-:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_acumulacion_millasplus_com_11_2016.pdf
 :productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/beneficios-para-viajes/tarjetas-millas-plus-de-credomatic
+:form: https://www.baccredomatic.com/es-cr/form/271
