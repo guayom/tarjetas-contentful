@@ -4,8 +4,15 @@
     <h3><%= subtitulo %></h3>
   </div>
   <ul>
+  <%
+  if defined? formato
+    @formato =  formato
+  else
+    @formato = "none"
+  end
+  %>
   <% tarjetas.each do |tarjeta| %>
-    <li><%= partial "partials/original/card", :locals => {tarjeta: tarjeta, formato: formato} %></li>
+    <li><%= partial "partials/original/card", :locals => {tarjeta: tarjeta, formato: @formato} %></li>
   <% end %>
   </ul>
 </div>

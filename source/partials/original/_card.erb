@@ -6,7 +6,7 @@
 <% if formato == "ingreso-minimo" %>
    <%= "Ingreso mínimo requerido: &#8353;" + number_with_delimiter(@tarjeta.variacion[0]['color']['salarioMinimo'].to_i, :delimiter => '.').to_s %>
 <% else %>
-  <% tarjeta[2] %>
+  <%= tarjeta[2] %>
 <% end %>
 </p>
 <a href="<%= @tarjeta['productPage'] %>" class="btn">Más info aquí</a>
