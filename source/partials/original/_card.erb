@@ -1,6 +1,8 @@
 <% @tarjeta = data.tarjetas.productos.find{|t| t[1]['titulo'] == tarjeta[0] }[1] %>
 <h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><% else %><%= tarjeta[3] %><% end %></h4>
-<img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
+<% unless @tarjeta['variacion'].nil? %>
+  <img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
+<% end %>
 <p class="oneliner"><%= tarjeta[1] %></p>
 <p>
 <% if formato == "ingreso-minimo" %>
