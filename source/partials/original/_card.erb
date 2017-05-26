@@ -5,10 +5,12 @@
 <% end %>
 <p class="oneliner"><%= tarjeta[1] %></p>
 <p>
-<% if formato == "ingreso-minimo" %>
-   <%= "Ingreso mínimo requerido: &#8353;" + number_with_delimiter(@tarjeta.variacion[0]['color']['salarioMinimo'].to_i, :delimiter => '.').to_s %>
-<% else %>
-  <%= tarjeta[2] %>
+<% unless @tarjeta['variacion'].nil? %>
+  <% if formato == "ingreso-minimo" %>
+     <%= "Ingreso mínimo requerido: &#8353;" + number_with_delimiter(@tarjeta.variacion[0]['color']['salarioMinimo'].to_i, :delimiter => '.').to_s %>
+  <% else %>
+    <%= tarjeta[2] %>
+  <% end %>
 <% end %>
 </p>
 <a href="<%= @tarjeta['productPage'] %>" class="btn">Más info aquí</a>
