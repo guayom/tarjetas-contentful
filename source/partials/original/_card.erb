@@ -5,7 +5,9 @@
 
 <h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><% else %><%= tarjeta[3] %><% end %></h4>
 <% unless @tarjeta['variacion'].nil? %>
-  <img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
+  <a href="<%= @tarjeta['productPage'] %>">
+    <img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=200" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
+  </a>
 <% end %>
 <p class="oneliner"><%= tarjeta[1] %></p>
 <p>
