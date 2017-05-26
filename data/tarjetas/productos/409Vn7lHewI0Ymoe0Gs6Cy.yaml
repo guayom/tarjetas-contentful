@@ -1,0 +1,106 @@
+---
+:id: 409Vn7lHewI0Ymoe0Gs6Cy
+:titulo: Club La Nación
+:oneLiner: Obtené acceso a eventos exclusivos en Parque Viva y múltiples promociones.
+:variacion:
+- :id: y6ssXi0Uh2qE4IMaiciSQ
+  :titulo: Club La Nación Clásica  American Express
+  :arte:
+    :title: Tarjeta Nacion Clasica
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/1EAjv1bjjy28MaqUeMqqeM/a7f7ee90a41e2ff26def673e94267f10/cr-tarjeta-club-nacion-amex.png"
+  :color:
+    :id: 5yzbT4gJP2ySGgiwwO80yU
+    :titulo: Clásico
+    :limiteMinimoDeCredito: 600
+    :limiteMaximoDeCredito: 2999
+    :salarioMinimo: 325000
+    :salarioMaximo: 750000
+    :tasaPreferencialColones: 3.84
+    :tasaPreferencialDolares: 2.75
+    :tasaNormalColones: 4.16
+    :tasaNormalDolares: 2.75
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+  :retoDeFacturacion: '0'
+  :maximoDeAcumulacion: "¢250.000 Puntos Viva Anuales"
+  :costo: 0
+:beneficiosGenerales:
+- :id: 3ATHSSGNvieCiocQkAY8aO
+  :titulo: Acceso a eventos exclusivos para socios y familiares de Club La Nación
+    en Parque Viva
+- :id: 5l4yZ1jw1aM48omEoGeIUY
+  :titulo: Redención de Puntos Viva por compra de Productos de Grupo Nación, en eventos
+    Parque Viva y en los comercios afiliados
+- :id: 5KHnqpVEOW8gQIogG42OEy
+  :titulo: Dispositivo Compass de cortesía
+- :id: 3qKYb0w6wEUce4c8QyKua6
+  :titulo: Descuentos superiores al 20% en más de 150 comercios
+- :id: 4jesB544vSQoWGaSK8I4Ai
+  :titulo: Beneficios en la plataforma de BAC Beneficios y Mipromo.com
+- :id: 6LcQ4wi0wMey4aOE4gicc0
+  :titulo: Acceso a Momentos Credomatic (No aplica Tasa Cero ni Minicuotas)
+:monedas:
+- Dólares
+- Colones
+:planDeLealtad:
+  :id: 6nJUqjRkha4Ugkc4kuIUgS
+  :titulo: Puntos Viva
+  :unidadDeAcumulacion: Puntos Viva
+  :vencimientoDePuntos: Cada 2 años móviles
+  :reglasDeAcumulacion:
+  - :id: 3wPQ06fWyAqc8Ka4iUCkQO
+    :titulo: Nación
+    :reglas: "3% en supermercados. \n2% en farmacias. \n1 % en gasolineras, tiendas
+      por departamento, ropa y zapaterías, restaurantes y comida rápida"
+    :colores:
+    - :id: 5yzbT4gJP2ySGgiwwO80yU
+      :titulo: Clásico
+      :limiteMinimoDeCredito: 600
+      :limiteMaximoDeCredito: 2999
+      :salarioMinimo: 325000
+      :salarioMaximo: 750000
+      :tasaPreferencialColones: 3.84
+      :tasaPreferencialDolares: 2.75
+      :tasaNormalColones: 4.16
+      :tasaNormalDolares: 2.75
+  :maximoDeAcumulacion: 250.000 puntos VIVA anuales
+  :minimoDeRedencion: 15.000 puntos Viva
+  :costoDeRedencion: Gratis
+  :metodoDeRedencion: Grupo Nación, evento parque viva y comercios afiliados
+:requisitos:
+- Cédula de identidad
+- Orden patronal
+- Comprobante de dirección física
+- Antigüedad laboral mínima de 3 meses
+- Certificación de Ingresos (Trabajador Independiente)
+- Mayor de 21 años
+- Suscripción a La Nación
+:facilidadesDeCredito:
+- :id: 14Vc0irR0qGw00WSgcCocY
+  :descripcion: Extrafinanciamiento
+- :id: 6jmpWJmUAoIUm2Yu6cgi8y
+  :descripcion: Minicuotas
+- :id: 6eWCIhNNEAMQyy2wUwkIoA
+  :descripcion: Tasa Cero
+:categorias:
+- :id: 7y8Nq6bhXUowQaUwaysgAU
+  :titulo: Supermercados, tiendas y clubes
+  :identificador: supermercados
+  :descripcionCorta: Ahorrá en supermercados y tiendas con nuestras tarjetas que te
+    brindan una amplia gama de beneficios y privilegios.
+:metaDescripcion: Una Tarjeta para las personas que les gusta aprovechar las mejores
+  promociones de Credomatic & La Nación. Conozca más aquí
+:reglamento: https://www.baccredomatic.com/sites/default/files/cr_reglamento_clubnacion_amex_com_2016.pdf
+:metaTags:
+- club la nacion
+- club nacion
+- la nacion
+- nacion
+- american express
+- parque viva
+- puntos viva
+- grupo nacion
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/supermercados-clubes-y-tiendas/club-nacion-american-express
+:form: https://www.baccredomatic.com/es-cr/form/2611

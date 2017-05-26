@@ -1,0 +1,21 @@
+---
+:id: 7bA45wycr6gKAowaYoMMwc
+:titulo: Club La Nación Pre-Pago
+:variacion:
+- :id: 6znWtex2Jq42O8OOoWSekO
+  :titulo: Club La Nación Pre-Pago
+  :arte:
+    :title: Club Nación Pre-pago
+    :description: 
+    :url: "//images.contentful.com/9cds0lha1plv/3kIZxl4r20OACc08CgAOIs/0f5ed43d86718325abeb0d5797139b78/cr-tarjeta-club-nacion-prepago-amex.png"
+  :color:
+    :id: 5O3WHFJ31YgoAQeaMaWgKY
+    :titulo: Pre-Pago
+    :limiteMinimoDeCredito: 0
+    :limiteMaximoDeCredito: 0
+    :salarioMinimo: 0
+  :emisor:
+    :id: 4DMV5aPmOQAyWCIim0yyMU
+    :nombre: American Express
+:productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/supermercados-clubes-y-tiendas/tarjeta-pre-pago-club-la-nacion-american
+:form: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud
