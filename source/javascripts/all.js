@@ -16,4 +16,9 @@ $(document).ready(function(){
   $('.header-select-country').change(function(){
     window.location.replace("https://www.baccredomatic.com/" + $(this).val())
   });
+
+  $('.footer-list-head').click(function(){
+    $('.footer-list').hide();
+    $(this).siblings().toggle();
+  });
 });

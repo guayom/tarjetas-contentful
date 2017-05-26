@@ -61,19 +61,6 @@ footer {
       max-width: 100%;
     }
   }
-
-  .footer-wrapper {
-    @include grid-container;
-    @include grid-media($desktop-grid){
-      @include grid-collapse;
-    }
-  }
-
-  .footer-column {
-    @include grid-media($desktop-grid){
-      @include grid-column(3);
-    }
-  }
 }
 
 .footer-sociallinks {
@@ -85,12 +72,16 @@ footer {
   a {
     display: block;
     color: $blanco;
-    background: $facebook;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 0.6em;
     margin-right: 10px;
-    padding: 5px;
-    width: 3em;
+    padding: 2px;
+
+
+    @include grid-media($desktop-grid){
+      width: 3em;
+      padding: 5px;
+    }
 
     &.twitter {
       background: $twitter;
@@ -107,18 +98,34 @@ footer {
 }
 
 .legal-footer {
-  margin: 0 auto;
-  margin-top: 60px;
-  max-width: 1260px;
+  margin-top: 20px;
 
-  span {
+  @include grid-media($desktop-grid) {
+    margin-top: 60px;
+  }
+}
+
+.footer-legals-legend {
+  font-family: $trebuschet;
+  font-size: .6em;
+  color: $gris-oscuro;
+  text-transform: uppercase;
+
+  display: block;
+  text-align: left;
+  float: left;
+
+  @include grid-media($desktop-grid) {
     float: right;
-    text-align: right;
+    font-size: .7em;
   }
 }
 
 .footer-legalslinks {
-  width: 30%;
+  margin-bottom: 10px;
+  @include grid-media($desktop-grid) {
+    width: 30%;
+  }
 
   li {
     text-transform: uppercase;
@@ -145,22 +152,27 @@ footer {
     color: $azul-oscuro;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 9.8px;
+    font-size: .9em;
     line-height: 9.8px;
     line-height: 9.8px;
     margin: 0;
-  }
-}
 
-.footer-legals-legend {
-  font-family: $trebuschet;
-  font-size: .7em;
-  color: $gris-oscuro;
-  text-transform: uppercase;
+    @include grid-media($desktop-grid) {
+      font-size: 9.8px;
+    }
+  }
 }
 
 .footer-container {
   margin: 0 auto;
   //max-width: 1260px;
   box-sizing: border-box;
+}
+
+.footer-content {
+  margin-bottom: 0;
+}
+
+.footer-content-row {
+  padding-top: 0;
 }
