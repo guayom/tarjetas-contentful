@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $('.tb-megamenu-item.level-1').hover(function(){
       $(this).find('.dropdown-menu').css('display', 'block');
+      $(this).find('.dropdown-menu .dropdown-menu').css('display', 'none');
       }, function(){
       $(this).find('.dropdown-menu').css('display', 'none');
   });
