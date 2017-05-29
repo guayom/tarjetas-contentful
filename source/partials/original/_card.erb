@@ -19,5 +19,6 @@
   <% end %>
 <% end %>
 </p>
-<a href="<%= @tarjeta['productPage'] %>" class="btn">Más info aquí</a>
-<a href="<%= @form %>">Solicitala aquí</a>
+<%= link_to "Más info aquí", @tarjeta['productPage'], :class => "btn", "data-ga_category": "landing alternativo", "data-ga_action": "Más info", "data-ga_label": "Product block", "data-ga_value": @tarjeta['titulo'] %>
+
+<%= link_to "Solicitala aquí", @form, "data-ga_category": "landing alternativo", "data-ga_action": "Más info", "data-ga_label": "Product block", "data-ga_value": @tarjeta['titulo'] %>
