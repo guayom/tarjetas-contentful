@@ -23,6 +23,11 @@ after_build do |builder|
   dst = File.join(config[:build_dir],"_redirects")
   builder.source_paths << File.dirname(__FILE__)
   builder.copy_file(src,dst)
+  # 404
+  src = File.join(config[:build_dir],"404/index.html")
+  dst = File.join(config[:build_dir],"404.html")
+  builder.source_paths << File.dirname(__FILE__)
+  builder.copy_file(src,dst)
 end
 
 set :markdown_engine, :redcarpet
@@ -76,9 +81,6 @@ end
 
 # Build-specific configuration
 configure :build do
-  # Minify CSS on build
-  # activate :minify_css
-
-  # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_css
+  activate :minify_javascript
 end
