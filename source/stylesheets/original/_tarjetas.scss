@@ -19,7 +19,7 @@
     @include grid-column(12);
 
     @include grid-media($tablet-wide-grid){
-      @include grid-column(4);
+      @include grid-column(3);
     }
     @include grid-media($desktop-grid){
       @include grid-column(3);
