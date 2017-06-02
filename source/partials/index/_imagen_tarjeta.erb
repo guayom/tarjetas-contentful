@@ -1,7 +1,0 @@
-<%
-@imagen_number = producto[1]['titulo'] == 'City Mall' ? 1 : 0
-@imagen_path = producto[1]['variacion'][@imagen_number]['arte']['url']
-%>
-<a href="<%= "/es-cr/tarjetas-credito/#{producto[1]['titulo'].parameterize}.html" %>">
-  <img class="image-tab" src="<%= @imagen_path unless producto[1]['variacion'][@imagen_number]['arte'].nil? %>?w=<%= w %>" alt="<%= producto[1]['titulo'] %>" />
-</a>

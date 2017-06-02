@@ -1,8 +1,0 @@
-<div class="row space-bottom-3">
-  <% producto.beneficiosGenerales.each do |beneficio| %>
-    <div class="col-xs-12 col-sm-4">
-      <img class="feature-icon" src="/images/<%= data.icons[beneficio.id]? data.icons[beneficio.id] :  "check-purple.png" %>" alt="" />
-      <p class="feature-text"><%= beneficio.titulo %></p>
-    </div>
-  <% end %>
-</div>
