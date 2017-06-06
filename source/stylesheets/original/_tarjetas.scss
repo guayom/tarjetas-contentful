@@ -3,13 +3,6 @@
   ul {
     @include grid-container;
 
-    @include grid-media($tablet-wide-grid){
-      @include grid-collapse;
-    }
-    @include grid-media($desktop-grid){
-      @include grid-collapse;
-    }
-
     list-style: none;
     margin: 0;
     padding: 0;

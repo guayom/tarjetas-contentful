@@ -1,15 +1,14 @@
 .filters-container {
-  //background: $gris-claro;
-  background: #fafafa;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 40px;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fafafa+0,f1f1f1+100 */
-  background: #fafafa; /* Old browsers */
-  background: -moz-linear-gradient(top, #fafafa 0%, #f1f1f1 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #fafafa 0%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #fafafa 0%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+  background: $gris-claro;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+
+  @include grid-media($desktop-grid) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+  }
 }
 
 .filters-content {
@@ -22,24 +21,89 @@
 }
 
 .filter-item {
-  @include grid-column(3);
+  box-sizing: border-box;
+  color: $gris-mas-oscuro;
+  border: solid 1px $gris-bordes;
+  padding: 13px 13px 13px 70px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background: $gris-claro;
+  border-radius: 3px;
+
+  @include grid-column(12);
+
+  @include grid-media($desktop-grid) {
+    @include grid-column(3);
+    font-size: 14px;
+    height: 90px;
+    padding: 20px;
+  }
+
+  .bigger {
+    font-size: 1.6em;
+  }
+
+  img {
+    display: block;
+    margin-right: 20px;
+    height: 35px;
+    float: left;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+
+    @include grid-media($desktop-grid) {
+      position: static;
+      height: auto;
+      margin-top: -8px;
+    }
+  }
+
+  &:last-of-type img {
+    @include grid-media($desktop-grid) {
+      margin-top: -3px;
+    }
+  }
+
+  &:hover {
+    border: solid 1px #F45354;
+    color: #000;
+    box-shadow: 1px 7px 13px 0px rgba(50, 50, 52, 0.16);
+  }
+
+  &:active {
+    box-shadow: 1px 7px 13px 0px rgba(50, 50, 52, 0.10);
+    transform: translateY(4px);
+    background: $gris-claro-2;
+  }
 }
 
 .filter-title {
   @include grid-column(12);
-  //text-transform: uppercase;
   color: $gris-mas-oscuro;
 
   h2 {
     margin: 0 0 10px 0;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 20px;
+    line-height: 20px;
     font-weight: bold;
+
+    @include grid-media($desktop-grid) {
+      font-size: 40px;
+      line-height: 40px;
+    }
   }
 
   p {
-    font-size: 20px;
+    font-size: 13px;
     margin: 0 0 20px 0;
     font-weight: 400;
+    @include grid-media($desktop-grid) {
+      font-size: 20px;
+      margin: 0 0 50px 0;
+    }
   }
 }
