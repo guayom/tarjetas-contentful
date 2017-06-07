@@ -19,3 +19,7 @@
 
 
 .env
+
+.tarjetas-space-hash
+
+data/tarjetas/*
