@@ -101,7 +101,6 @@
     @include grid-media($desktop-grid) {
       font-size: 25px;
       line-height: 25px;
-      margin-bottom: 30px;
     }
   }
 
@@ -110,10 +109,9 @@
     margin: 0 0 20px 0;
     font-weight: 400;
     @include animacion-default;
-    display: none;
 
     @include grid-media($desktop-grid) {
-      font-size: 20px;
+      font-size: 15px;
       margin: 0 0 20px 0;
     }
   }
@@ -135,11 +133,8 @@
   }
 
   .filter-title p {
-    display: inline;
-
     @include grid-media($desktop-grid) {
       font-size: 20px;
-      display: inline-block;
       margin: 0 0 50px 0;
     }
   }
