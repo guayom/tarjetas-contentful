@@ -14,6 +14,7 @@ experiment: true
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "LAS TARJETAS DEL MES",
   subtitulo: "Las favoritas de nuestros clientes",
+  category: "ninguna",
   tarjetas:[
     ['Blue American Express®', 'Escogé donde acumular', 'La única tarjeta que podés configurar a tu gusto'],
     ['Auto Mercado', 'Puntos Auto Frecuente', 'Acumule puntos Auto Frecuente de una manera más rápida y en cualquier lugar'],
@@ -24,6 +25,7 @@ experiment: true
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "TARJETAS SUPERMERCADOS",
   subtitulo: "Aproveche y gane por las compras del supermercado",
+  category: "supermercados",
   tarjetas:[
     ['Walmart', 'Ahorro en sus compras', 'Obtenga hasta un 5% de devolución en efectivos en sus compras en Walmart'],
     ['PriceSmart', 'Acumule 2% PriceCash', 'En todas sus compras realizadas en PriceSmart'],
@@ -34,6 +36,7 @@ experiment: true
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "TARJETAS CASHBACK, PUNTOS Y PREMIOS",
   subtitulo: "Acumule puntos o efectivo",
+  category: "cashback",
   tarjetas:[
     ['Cashback Premium', 'Acumule con Estilo', 'Además del CashBack obtenga acceso al servicio Concierge Travel & Living'],
     ['Cashback', 'Hasta 17% de cashback', 'La tarjeta con la que recuperás más dinero por tus compras'],
@@ -43,6 +46,7 @@ experiment: true
 
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "TARJETAS VIAJES Y MILLAS",
+  category: "viajes",
   subtitulo: "Conozca las tarjetas que convierten sus compras en tiquetes aéreos",
   tarjetas:[
     ['MillasPlus', 'Libertad de decisión', 'Utilice las millas en cualquier aerolínea sin restricción alguna'],
@@ -53,6 +57,7 @@ experiment: true
 
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "TARJETAS ESTILO DE VIDA",
+  category: "otras",
   subtitulo: "Acceda a exclusivas recompensas y experiencias inolvidables",
   tarjetas:[
     ['The Platinum Card', 'Distinta & exclusiva', 'Experiencias innolvidables mediante el programa Membership Rewards', 'The Platinum Card American Express de Credomatic'],
@@ -62,6 +67,7 @@ experiment: true
 
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "TARJETAS TIENDAS",
+  category: "otras",
   subtitulo: "Beneficios en los lugares que estas esperando",
   tarjetas:[
     ['Club La Nación', 'Eventos exclusivos', 'Obtenga acceso a eventos exclusivos en Parque Viva y múltiples promociones'],

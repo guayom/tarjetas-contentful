@@ -1,5 +1,7 @@
 .card-row {
 
+  display: none;
+
   ul {
     @include grid-container;
 
