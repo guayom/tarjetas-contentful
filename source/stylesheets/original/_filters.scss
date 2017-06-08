@@ -33,6 +33,11 @@
   background: $gris-claro;
   border-radius: 3px;
 
+  &.active {
+    border: solid $rojo2 1px;
+    box-shadow: 1px 3px 8px 0px rgba(90, 90, 90, 0.10);
+  }
+
   @include grid-column(12);
 
   @include grid-media($desktop-grid) {
@@ -69,7 +74,7 @@
   }
 
   &:hover {
-    border: solid 1px #F45354;
+    border: solid 1px $rojo2;
     color: #000;
     box-shadow: 1px 7px 13px 0px rgba(50, 50, 52, 0.16);
   }
