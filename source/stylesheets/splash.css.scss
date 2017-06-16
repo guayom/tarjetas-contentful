@@ -5,3 +5,132 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 @import 'splash/splash';
+@import 'offcanvas';
+
+body {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  color: $gris-oscuro;
+}
+.productos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+
+  }
+
+  a {
+    text-decoration: none;
+    color: $gris-oscuro;
+    font-size: 17px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(top, #ffffff 6%,#f1f1f1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 6%,#f1f1f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+    display: block;
+    padding: 30px 30px;
+  }
+}
+
+.icono-producto {
+  float: left;
+  width: 48px;
+  margin-right: 20px;
+  display: inline-block;
+  margin-top: -9px;
+}
+
+.explora {
+  display: block;
+  background: $dorado-splash;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding: 20px 30px;
+  width: 100%;
+  text-decoration: none;
+  color: $blanco;
+  font-size: 18px;
+  box-sizing: border-box;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+  }
+}
+
+.title-container {
+  border-bottom: 1px solid $gris-claro;
+}
+
+footer {
+  @include grid-container();
+  background: $gris-claro;
+  border-top: 1px solid $gris-bordes;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer-container {
+  @include grid-column(12);
+}
+
+.footer-logo {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.aplicaciones-moviles {
+  width: 100%;
+  box-sizing: border-box;
+
+  h4 {
+    @include grid-column(12);
+    color: $gris-oscuro;
+  }
+
+  li {
+    float: left;
+    @include grid-column(6);
+  }
+
+  img {
+    width: 130px;
+  }
+}
+
+.icon-links-footer {
+  @include grid-column(6);
+  margin-top: 20px;
+
+  a {
+    color: $dorado-splash;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  img {
+    display: block;
+  }
+}

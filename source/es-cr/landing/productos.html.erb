@@ -2,10 +2,31 @@
 title: Productos de BAC | Credomatic
 layout: splash
 ---
-<h2>¿Qué estás buscando?</h2>
-<ul>
+<div class="title-container">
+  <h2>¿Qué estás buscando?</h2>
+</div>
+
+<ul class="productos">
   <% data.splash.productos.each do |producto| %>
-    <li><a href="<%= producto.link %>"><%= producto.titulo %></a></li>
+    <li>
+      <a href="<%= producto.link %>">
+        <%= image_tag "/images/#{producto.icono}", :class => 'icono-producto' %>
+        <%= producto.titulo %>
+      </a>
+    </li>
   <% end %>
 </ul>
-<a href="#" class="explora">Explorá más productos</a>
+
+<a href="#footer" class="explora">Explorá más productos</a>
+
+<% content_for :offcanvas do %>
+  <ul>
+    <% data.splash.links_menu.each do |item| %>
+      <li>
+        <a href="<%= item.link %>" onclick="ga('send', 'event', '<%=  data.splash.event_category %>', 'offcanvas', '<%= item.titulo %>');">
+          <%= item.titulo %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

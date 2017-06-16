@@ -111,7 +111,22 @@ header {
 
 .search-form {
   margin-top: 15px;
+  padding: 0 20px;
   display: none;
   float: left;
   width: 100%;
+
+  input[type=text] {
+    width: 60%;
+    display: block;
+    float: left;
+  }
+
+  input[type=submit] {
+    width: 30%;
+    display: block;
+    float: left;
+    background: $blanco;
+    border: 0;
+  }
 }

@@ -1,50 +1,81 @@
 ---
+event_category: CR Splash Page
+
 productos:
   - titulo: Ahorros y cuentas
-    icono:
+    icono: cr-landing-icono-ahorros.png
     icono_blanco:
     link:
   - titulo: Tarjetas de crédito
-    icono:
+    icono: cr-landing-icono-tarjetas-credito.png
     icono_blanco:
     link:
   - titulo: Préstamos personales
-    icono:
+    icono: cr-landing-icono-prestamos.png
     icono_blanco:
     link:
   - titulo: Seguros
-    icono:
+    icono: cr-landing-icono-seguros.png
     icono_blanco:
     link:
   - titulo: Préstamos para vehículos
-    icono:
+    icono: cr-landing-icono-vehiculos.png
     icono_blanco:
     link:
   - titulo: Préstamos para casa
-    icono:
+    icono: cr-landing-icono-prestamo-casa.png
     icono_blanco:
     link:
   - titulo: Servicios Pymes
-    icono:
+    icono: cr-landing-icono-pymes.png
     icono_blanco:
     link:
   - titulo: Servicios Corporativos
-    icono:
+    icono: cr-landing-iconos-corporativo.png
+    icono_blanco:
+    link:
+  - titulo: Promociones
+    icono: cr-landing-iconos-promociones.png
     icono_blanco:
     link:
 
 links_del_footer:
+  - titulo: Facebook
+    link: https://www.facebook.com/somosbac/?fref=ts
+  - titulo: Twitter
+    link: https://twitter.com/SomosBac
+  - titulo: YouTube
+    link: https://www.youtube.com/user/baccredomaticnetwork
+
+links_menu:
   - titulo: Cuentas
-    link:
+    link: https://www.baccredomatic.com/es-cr/cuentas
+    icono:
   - titulo: Tarjetas
-    link:
+    link: https://www.baccredomatic.com/es-cr/tarjetas
+    icono:
   - titulo: Préstamos
-    link:
+    link: https://www.baccredomatic.com/es-cr/prestamos
+    icono:
   - titulo: Seguros
-    link:
-  - titulo: Pensiones
-    link:
+    link: https://www.baccredomatic.com/es-cr/seguros
+    icono:
+  - titulo: Prensiones
+    link: https://www.baccredomatic.com/es-cr/pensiones
+    icono:
   - titulo: Inversiones
-    link:
+    link: https://www.baccredomatic.com/es-cr/inversiones
+    icono:
   - titulo: Canales de servicio
-    link:
+    link: https://www.baccredomatic.com/es-cr/canales-de-servicio
+    icono:
+  - titulo: Promociones
+    link: https://www.baccredomatic.com/es-cr/promotions-page
+    icono:
+  - titulo: Sucursal Electrónica
+    link: https://www.sucursalelectronica.com
+    icono:
+
+#cr-landing-icono-appstore.jpg
+#cr-landing-icono-googleplay.jpg
+#cr-landing-icono-telefono.jpg

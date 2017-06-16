@@ -1,15 +1,21 @@
-<footer>
+<footer id="footer">
   <div class="footer-container">
-    <img src="/images/logo-blanco.svg" alt="BAC | Credomatic" />
-    <ul class="footer-links">
-      <% data.splash.links_del_footer.each do |producto| %>
-        <li><a href="<%= producto.link %>"><%= producto.titulo %></a></li>
-      <% end %>
-    </ul>
+    <img src="/images/logo-blanco.svg" alt="BAC | Credomatic" class="footer-logo"/>
     <ul class="aplicaciones-moviles">
       <h4>Aplicaciones Móviles</h4>
-      <li><a href="#"><img src="#" alt="Apple Store" /></a></li>
-      <li><a href="#"><img src="#" alt="Google Play" /></a></li>
+      <li><a href="https://itunes.apple.com/cr/app/ibac/id465508552?mt=8"><img src="https://www.baccredomatic.com/sites/all/themes/custom/foundation_bac/images/appstore.png" alt="Apple Store" /></a></li>
+      <li><a href="https://play.google.com/store/apps/details?id=net.bac.sbe.android"><img src="https://www.baccredomatic.com/sites/all/themes/custom/foundation_bac/images/googleplay.png" alt="Google Play" /></a></li>
     </ul>
+    <div class="link-sucursal icon-links-footer">
+      <a href="https://www.sucursalmovil.com/secm/index.go">
+        Sucursal Móvil
+      </a>
+    </div>
+    <div class="link-bac-contacto icon-links-footer">
+      <a href="https://itunes.apple.com/developer/bac-credomatic-network/id465180283">
+        <img src="/images/cr-landing-icono-telefono.jpg" alt="BAC CONTACTO" />
+        Bac contacto
+      </a>
+    </div>
   </div>
 </footer>
