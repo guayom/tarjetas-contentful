@@ -1,0 +1,15 @@
+<footer>
+  <div class="footer-container">
+    <img src="/images/logo-blanco.svg" alt="BAC | Credomatic" />
+    <ul class="footer-links">
+      <% data.splash.links_del_footer.each do |producto| %>
+        <li><a href="<%= producto.link %>"><%= producto.titulo %></a></li>
+      <% end %>
+    </ul>
+    <ul class="aplicaciones-moviles">
+      <h4>Aplicaciones Móviles</h4>
+      <li><a href="#"><img src="#" alt="Apple Store" /></a></li>
+      <li><a href="#"><img src="#" alt="Google Play" /></a></li>
+    </ul>
+  </div>
+</footer>

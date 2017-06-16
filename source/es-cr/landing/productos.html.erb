@@ -1,0 +1,11 @@
+---
+title: Productos de BAC | Credomatic
+layout: splash
+---
+<h2>¿Qué estás buscando?</h2>
+<ul>
+  <% data.splash.productos.each do |producto| %>
+    <li><a href="<%= producto.link %>"><%= producto.titulo %></a></li>
+  <% end %>
+</ul>
+<a href="#" class="explora">Explorá más productos</a>

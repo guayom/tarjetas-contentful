@@ -18,17 +18,14 @@
 </head>
 
 <body>
-  <%= partial "partials/nuevo/header" %>
-  <%= partial "partials/nuevo/filters" %>
+  <%= partial "partials/splash/header" %>
+  <%= partial "partials/splash/hero" %>
   <div class="main-wrapper">
     <%= yield %>
   </div>
+  <%= partial "partials/splash/footer" %>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="/javascripts/slick.min.js"></script>
-  <script src="/javascripts/bootstrap.js"></script>
-  <script src="/javascripts/main.js"></script>
-  <%= javascript_include_tag :all %>
-  <%= partial 'partials/original/scripts' %>
+  <%= javascript_include_tag :splash %>
 </body>
 
 </html>

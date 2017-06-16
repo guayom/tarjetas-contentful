@@ -1,0 +1,50 @@
+---
+productos:
+  - titulo: Ahorros y cuentas
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Tarjetas de crédito
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Préstamos personales
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Seguros
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Préstamos para vehículos
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Préstamos para casa
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Servicios Pymes
+    icono:
+    icono_blanco:
+    link:
+  - titulo: Servicios Corporativos
+    icono:
+    icono_blanco:
+    link:
+
+links_del_footer:
+  - titulo: Cuentas
+    link:
+  - titulo: Tarjetas
+    link:
+  - titulo: Préstamos
+    link:
+  - titulo: Seguros
+    link:
+  - titulo: Pensiones
+    link:
+  - titulo: Inversiones
+    link:
+  - titulo: Canales de servicio
+    link:
