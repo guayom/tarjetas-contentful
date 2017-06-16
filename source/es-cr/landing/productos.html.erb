@@ -24,6 +24,7 @@ layout: splash
     <% data.splash.links_menu.each do |item| %>
       <li>
         <a href="<%= item.link %>" onclick="ga('send', 'event', '<%=  data.splash.event_category %>', 'offcanvas', '<%= item.titulo %>');">
+          <img src="/images/<%= item.icono %>" alt="<%= item.titulo %>" />
           <%= item.titulo %>
         </a>
       </li>

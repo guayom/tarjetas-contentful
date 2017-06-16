@@ -1,5 +1,37 @@
 .hero {
-  background: red;
-  min-height: 175px;
   width: 100%;
+  background: url(../images/cr-landing-hero-blue-movil.png);
+  height: 175px;
+  position: relative;
+
+  @include grid-media($desktop-grid){
+    background: url(../images/cr-landing-hero-image-blue.png);
+    height: 211px;
+  }
+}
+.hero-button {
+  display: inline-block;
+  padding: 8px 10px;
+  background: $rojo2;
+  color: $blanco;
+  text-decoration: none;
+}
+.hero-text-container {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  color: $blanco;
+  padding-left: 30px;
+  padding-top: 10px;
+
+  h3 {
+    font-size: 14px;
+  }
+
+  span {
+    display: block;
+    font-size: 16px;
+  }
 }

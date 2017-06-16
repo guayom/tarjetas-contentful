@@ -3,19 +3,19 @@ event_category: CR Splash Page
 
 productos:
   - titulo: Ahorros y cuentas
-    icono: cr-landing-icono-ahorros.png
+    icono: cr-landing-iconos-ahorros.svg
     icono_blanco:
     link:
   - titulo: Tarjetas de crédito
-    icono: cr-landing-icono-tarjetas-credito.png
+    icono: cr-landing-iconos-tarjetas-credito.svg
     icono_blanco:
     link:
   - titulo: Préstamos personales
-    icono: cr-landing-icono-prestamos.png
+    icono: cr-landing-iconos-prestamos.svg
     icono_blanco:
     link:
   - titulo: Seguros
-    icono: cr-landing-icono-seguros.png
+    icono: cr-landing-iconos-seguros.svg
     icono_blanco:
     link:
   - titulo: Préstamos para vehículos
@@ -23,19 +23,19 @@ productos:
     icono_blanco:
     link:
   - titulo: Préstamos para casa
-    icono: cr-landing-icono-prestamo-casa.png
+    icono: cr-landing-iconos-prestamo-casa.svg
     icono_blanco:
     link:
   - titulo: Servicios Pymes
-    icono: cr-landing-icono-pymes.png
+    icono: cr-landing-iconos-pymes.svg
     icono_blanco:
     link:
   - titulo: Servicios Corporativos
-    icono: cr-landing-iconos-corporativo.png
+    icono: cr-landing-iconos-corporativo.svg
     icono_blanco:
     link:
   - titulo: Promociones
-    icono: cr-landing-iconos-promociones.png
+    icono: cr-landing-iconos-promociones.svg
     icono_blanco:
     link:
 
@@ -53,10 +53,10 @@ links_menu:
     icono:
   - titulo: Tarjetas
     link: https://www.baccredomatic.com/es-cr/tarjetas
-    icono:
+    icono: cr-landing-iconos-tarjetas-blanco.svg
   - titulo: Préstamos
     link: https://www.baccredomatic.com/es-cr/prestamos
-    icono:
+    icono: cr-landing-iconos-prestamos-pers-blanco.svg
   - titulo: Seguros
     link: https://www.baccredomatic.com/es-cr/seguros
     icono:
@@ -71,11 +71,7 @@ links_menu:
     icono:
   - titulo: Promociones
     link: https://www.baccredomatic.com/es-cr/promotions-page
-    icono:
+    icono: cr-landing-iconos-promociones-blanco.svg
   - titulo: Sucursal Electrónica
     link: https://www.sucursalelectronica.com
     icono:
-
-#cr-landing-icono-appstore.jpg
-#cr-landing-icono-googleplay.jpg
-#cr-landing-icono-telefono.jpg

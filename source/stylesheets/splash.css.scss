@@ -103,10 +103,11 @@ footer {
 .aplicaciones-moviles {
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 30px;
 
   h4 {
     @include grid-column(12);
-    color: $gris-oscuro;
+    color: $dorado-splash;
   }
 
   li {
@@ -131,6 +132,8 @@ footer {
   }
 
   img {
+    margin-top: 10px;
+    height: 60px;
     display: block;
   }
 }

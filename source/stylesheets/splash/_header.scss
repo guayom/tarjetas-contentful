@@ -10,6 +10,10 @@ header {
 
 .hamburger-container {
   @include grid-column(2);
+
+  @include grid-media($desktop-grid){
+    @include grid-column(1);
+  }
 }
 
 .hamburger {
@@ -78,8 +82,12 @@ header {
 .logo {
   @include grid-column(8);
 
+  @include grid-media($desktop-grid){
+    @include grid-column(10);
+  }
+
   img {
-    max-width: 100%;
+    max-width: 300px;
   }
 }
 
@@ -87,6 +95,10 @@ header {
   @include grid-column(2);
   position: relative;
   text-align: center;
+
+  @include grid-media($desktop-grid){
+    @include grid-column(1);
+  }
 
   &__circle {
 		width: 13px;
