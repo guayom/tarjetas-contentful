@@ -4,8 +4,13 @@ header {
 }
 
 .header-container {
-  @include grid-container;
   padding: 15px 0;
+  @include grid-container;
+  @include grid-media($desktop-grid){
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+  }
 }
 
 .hamburger-container {
@@ -79,15 +84,42 @@ header {
   }
 }
 
+.explora-mas-header {
+  display: none;
+  margin-top: 5px;
+
+  @include grid-media($desktop-grid){
+    display: block;
+    position: relative;
+    @include grid-column(3);
+    @include grid-push(1);
+  }
+
+  a {
+    color: $blanco;
+    text-decoration: none;
+
+    &:after {
+      bottom: 5px;
+      width: 14px;
+      height: 14px;
+    }
+  }
+}
+
 .logo {
+  text-align: center;
   @include grid-column(8);
 
   @include grid-media($desktop-grid){
-    @include grid-column(10);
+    @include grid-column(5);
   }
 
   img {
     max-width: 300px;
+    @include grid-media($desktop-grid){
+      margin-left: -20px;
+    }
   }
 }
 
@@ -97,7 +129,7 @@ header {
   text-align: center;
 
   @include grid-media($desktop-grid){
-    @include grid-column(1);
+    display: none;
   }
 
   &__circle {
@@ -146,5 +178,12 @@ header {
     float: left;
     background: $blanco;
     border: 0;
+  }
+
+  @include grid-media($desktop-grid){
+    @include grid-column(3);
+    display: block;
+    margin-top:0;
+    padding: 0;
   }
 }

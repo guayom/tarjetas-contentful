@@ -17,14 +17,14 @@ layout: splash
   <% end %>
 </ul>
 
-<a href="#footer" class="explora">Explorá más productos</a>
+<a href="#footer" class="explora-btn arrow-btn" id="explora-btn-footer">Explorá más productos</a>
 
 <% content_for :offcanvas do %>
   <ul>
     <% data.splash.links_menu.each do |item| %>
       <li>
         <a href="<%= item.link %>" onclick="ga('send', 'event', '<%=  data.splash.event_category %>', 'offcanvas', '<%= item.titulo %>');">
-          <img src="/images/<%= item.icono %>" alt="<%= item.titulo %>" />
+
           <%= item.titulo %>
         </a>
       </li>

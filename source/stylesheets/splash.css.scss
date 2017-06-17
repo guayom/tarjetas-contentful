@@ -50,7 +50,7 @@ h2 {
   margin-top: -9px;
 }
 
-.explora {
+.explora-btn {
   display: block;
   background: $dorado-splash;
   position: fixed;
@@ -63,7 +63,9 @@ h2 {
   color: $blanco;
   font-size: 18px;
   box-sizing: border-box;
+}
 
+.arrow-btn {
   &:after {
     content: "";
     display: block;
