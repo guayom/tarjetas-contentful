@@ -122,16 +122,22 @@ header {
 }
 
 .search-form {
-  margin-top: 15px;
+  margin-top: 25px;
   padding: 0 20px;
   display: none;
   float: left;
   width: 100%;
+  box-sizing: border-box;
 
   input[type=text] {
-    width: 60%;
+    width: 100%;
     display: block;
     float: left;
+    border: 0;
+    box-sizing: border-box;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: $dorado-splash;
   }
 
   input[type=submit] {
