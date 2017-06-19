@@ -50,7 +50,7 @@ links_del_footer:
 links_menu:
   - titulo: Cuentas
     link: https://www.baccredomatic.com/es-cr/cuentas
-    icono:
+    icono: cr-landing-iconos-ahorros-blanco.svg
   - titulo: Tarjetas
     link: https://www.baccredomatic.com/es-cr/tarjetas
     icono: cr-landing-iconos-tarjetas-blanco.svg
@@ -59,15 +59,12 @@ links_menu:
     icono: cr-landing-iconos-prestamos-pers-blanco.svg
   - titulo: Seguros
     link: https://www.baccredomatic.com/es-cr/seguros
-    icono:
+    icono: cr-landing-iconos-seguros-blanco.svg
   - titulo: Prensiones
     link: https://www.baccredomatic.com/es-cr/pensiones
     icono:
   - titulo: Inversiones
     link: https://www.baccredomatic.com/es-cr/inversiones
-    icono:
-  - titulo: Canales de servicio
-    link: https://www.baccredomatic.com/es-cr/canales-de-servicio
     icono:
   - titulo: Promociones
     link: https://www.baccredomatic.com/es-cr/promotions-page
