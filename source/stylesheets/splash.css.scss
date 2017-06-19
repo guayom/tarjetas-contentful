@@ -27,11 +27,14 @@ h2 {
 
   @include grid-media($desktop-grid) {
     @include grid-container();
+    width: 1100px;
+    margin: 0 auto;
   }
 
   li {
     @include grid-media($desktop-grid) {
       @include grid-column(3);
+      min-height: 168px;
     }
   }
 
