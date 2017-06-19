@@ -35,7 +35,7 @@ body {
 
     &.borde-superior {
       border-top: 1px solid $blanco;
-      margin-top: 10px;
+      margin-top: 30px;
       padding-top: 10px;
     }
   }
@@ -58,9 +58,12 @@ body {
 .hamburger-container {
   transition: left .5s ease;
   position: fixed;
-  top: 20px;
+  top: 15px;
   left: 0px;
   z-index: 4;
+  @include grid-media($desktop-grid) {
+    top: 20px;
+  }
 }
 
 .logo {
@@ -93,5 +96,5 @@ body {
   padding-left: 50px;
   position: relative;
   height: 45px;
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
