@@ -118,6 +118,7 @@ footer {
   padding-top: 30px;
   @include grid-media($desktop-grid) {
     padding-bottom: 50px;
+    border-top: none;
   }
 }
 
