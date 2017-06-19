@@ -113,16 +113,29 @@ footer {
   border-top: 1px solid $gris-bordes;
   padding-bottom: 30px;
   padding-top: 30px;
+  @include grid-media($desktop-grid) {
+    padding-bottom: 50px;
+  }
 }
 
 .footer-container {
   @include grid-column(12);
+
+  @include grid-media($desktop-grid) {
+    width: 1100px;
+    margin: 0 auto;
+    float: none;
+  }
 }
 
 .footer-logo {
   width: 300px;
   display: block;
   margin: 0 auto;
+
+  @include grid-media($desktop-grid) {
+    margin-bottom: 30px;
+  }
 }
 
 .aplicaciones-moviles {
@@ -133,21 +146,44 @@ footer {
   h4 {
     @include grid-column(12);
     color: $dorado-splash;
+
+    @include grid-media($desktop-grid) {
+      @include grid-column(2);
+      display: inline;
+      margin-bottom: 0;
+      margin-top: 0;
+      line-height: 38px;
+    }
   }
 
   li {
     float: left;
     @include grid-column(6);
+    @include grid-media($desktop-grid) {
+      @include grid-column(2);
+      display: inline;
+    }
   }
 
   img {
     width: 130px;
+    vertical-align:middle
   }
 }
 
 .icon-links-footer {
   @include grid-column(6);
   margin-top: 20px;
+
+  @include grid-media($desktop-grid) {
+    @include grid-column(3);
+    margin-top: 0;
+    text-align: center;
+
+    &:first-of-type {
+      //@include grid-push(1);
+    }
+  }
 
   a {
     color: $dorado-splash;
@@ -160,5 +196,13 @@ footer {
     margin-top: 10px;
     height: 60px;
     display: block;
+
+    @include grid-media($desktop-grid) {
+      display: inline;
+      vertical-align:middle;
+      margin-top: 0;
+      margin-left: 10px;
+      height: 38px;
+    }
   }
 }
