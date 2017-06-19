@@ -15,6 +15,11 @@
   background: $rojo2;
   color: $blanco;
   text-decoration: none;
+  @include grid-media($desktop-grid){
+    position: absolute;
+    right: 0;
+    margin-top: -3em;
+  }
 }
 .hero-text-container {
   width: 50%;
@@ -26,12 +31,27 @@
   padding-left: 30px;
   padding-top: 10px;
 
+  @include grid-media($desktop-grid){
+    width: 1100px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding-top: 30px;
+  }
+
   h3 {
     font-size: 14px;
+    @include grid-media($desktop-grid){
+      font-size: 1.4em;
+      max-width: 10em;
+    }
   }
 
   span {
     display: block;
     font-size: 16px;
+    @include grid-media($desktop-grid){
+      font-size: 1.4em;
+    }
   }
 }
