@@ -112,7 +112,7 @@ header {
   @include grid-column(8);
 
   @include grid-media($desktop-grid){
-    @include grid-column(5);
+    @include grid-column(12);
   }
 
   img {

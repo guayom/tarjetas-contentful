@@ -73,7 +73,7 @@ body {
 .hamburger-container.open {
   left: 50%;
   @include grid-media($desktop-grid){
-    left: 18%;
+    left: 23%;
   }
 }
 
