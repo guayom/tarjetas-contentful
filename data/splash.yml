@@ -26,14 +26,6 @@ productos:
     icono: cr-landing-iconos-prestamo-casa.svg
     icono_blanco:
     link:
-  - titulo: Servicios Pymes
-    icono: cr-landing-iconos-pymes.svg
-    icono_blanco:
-    link:
-  - titulo: Servicios Corporativos
-    icono: cr-landing-iconos-corporativo.svg
-    icono_blanco:
-    link:
   - titulo: Promociones
     icono: cr-landing-iconos-promociones.svg
     icono_blanco:
@@ -62,13 +54,16 @@ links_menu:
     icono: cr-landing-iconos-seguros-blanco.svg
   - titulo: Prensiones
     link: https://www.baccredomatic.com/es-cr/pensiones
-    icono:
+    icono: cr-landing-iconos-promociones-blanco.svg
   - titulo: Inversiones
     link: https://www.baccredomatic.com/es-cr/inversiones
-    icono:
+    icono: cr-landing-iconos-inversiones-blanco.svg
   - titulo: Promociones
     link: https://www.baccredomatic.com/es-cr/promotions-page
     icono: cr-landing-iconos-promociones-blanco.svg
-  - titulo: Sucursal Electrónica
-    link: https://www.sucursalelectronica.com
-    icono:
+  - titulo: Sucursal Móvil
+    link: https://www.sucursalmovil.com/secm/index.go
+    icono: cr-landing-iconos-suc-movil-blanco.svg
+  - titulo: BAC Contacto
+    link: https://itunes.apple.com/developer/bac-credomatic-network/id465180283
+    icono: cr-landing-iconos-telefono-blanco.svg

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cr-landing-iconos-inversiones-blanco</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2.125" y="11.5432949" width="5" height="7.96801406" rx="1"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="7.96801406" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="8.46644012" y="8.51130893" width="5" height="11" rx="1"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="11" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="14.625" y="5.51130893" width="5" height="14" rx="1"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="14" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="iPhone-7---2" transform="translate(-26.000000, -390.000000)" stroke="#FFFFFF">
+            <g id="cr-landing-iconos-inversiones-blanco" transform="translate(26.000000, 390.000000)">
+                <use id="Rectangle-7" mask="url(#mask-2)" stroke-width="2" stroke-linejoin="round" xlink:href="#path-1"></use>
+                <use id="Rectangle-7-Copy" mask="url(#mask-4)" stroke-width="2" stroke-linejoin="round" xlink:href="#path-3"></use>
+                <use id="Rectangle-7-Copy-2" mask="url(#mask-6)" stroke-width="2" stroke-linejoin="round" xlink:href="#path-5"></use>
+                <path d="M0.975,9.01130893 C0.975,9.01130893 11,7 16.5,2.5" id="Line"></path>
+                <polygon id="Path-5" stroke-linejoin="round" transform="translate(17.946960, 2.306885) rotate(-5.000000) translate(-17.946960, -2.306885) " points="15.9469604 0.806884766 16.9469604 3.80688477 19.9469604 0.806884766"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

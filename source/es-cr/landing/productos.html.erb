@@ -21,11 +21,12 @@ layout: splash
 
 <% content_for :offcanvas do %>
   <ul>
-    <% data.splash.links_menu.each do |item| %>
-      <li>
-        <%= image_tag "/images/#{item.icono}", :class => 'icono-producto' %>
+    <% data.splash.links_menu.each_with_index do |item, index| %>
+      <li class="con-icono<%= " borde-superior" if index == data.splash.links_menu.size - 2 %>">
         <a href="<%= item.link %>" onclick="ga('send', 'event', '<%=  data.splash.event_category %>', 'offcanvas', '<%= item.titulo %>');">
-
+          <div class="icono-offcanvas">
+            <%= image_tag "/images/#{item.icono}", :class => 'icono-offcancas' %>
+          </div>
           <%= item.titulo %>
         </a>
       </li>

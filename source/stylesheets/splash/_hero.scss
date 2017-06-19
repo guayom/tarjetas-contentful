@@ -1,14 +1,24 @@
 .hero {
   width: 100%;
   background: url(../images/cr-landing-hero-blue-movil.png);
-  height: 175px;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 
   @include grid-media($desktop-grid){
     background: url(../images/cr-landing-hero-image-blue.png);
-    height: 211px;
+    background-size: 100% auto;
   }
 }
+
+.hero-sizer {
+  width: 100%;
+  padding-bottom: 48%;
+  @include grid-media($desktop-grid){
+    padding-bottom: 14.6%;
+  }
+}
+
 .hero-button {
   display: inline-block;
   padding: 8px 10px;
@@ -17,8 +27,8 @@
   text-decoration: none;
   @include grid-media($desktop-grid){
     position: absolute;
-    right: 0;
-    margin-top: -3em;
+    left: 72.5%;
+    bottom: 15%;
   }
 }
 .hero-text-container {
@@ -32,11 +42,9 @@
   padding-top: 10px;
 
   @include grid-media($desktop-grid){
-    width: 1100px;
-    margin: 0 auto;
-    float: none;
-    position: relative;
-    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
   }
 
   h3 {
@@ -44,6 +52,9 @@
     @include grid-media($desktop-grid){
       font-size: 1.4em;
       max-width: 10em;
+      position: absolute;
+      right: 70%;
+      top: 12%;
     }
   }
 
