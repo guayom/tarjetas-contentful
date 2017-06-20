@@ -10,7 +10,8 @@ body {
   height: 100vh;
   box-sizing: border-box;
   padding: 40px 20px;
-  z-index: 3;
+  z-index: 1;
+  top: 0;
 
   @include grid-media($desktop-grid){
     width: 30%;
@@ -60,7 +61,7 @@ body {
   position: fixed;
   top: 15px;
   left: 0px;
-  z-index: 4;
+  z-index: 20;
   @include grid-media($desktop-grid) {
     top: 20px;
   }

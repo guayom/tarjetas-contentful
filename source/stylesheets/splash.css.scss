@@ -9,6 +9,11 @@
 
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  padding-top: 53px;
+
+  @include grid-media($desktop-grid) {
+    padding-top: 61px;
+  }
 }
 
 ul {
