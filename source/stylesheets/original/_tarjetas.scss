@@ -13,7 +13,7 @@
   li {
     @include grid-column(12);
 
-    @include grid-media($tablet-wide-grid){
+    @include grid-media($tablet-grid){
       @include grid-column(3);
     }
     @include grid-media($desktop-grid){
