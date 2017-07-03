@@ -29,18 +29,12 @@
 
   h2 {
     color: $gris-mas-oscuro;
-    display: inline-block;
     font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans','Tahoma','sans-serif';
     font-size: 30px;
-    margin: .8em 0 .3em;
+    margin: 0 0 1em;
     padding: 0;
-
-    @include grid-media($tablet-wide-grid){
-      &::after {
-        content: '\2022';
-        margin: 0 10px;
-      }
-    }
+    text-align: center;
+    display: block;
   }
 
   h3 {
