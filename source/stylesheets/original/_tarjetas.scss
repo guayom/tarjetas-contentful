@@ -30,6 +30,12 @@
     }
     @include grid-media($desktop-grid){
       @include grid-column(3);
+      &:nth-child(4) {
+        clear: none;
+      }
+      &:nth-child(5) {
+        clear: left;
+      }
     }
     background: $gris-claro;
     box-sizing: border-box;
