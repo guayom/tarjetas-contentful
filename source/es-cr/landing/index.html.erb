@@ -7,47 +7,43 @@ hero_image_alt: Conocé nuestras tarjetas de crédito
 
 experiment: true
 ---
-<% content_for(:title) do %>
-<%= current_page.data.title %>
-<% end %>
-
 <%= partial 'partials/original/card_row', :locals => {
   titulo: "LAS TARJETAS DEL MES",
   subtitulo: "Las favoritas de nuestros clientes",
+  formato: "ingreso-minimo",
   category: "ninguna",
   tarjetas:[
-    ['Blue American Express®', 'Escogé donde acumular', 'La única tarjeta que podés configurar a tu gusto'],
-    ['Auto Mercado', 'Puntos Auto Frecuente', 'Acumule puntos Auto Frecuente de una manera más rápida y en cualquier lugar'],
+    ['Blue American Express®', 'Escogé donde acumular', '225.000'],
+    ['Auto Mercado', 'Puntos Auto Frecuente', '750.000'],
     ['ConnectMiles', 'Millas de bienvenida', 'Obtenga hasta 15.000 millas de bienvenida & acceso al Status Silver'],
     ['Gane Premios', 'Tus compras te premian', 'Acumulá millas canjeables por premios y regalos en más de 1200 puntos de venta']
 ]}%>
 
 <%= partial 'partials/original/card_row', :locals => {
-  titulo: "TARJETAS SUPERMERCADOS",
   subtitulo: "Aproveche y gane por las compras del supermercado",
+  formato: "ingreso-minimo",
   category: "supermercados",
   tarjetas:[
     ['Walmart', 'Ahorro en sus compras', 'Obtenga hasta un 5% de devolución en efectivos en sus compras en Walmart'],
-    ['PriceSmart', 'Acumule 2% PriceCash', 'En todas sus compras realizadas en PriceSmart'],
+    ['PriceSmart', 'Acumule 2% PriceCash', 'En la membresía de Pricesmart. Acumulá puntos aplicables en tus compras'],
     ['Auto Mercado', 'Puntos Auto Frecuente', 'Acumule puntos Auto Frecuente de una manera más rápida y en cualquier lugar'],
     ['Megasuper', 'Un segundo aguinaldo', 'Por cada compra que realice acumule un Megaguinaldo']
 ]}%>
 
 <%= partial 'partials/original/card_row', :locals => {
-  titulo: "TARJETAS CASHBACK, PUNTOS Y PREMIOS",
   subtitulo: "Acumule puntos o efectivo",
+  formato: "ingreso-minimo",
   category: "cashback",
   tarjetas:[
-    ['Blue American Express®', 'Escogé donde acumular', 'La única tarjeta que podés configurar a tu gusto'],
-    ['Cashback Premium', 'Acumule con Estilo', 'Además del CashBack obtenga acceso al servicio Concierge Travel & Living'],
+    ['Blue American Express®', 'Escogé donde acumular', '225.000'],
     ['Cashback', 'Hasta 17% de cashback', 'La tarjeta con la que recuperás más dinero por tus compras'],
-    ['Puntos Credomatic', 'Ganá puntos', 'Acumulá y redimí tus puntos en los comercios afiliados al programa']
+    ['Cashback Premium', 'Acumule con Estilo', 'Además del CashBack obtenga acceso al servicio Concierge Travel & Living']
 ]}%>
 
 <%= partial 'partials/original/card_row', :locals => {
-  titulo: "TARJETAS VIAJES Y MILLAS",
-  category: "viajes",
   subtitulo: "Conozca las tarjetas que convierten sus compras en tiquetes aéreos",
+  formato: "ingreso-minimo",
+  category: "viajes",
   tarjetas:[
     ['MillasPlus', 'Libertad de decisión', 'Utilice las millas en cualquier aerolínea sin restricción alguna'],
     ['ConnectMiles','Millas de bienvenida', 'Obtenga hasta 15.000 millas de bienvenida & acceso al Status Silver'],
@@ -56,13 +52,14 @@ experiment: true
 ]}%>
 
 <%= partial 'partials/original/card_row', :locals => {
-  titulo: "TARJETAS ESTILO DE VIDA",
-  category: "otras",
   subtitulo: "Acceda a exclusivas recompensas y experiencias inolvidables",
+  formato: "ingreso-minimo",
+  category: "otras",
   tarjetas:[
     ['The Platinum Card', 'Distinta & exclusiva', 'Experiencias innolvidables mediante el programa Membership Rewards', 'The Platinum Card American Express de Credomatic'],
     ['Platinum American Express® de Credomatic','Privilegios insuperables', 'Traslade sus puntos Membership Rewards a diversos socios internacionales'],
     ['INCAE', 'Prestigio & tradición', 'Beneficios exclusivos en INCAE y apoyo al fondo de becas', 'Tarjeta INCAE Business School de Credomatic'],
     ['Club La Nación', 'Eventos exclusivos', 'Obtenga acceso a eventos exclusivos en Parque Viva y múltiples promociones'],
-    ['Gane Premios', 'Tus compras te premian', 'Acumulá millas canjeables por premios y regalos en más de 1200 puntos de venta']
+    ['Gane Premios', 'Tus compras te premian', 'Acumulá millas canjeables por premios y regalos en más de 1200 puntos de venta'],
+    ['Puntos Credomatic', 'Ganá puntos', 'Acumulá y redimí tus puntos en los comercios afiliados al programa']
 ]}%>
