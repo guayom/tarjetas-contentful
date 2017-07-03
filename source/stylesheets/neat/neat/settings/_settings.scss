@@ -83,7 +83,7 @@ $mobile-grid: (
   gutter: 8px,
   media: 480px
 );
-$tablet-grid: (
+$tablet-vertical-grid: (
   columns: 12,
   gutter: 20px,
   media: 768px
@@ -91,7 +91,7 @@ $tablet-grid: (
 $tablet-wide-grid: (
   columns: 12,
   gutter: 20px,
-  media: 1028px
+  media: 1024px
 );
 $desktop-grid: (
   columns: 12,

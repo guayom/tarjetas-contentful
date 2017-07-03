@@ -13,8 +13,20 @@
   li {
     @include grid-column(12);
 
-    @include grid-media($tablet-grid){
-      @include grid-column(3);
+    @include grid-media($tablet-vertical-grid){
+      @include grid-column(6);
+      &:nth-child(3) {
+        clear: left;
+      }
+    }
+    @include grid-media($tablet-wide-grid){
+      @include grid-column(4);
+      &:nth-child(3) {
+        clear: none;
+      }
+      &:nth-child(4) {
+        clear: left;
+      }
     }
     @include grid-media($desktop-grid){
       @include grid-column(3);

@@ -41,7 +41,11 @@
 
   @include grid-column(12);
 
-  @include grid-media($tablet-grid) {
+  @include grid-media($tablet-vertical-grid) {
+    @include grid-column(6);
+  }
+
+  @include grid-media($tablet-wide-grid) {
     @include grid-column(3);
     font-size: 12px;
     height: 90px;
@@ -64,7 +68,7 @@
     left: 13px;
     top: 10px;
 
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       position: static;
       height: auto;
       margin-top: -8px;
@@ -72,7 +76,7 @@
   }
 
   &:last-of-type img {
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       margin-top: -3px;
     }
   }
@@ -101,7 +105,7 @@
     font-weight: bold;
     @include animacion-default;
 
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       font-size: 25px;
       line-height: 25px;
     }
@@ -113,7 +117,7 @@
     font-weight: 400;
     @include animacion-default;
 
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       font-size: 15px;
       margin: 0 0 20px 0;
     }
@@ -121,14 +125,14 @@
 }
 
 .inicial {
-  @include grid-media($tablet-grid) {
+  @include grid-media($tablet-wide-grid) {
     padding-top: 60px;
     padding-bottom: 60px;
     margin-bottom: 40px;
   }
 
   h2 {
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       font-size: 40px;
       line-height: 40px;
       margin-bottom: 10px;
@@ -136,7 +140,7 @@
   }
 
   .filter-title p {
-    @include grid-media($tablet-grid) {
+    @include grid-media($tablet-wide-grid) {
       font-size: 20px;
       margin: 0 0 50px 0;
     }
