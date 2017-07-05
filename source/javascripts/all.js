@@ -27,4 +27,9 @@ $(document).ready(function(){
     animarHeader();
   });
 
+  $(".mas-info-btn").click(function(){
+    $(this).toggleClass('open');
+    $(this).parent().find('div.mas-info-container').toggleClass('open');
+  });
+
 });

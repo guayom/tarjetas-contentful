@@ -108,6 +108,13 @@
     text-decoration: none;
   }
 
+  .ir-a-product-page {
+    display: block;
+    text-align: left;
+    color: $azul;
+    margin-top: 20px;
+  }
+
   .btn {
     background: $rojo2;
     color: $blanco;
@@ -146,5 +153,60 @@
   }
   @include grid-media($desktop-grid){
     text-align: left;
+  }
+}
+
+.mas-info-btn {
+  &:before {
+    content: "Más ";
+  }
+  &:after {
+    content: " aquí";
+  }
+
+  &.open {
+    &:before {
+      content: "Ocultar ";
+    }
+    &:after {
+      content: "";
+    }
+  }
+}
+
+.mas-info-container {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .5s ease;
+
+  &.open {
+    max-height: 100vh;
+  }
+}
+
+.beneficios {
+  text-align: left;
+
+  h3 {
+    text-align: left;
+    color: $gris-oscuro;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: block;
+    float: none;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 10px;
+    padding: 0;
+    color: $gris-oscuro;
   }
 }

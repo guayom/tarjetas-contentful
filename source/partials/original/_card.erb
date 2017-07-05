@@ -20,6 +20,22 @@
   <% end %>
 <% end %>
 </p>
+
+<div class="mas-info-container">
+  <div class="beneficios">
+    <h3>Beneficios Generales</h3>
+    <% unless @tarjeta['beneficiosGenerales'].nil? %>
+      <ul>
+        <% @tarjeta['beneficiosGenerales'].each do |beneficio| %>
+          <li><%= beneficio.titulo %></li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+
+  <%= link_to "Ver toda la información de esta tarjeta >>", @tarjeta['productPage'], :class => "ir-a-product-page", "data-ga_category": "lp tarjetas - 2017", "data-ga_action": "Ir a product page", "data-ga_label": @tarjeta['titulo'], :target => "_blank" %>
+</div>
+
 <%= link_to "Solicitala aquí", @form, :class => "btn", "data-ga_category": "lp tarjetas - 2017", "data-ga_action": "Solicitar - product block", "data-ga_label": @tarjeta['titulo'] %>
 
-<%= link_to "Más información aquí", @tarjeta['productPage'], :class => "btn-ghost", "data-ga_category": "lp tarjetas - 2017", "data-ga_action": "Más info", "data-ga_label": @tarjeta['titulo'] %>
+<%= link_to "información", "javascript:void(0);", :class => "btn-ghost mas-info-btn", "data-ga_category": "lp tarjetas - 2017", "data-ga_action": "Más info", "data-ga_label": @tarjeta['titulo'] %>
