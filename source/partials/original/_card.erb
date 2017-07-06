@@ -6,7 +6,7 @@
 <%# Aquí hice que se le agregue "de Credomatic" a la tarjeta Club Nación para que la caja sea del mismo tamaño que las de a la par %>
 <h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><%= " de Credomatic" if @tarjeta['titulo'] == "Club La Nación"%><% else %><%= tarjeta[3] %><% end %></h4>
 <% unless @tarjeta['variacion'].nil? %>
-  <a href="<%= @tarjeta['productPage'] %>">
+  <a href="javascript:void(0);" class="card-image">
     <img src="<%= @tarjeta['variacion'][0]['arte']['url'] %>?w=240" alt="Tarjeta <%= @tarjeta['titulo'] %>" />
   </a>
 <% end %>

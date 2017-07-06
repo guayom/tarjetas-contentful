@@ -35,7 +35,7 @@ $(document).ready(function(){
   });
 
   //click para más información
-  $(".mas-info-btn").click(function(){
+  $(".mas-info-btn, .card-image").click(function(){
     $(this).toggleClass('open');
     $(this).parent().find('div.mas-info-container').toggleClass('open');
   });
