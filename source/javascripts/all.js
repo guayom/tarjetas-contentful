@@ -25,6 +25,13 @@ $(document).ready(function(){
     $(this).addClass('active');
     filtrarTarjetas (category);
     animarHeader();
+
+  	var headerHeight = $('.logo-header').outerHeight();
+  	var filtersHeight = $('.filters-container').outerHeight();
+    var mobileMenuHeight = $('.mobile-menu').outerHeight();
+    $('html,body').animate({
+    scrollTop: ((headerHeight + filtersHeight) - mobileMenuHeight + 5)+'px'},
+    'slow');
   });
 
   //click para más información
@@ -40,7 +47,8 @@ $(window).scroll(function() {
 	var scrollPosition = $(window).scrollTop();
 	var headerHeight = $('.logo-header').outerHeight();
 	var filtersHeight = $('.filters-container').outerHeight();
-	if(scrollPosition > (headerHeight + filtersHeight - 30)) {
+	var mobileMenuHeight = $('.mobile-menu').outerHeight();
+	if(scrollPosition > ((headerHeight + filtersHeight) - mobileMenuHeight)) {
 		$("body").addClass('sticky');
 	} else{
 		$("body").removeClass('sticky');
