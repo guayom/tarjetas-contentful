@@ -102,4 +102,8 @@
   .mobile-menu {
     top: -1px;
   }
+
+  @include grid-media($desktop-grid) {
+    display: none;
+  }
 }
