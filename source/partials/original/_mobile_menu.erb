@@ -6,10 +6,10 @@
     Elegí tu beneficio favorito
   </div>
   <div class="botones">
-    <% ['cr-icono-supermercado.svg','cr-icono-viajes.svg','cr-icono-cashback.svg','cr-icono-otras.svg'].each do |icono| %>
-      <a href="javascript:void(0);" class="frame">
+<% [['cr-icono-supermercado.svg', 'supermercados'],['cr-icono-viajes.svg', 'viajes'],['cr-icono-cashback.svg', 'cashback'],['cr-icono-otras.svg', 'otras']].each do |icono| %>
+      <a href="javascript:void(0);" class="frame mobile-menu-selector" data-category="<%= icono[1] %>">
         <span class="helper"></span>
-        <%= image_tag icono %>
+        <%= image_tag icono[0] %>
       </a>
     <% end %>
   </div>

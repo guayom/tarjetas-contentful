@@ -6,7 +6,7 @@ $(document).ready(function(){
   //Funciones para los filtros
   //Esta función hace que se le quite la clase active a todos los filtros
   function unselectAllFilters() {
-    $('.filter-item').removeClass('active');
+    $('.filter-item, .mobile-menu-selector').removeClass('active');
   }
 
   //Esta función hace que se muestre sólo la fila de tarjetas seleccionada en los filtros
@@ -19,7 +19,7 @@ $(document).ready(function(){
     $('.filters-container').removeClass('inicial');
   }
 
-  $('.filter-item').click(function(){
+  $('.filter-item, .mobile-menu-selector').click(function(){
     var category = $(this).data('category');
     unselectAllFilters();
     $(this).addClass('active');
