@@ -22,7 +22,7 @@ $(document).ready(function(){
   $('.filter-item, .mobile-menu-selector').click(function(){
     var category = $(this).data('category');
     unselectAllFilters();
-    $(this).addClass('active');
+    $('*[data-category="'+ category +'"]').addClass('active');
     filtrarTarjetas (category);
     animarHeader();
 
