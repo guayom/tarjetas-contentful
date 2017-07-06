@@ -1,8 +1,8 @@
 <div class="card-row" data-category="<%= category %>">
   <% content_tag :h2 do titulo end if defined? titulo %>
-  <ul>
+  <ul class="card-list">
     <% tarjetas.each do |tarjeta| %>
-      <li><%= partial "partials/original/card", :locals => {tarjeta: tarjeta, formato: "ingreso-minimo"} %></li>
+      <li class="card"><%= partial "partials/original/card", :locals => {tarjeta: tarjeta, formato: "ingreso-minimo"} %></li>
     <% end %>
   </ul>
 </div>
