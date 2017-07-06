@@ -31,7 +31,7 @@ $(document).ready(function(){
     var mobileMenuHeight = $('.mobile-menu').outerHeight();
     $('html,body').animate({
     scrollTop: ((headerHeight + filtersHeight) - mobileMenuHeight + 5)+'px'},
-    'slow');
+    'fast');
   });
 
   //click para más información
