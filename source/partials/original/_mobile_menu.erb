@@ -1,0 +1,16 @@
+<div class="mobile-menu">
+  <div class="logo-container">
+    <%= image_tag 'logo.svg', :alt => 'BAC | Credomatic', :width => '180' %>
+  </div>
+  <div class="explicacion">
+    Elegí tu beneficio favorito
+  </div>
+  <div class="botones">
+    <% ['cr-icono-supermercado.svg','cr-icono-viajes.svg','cr-icono-cashback.svg','cr-icono-otras.svg'].each do |icono| %>
+      <a href="javascript:void(0);" class="frame">
+        <span class="helper"></span>
+        <%= image_tag icono %>
+      </a>
+    <% end %>
+  </div>
+</div>

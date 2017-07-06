@@ -27,9 +27,22 @@ $(document).ready(function(){
     animarHeader();
   });
 
+  //click para más información
   $(".mas-info-btn").click(function(){
     $(this).toggleClass('open');
     $(this).parent().find('div.mas-info-container').toggleClass('open');
   });
 
+});
+
+//Sticky menu
+$(window).scroll(function() {
+	var scrollPosition = $(window).scrollTop();
+	var headerHeight = $('.logo-header').outerHeight();
+	var filtersHeight = $('.filters-container').outerHeight();
+	if(scrollPosition > (headerHeight + filtersHeight - 30)) {
+		$("body").addClass('sticky');
+	} else{
+		$("body").removeClass('sticky');
+	}
 });

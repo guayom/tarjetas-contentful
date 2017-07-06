@@ -2,15 +2,95 @@
   text-align: center;
   padding: 20px 0;
   background: #fff;
+  height: 62px;
+  box-sizing: border-box;
+  width: 100%;
 
   @include grid-media($desktop-grid) {
+    height: auto;
     padding: 30px 0;
   }
 
   img {
-    width: 200px;
+    height: 19px;
     @include grid-media($desktop-grid) {
+      height: auto;
       width: 350px;
     }
+  }
+}
+
+.mobile-menu {
+  height: auto;
+  position: fixed;
+  width: 100%;
+  top: -172px;
+  transition: top .5s ease;
+  z-index: 1000;
+  background: $blanco;
+  box-shadow: 0px 1px 4px 0 $shadow-color;
+  box-sizing: border-box;
+  padding: 8px 20px 20px;
+
+  .logo-container {
+    text-align: center;
+    border-bottom: 1px solid $gris-bordes;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .explicacion {
+    width: 40%;
+    float: left;
+    color: $gris-oscuro;
+  }
+
+  .botones {
+    @include clearfix;
+    width: 60%;
+    float: left;
+
+    .frame {
+      width: 25%;
+      float: left;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 0 5px;
+      text-align: center;
+      white-space: nowrap;
+      cursor: pointer;
+      border-radius: 5px;
+      display: block;
+      text-decoration: none;
+
+      &:active {
+        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+      }
+
+      &.selected {
+        border: 1px solid $rojo2;
+      }
+    }
+
+    .helper {
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+    img{
+      max-height: 80%;
+      max-width: 80%;
+      vertical-align: middle;
+    }
+  }
+}
+
+.sticky {
+  .mobile-menu {
+    top: 0;
   }
 }
