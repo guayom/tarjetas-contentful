@@ -35,9 +35,14 @@ $(document).ready(function(){
   });
 
   //click para más información
-  $(".mas-info-btn, .card-image").click(function(){
+  $(".mas-info-btn").click(function(){
     $(this).toggleClass('open');
     $(this).parent().find('div.mas-info-container').toggleClass('open');
+  });
+  //click para más información con la imagen
+  $(".card-image").click(function(){
+    $(this).toggleClass('open');
+    $(this).parent().find('.mas-info-btn').click();
   });
 
 });
