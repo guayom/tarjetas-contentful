@@ -32,13 +32,31 @@
   box-sizing: border-box;
   padding: 10px 20px 20px;
 
+  @include grid-media($desktop-grid) {
+    padding: 20px;
+  }
+
   .logo-container {
     text-align: center;
     border-bottom: 1px solid $gris-bordes;
     margin-bottom: 20px;
     padding-bottom: 8px;
+
+    @include grid-media($desktop-grid) {
+      border-bottom: 0;
+      text-align: left;
+      float: left;
+      margin-right: 50px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
     img {
       max-width: 100%;
+      @include grid-media($desktop-grid) {
+        max-width: auto;
+        width: 350px;
+      }
     }
   }
 
@@ -46,12 +64,22 @@
     width: 40%;
     float: left;
     color: $gris-oscuro;
+
+    @include grid-media($desktop-grid) {
+      width: 20%;
+      font-size: 1.3em;
+      line-height: 2em;
+    }
   }
 
   .botones {
     @include clearfix;
     width: 60%;
     float: left;
+
+    @include grid-media($desktop-grid) {
+      width: 260px;
+    }
 
     .frame {
       width: 25%;
