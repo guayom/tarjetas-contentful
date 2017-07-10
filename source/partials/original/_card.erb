@@ -36,6 +36,6 @@
   <%= link_to "Ver toda la información de esta tarjeta >>", @tarjeta['productPage'], :class => "ir-a-product-page", :onClick => "ga('send', 'event', 'lp tarjetas - 2017 v3', 'Ir a product page', '#{@tarjeta['titulo']}');", :target => "_blank" %>
 </div>
 
-<%= link_to "información", "javascript:void(0);", :class => "btn-ghost mas-info-btn", :onClick => "ga('send', 'event', 'lp tarjetas - 2017 v3', 'Más info', '#{@tarjeta['titulo']}');" %>
+<%= link_to "información", "javascript:void(0);", :class => "btn-ghost mas-info-btn", "data-tarjeta" => @tarjeta['titulo'] %>
 
 <%= link_to "Solicitala aquí", @form, :class => "btn", :onClick => "ga('send', 'event', 'lp tarjetas - 2017 v3', 'Solicitar - product block', '#{@tarjeta['titulo']}');"  %>

@@ -36,6 +36,13 @@ $(document).ready(function(){
 
   //click para más información
   $(".mas-info-btn").click(function(){
+    var tarjeta = $(this).data('tarjeta');
+    if ($(this).hasClass( "open" )) {
+      var action = 'Ocultar información';
+    } else {
+      var action = 'Mostrar Información'
+    }
+    ga('send', 'event', 'lp tarjetas - 2017 v3', action, tarjeta);
     $(this).toggleClass('open');
     $(this).parent().find('div.mas-info-container').toggleClass('open');
   });
