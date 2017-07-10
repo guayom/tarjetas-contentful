@@ -84,5 +84,6 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :gzip
+  activate :minify_html
   activate :remover, :paths => %w(404)
 end

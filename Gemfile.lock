@@ -55,6 +55,7 @@ GEM
     hike (1.2.3)
     hooks (0.4.1)
       uber (~> 0.0.14)
+    htmlcompressor (0.2.0)
     http (2.1.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -100,6 +101,9 @@ GEM
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
+    middleman-minify-html (3.4.1)
+      htmlcompressor (~> 0.2.0)
+      middleman-core (>= 3.2)
     middleman-remover (1.1.0)
       middleman (>= 3.3)
     middleman-sprockets (3.5.0)
@@ -165,6 +169,7 @@ DEPENDENCIES
   middleman (>= 3.3)
   middleman-dotenv
   middleman-livereload
+  middleman-minify-html
   middleman-remover
   redcarpet
   tzinfo-data

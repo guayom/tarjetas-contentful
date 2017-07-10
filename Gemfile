@@ -18,3 +18,5 @@ gem 'middleman-dotenv'
 gem 'redcarpet'
 
 gem 'middleman-remover'
+
+gem "middleman-minify-html"
