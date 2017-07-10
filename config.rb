@@ -85,6 +85,5 @@ configure :build do
   activate :minify_javascript
   activate :gzip
   activate :minify_html
-  activate :asset_hash
   activate :remover, :paths => %w(404)
 end
