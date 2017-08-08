@@ -974,7 +974,7 @@ select:active,select:focus {
 body {
   background-color: #fff;
   color: #6d6e71;
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   line-height: 1.6;
 }
 
@@ -983,7 +983,7 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   font-weight: lighter;
   margin-bottom: 1rem;
 }
@@ -1116,7 +1116,7 @@ p {
   border-radius: 4px;
   cursor: pointer;
   display: inline-block;
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   padding: 1rem 2rem;
   position: relative;
   text-decoration: none;
@@ -1721,7 +1721,7 @@ button::-moz-focus-inner {
   background-size: 15px;
   color: #8dc63f;
   font-size: 1.2rem;
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   text-transform: uppercase;
   padding: 1rem 2rem 1rem 3rem;
   -moz-transition: background-position 0.3s ease-in-out;
@@ -1793,7 +1793,7 @@ button::-moz-focus-inner {
 
 .modal-steps__title {
   background-color: rgba(57, 68, 87, 0.3);
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   display: inline-block;
   padding: 0.3rem 2rem 0.3rem 3rem;
 }
@@ -1873,14 +1873,14 @@ button.mfp-close {
 .title-primary {
   font-size: 18px;
   font-size: 1.8rem;
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   text-transform: uppercase;
 }
 
 .title-secondary {
   font-size: 14px;
   font-size: 1.4rem;
-  font-family: "TrebuchetMS", Helvetica, Arial, sans-serif;
+  font-family: $graphik;
   text-transform: uppercase;
 }
 

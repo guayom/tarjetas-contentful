@@ -47,7 +47,7 @@
 
   h2 {
     color: $gris-mas-oscuro;
-    font-family: 'Trebuchet MS','Lucida Grande','Lucida Sans','Tahoma','sans-serif';
+    font-family: $graphik;
     font-size: 30px;
     margin: 0 0 1em;
     padding: 0;
@@ -90,7 +90,7 @@
 
   p {
     color: $gris-mas-oscuro;
-    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-family: $graphik;
     font-size: .86em;
     font-weight: normal;
     text-align: left;
@@ -102,7 +102,7 @@
     font-weight: bold;
     line-height: 1.2;
     margin: 10px 0;
-    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-family: $graphik;
   }
 
   a {
