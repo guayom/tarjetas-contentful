@@ -65,9 +65,9 @@
     color: $gris-oscuro;
 
     @include grid-media($desktop-grid) {
-      width: 20%;
-      font-size: 1.3em;
-      line-height: 2em;
+      width: 25%;
+      font-size: 1.6em;
+      line-height: 2.8em;
     }
   }
 
@@ -78,6 +78,7 @@
 
     @include grid-media($desktop-grid) {
       width: 260px;
+      margin-top: 9px;
     }
 
     .frame {
