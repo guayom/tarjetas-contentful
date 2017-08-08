@@ -15,7 +15,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -34,14 +34,17 @@
 - :id: 5l4yZ1jw1aM48omEoGeIUY
   :titulo: Redención de Puntos Viva por compra de Productos de Grupo Nación, en eventos
     Parque Viva y en los comercios afiliados
+- :id: 3T3qxIl68UOOQAe2IwQoA0
+  :titulo: 3% de retorno de dinero en sus compras en supermercados
+- :id: 5X3Er8kINyGosoi66ygKw2
+  :titulo: 2% de retorno de dinero en compras en farmacias
+- :id: 4c6hQ41p0kCkuI6YQ6qkg4
+  :titulo: 1% de retorno de dinero en compras en gasolineras, tiendas por departamentos,
+    ropa y zapaterías, restaurantes y comidas rápidas
 - :id: 5KHnqpVEOW8gQIogG42OEy
   :titulo: Dispositivo Compass de cortesía
 - :id: 3qKYb0w6wEUce4c8QyKua6
   :titulo: Descuentos superiores al 20% en más de 150 comercios
-- :id: 4jesB544vSQoWGaSK8I4Ai
-  :titulo: Beneficios en la plataforma de BAC Beneficios y Mipromo.com
-- :id: 6LcQ4wi0wMey4aOE4gicc0
-  :titulo: Acceso a Momentos Credomatic (No aplica Tasa Cero ni Minicuotas)
 :monedas:
 - Dólares
 - Colones
@@ -60,7 +63,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

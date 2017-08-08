@@ -18,5 +18,12 @@
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+:beneficiosGenerales:
+- :id: 2Utcyb7TFSGo02UMkgycQC
+  :titulo: Acceso a todos los descuentos de la plataforma de Club La Nación
+- :id: 7j2WwRwSicwaKIAYYmiQc0
+  :titulo: Acceso a Momentos Credomatic (No aplica Tasa Cero ni Minicuotas)
+- :id: 1hDpzqAyrUi2Q0YC6osGeu
+  :titulo: Beneficios en la plataforma de BAC Beneficios y Mipromo.com
 :productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/supermercados-clubes-y-tiendas/tarjeta-pre-pago-club-la-nacion-american
 :form: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud

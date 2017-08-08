@@ -16,7 +16,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -91,7 +91,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -116,7 +116,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -236,12 +236,14 @@
 - :id: 3U34i6eNYko2ugI82KEI0a
   :titulo: Promociones Exclusivas
 - :id: 2ZLraycFSEUUgAqMAiecIG
-  :titulo: Utilización de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
+  :titulo: Redención de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
     a viajescredomatic.com
 - :id: 5jMkzfJmrKOUsWGSG4okgw
   :titulo: Tarjeta Check Marketing para redención de puntos en comercios afiliados
 - :id: 3cnTA5aqnecyOcmQW8uEUc
   :titulo: Redimir puntos en más de 150 Comercios
+- :id: 1ilJWy6vY4KMG0c2Gu6mkW
+  :titulo: Aplicación de puntos al estado de cuenta
 :monedas:
 - Dólares
 - Colones
@@ -261,7 +263,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

@@ -16,7 +16,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -69,17 +69,19 @@
     :nombre: American Express
   :maximoDeAcumulacion: Máximo anual $500 o su equivalente en colones
 :beneficiosGenerales:
+- :id: 7a2zxyPy9iuK4KQo0QE2qq
+  :titulo: Tarjeta dual de ingreso al club Pricesmart
+- :id: 5yr0vzIQwMywa0o8GgKMYi
+  :titulo: Financiamiento con minicuotas fijo, 24. 18 y 12 meses plazo
 - :id: 3uyGlKvURioUAMoiIaUQas
   :titulo: Servicio de concierge con asesoría grátis
 - :id: 6ZYlTfseFqqgiyugS0Uic
   :titulo: Inscrito en el programa pasaporte Amex, donde puede disfrutar de descuentos
     en viajes restaurantes, eventos y compras
-- :id: 7a2zxyPy9iuK4KQo0QE2qq
-  :titulo: Tarjeta dual de ingreso al club Pricesmart
 - :id: 3PPm9ILJNuIweeiUI64y0A
   :titulo: Promociones de Tasa Cero durante todo el año
-- :id: 5yr0vzIQwMywa0o8GgKMYi
-  :titulo: Financiamiento con minicuotas fijo, 24. 18 y 12 meses plazo
+- :id: 3RrGZI5AvS4U0Q4AasKmce
+  :titulo: Servicio Concierge
 :monedas:
 - Dólares
 - Colones
@@ -102,7 +104,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

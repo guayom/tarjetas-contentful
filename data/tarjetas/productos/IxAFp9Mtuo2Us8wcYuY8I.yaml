@@ -16,7 +16,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -91,7 +91,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -116,7 +116,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -234,14 +234,14 @@
 - :id: 3U34i6eNYko2ugI82KEI0a
   :titulo: Promociones Exclusivas
 - :id: 2ZLraycFSEUUgAqMAiecIG
-  :titulo: Utilización de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
+  :titulo: Redención de puntos en tiquetes aéreos, hospedajes y rent a car, ingresando
     a viajescredomatic.com
 - :id: 1krdynkGU8wICuSO4uYQK6
   :titulo: Acumulación acelerada de millas
 - :id: 6xrFeMSz6g6iaUmewQ4kuc
   :titulo: Canjear millas Gane Premios en más de 1200 comercios afiliados.
-- :id: VO51LdYQEMqQQcys6uoI8
-  :titulo: Las millas Gane Premios se pueden trasladar al viajero frecuente de LifeMiles.
+- :id: 4Yznep5gsogyGu6wQOo4kW
+  :titulo: Aplicación de millas al estado de cuenta
 :monedas:
 - Colones
 :planDeLealtad:
@@ -259,7 +259,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

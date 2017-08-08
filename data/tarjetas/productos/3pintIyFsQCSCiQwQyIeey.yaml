@@ -15,7 +15,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -96,7 +96,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -177,7 +177,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -248,12 +248,12 @@
   :monedaDeCosto:
   - "₡"
 :beneficiosGenerales:
-- :id: 1SraIb9Y4wuwGOEW4qKssM
-  :titulo: Acceso a preventa de entradas para eventos de Momentos Credomatic
 - :id: 4bOcCtucBiQq4AmEMGckiM
   :titulo: Cero costo al redimir los colones CashBack por medio de la Sucursal Electrónica
 - :id: 4s323ZxDPG8Ya4eGSyIwa6
   :titulo: Aplicar sus colones Cashback al saldo de la tarjeta o cuenta bancaria.
+- :id: 1SraIb9Y4wuwGOEW4qKssM
+  :titulo: Acceso a preventa de entradas para eventos de Momentos Credomatic
 :monedas:
 - Dólares
 - Colones
@@ -274,7 +274,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

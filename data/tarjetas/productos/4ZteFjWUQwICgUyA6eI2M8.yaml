@@ -41,8 +41,6 @@
   :titulo: Descuentos y beneficios para clientes American Express por medio de www.pasaporteamex.com
 - :id: 6T7O85jzEsgmgEkQm4Es4M
   :titulo: Acceso a la sala Santamaría VIP
-- :id: 2Ekq2O0zxm0uuAKGkyQUSS
-  :titulo: Acceso preferencial en sucursales BAC San José
 :monedas:
 - Dólares
 - Colones
@@ -61,7 +59,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

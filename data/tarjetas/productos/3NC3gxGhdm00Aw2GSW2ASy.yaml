@@ -14,10 +14,21 @@
     :titulo: Blue
     :limiteMinimoDeCredito: 250000
     :limiteMaximoDeCredito: 10000
-    :salarioMinimo: 335000
+    :salarioMinimo: 331500
   :emisor:
     :id: 4DMV5aPmOQAyWCIim0yyMU
     :nombre: American Express
+:beneficiosGenerales:
+- :id: 6Lc4Q7NDXOSQmKqiOKKAoc
+  :titulo: Acumule hasta 5% de CashBack BLUE
+- :id: 5Oxt4Lcoj6sKCKWcQqqmsS
+  :titulo: Puede elegir 2 de 10 industrias una vez al mes para acumular su CashBack
+    Blue.
+- :id: 5bil9fSRwQiSsQ4OsC4m0g
+  :titulo: Diseño único e innovador.
+- :id: 1wL95wdHgQKgay0y0uWkc6
+  :titulo: Beneficios exclusivos en Zonas BLUE, conciertos Momentos Credomatic, festivales,
+    gastronomía, aventura y mucho más.
 :productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-blue
 :form: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud/blue
 :formOpa: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud/blue

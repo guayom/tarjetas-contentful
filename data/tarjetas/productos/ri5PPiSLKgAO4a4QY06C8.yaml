@@ -168,16 +168,21 @@
     :nombre: Master Card
   :maximoDeAcumulacion: 30.000 Millas Mensuales
 :beneficiosGenerales:
-- :id: 1mzFDghiP2SIsm0aaAokIC
-  :titulo: Canje de millas en alquiler de auto
-- :id: 3U34i6eNYko2ugI82KEI0a
-  :titulo: Promociones Exclusivas
+- :id: 2YzzMluNb2w4WquYA62QCM
+  :titulo: Promociones exclusivas del portafolio Credomatic / AAdvantage
 - :id: 4ksrGwslO0weYgSgOAgA8g
   :titulo: Acumular millas al Viajero frecuente de American Airlines
 - :id: 1LZ3cBBnGYqWumqkWYieAm
-  :titulo: Poder volar en cualquiera de las 15 aerolíneas asociadas al One World Allaince.
+  :titulo: Poder volar en cualquiera de las 15 aerolíneas asociadas al One World Alliance.
+- :id: 42z8T8JILCuS40Ma2MwKuk
+  :titulo: Promociones de millaje reducido
+- :id: 1uon2lgfliGUOS6QW6wcCo
+  :titulo: Canje de millas en alquiler de auto, hoteles, Sala VIP Admirals Club, upgrade
+    de cabina, ingresando a www.aa.com
 - :id: 4wovlWnjlSUOYy8oO62qC
   :titulo: Millas no vencen siempre y cuando tenga uso constante la tarjeta.
+- :id: 5ii8eJ8cVyuMQCggcAMiIU
+  :titulo: Priority Pass
 :monedas:
 - Dólares
 - Colones
@@ -236,7 +241,6 @@
   :metodoDeRedencion: Se hará directamentamente con American Airlines
 :requisitos:
 - Cédula de identidad
-- Orden patronal
 - Comprobante de dirección física
 - Antigüedad laboral mínima de 3 meses
 - Certificación de Ingresos (Trabajador Independiente)

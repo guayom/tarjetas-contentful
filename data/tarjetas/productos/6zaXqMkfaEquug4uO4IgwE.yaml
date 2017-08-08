@@ -16,7 +16,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 325000
+    :salarioMinimo: 331500
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -60,8 +60,6 @@
   :titulo: Canje de Megaguinaldo en los supermercados en Diciembre de cada año
 - :id: 6o6tTFxUHukkEi2K0GqGGe
   :titulo: Aplica para compras en el exterior
-- :id: 1JuYBsWTxGA0iMKema6ie8
-  :titulo: 'Se acumula 1% en otros comercios. '
 :monedas:
 - Dólares
 - Colones
@@ -80,7 +78,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 325000
+      :salarioMinimo: 331500
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75

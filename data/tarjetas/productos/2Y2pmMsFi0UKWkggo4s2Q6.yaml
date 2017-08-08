@@ -83,18 +83,18 @@
   :monedaDeCosto:
   - "$"
 :beneficiosGenerales:
-- :id: 3fNKdn5eRiciKeMweS4oCi
-  :titulo: 10% de descuento en compra de millas y/o redención de millas
 - :id: 2g6pPBFmyoECGSoKEMS0ai
   :titulo: 15000 millas de bienvenida
-- :id: 1COg4YIsjS26AkyaiYGUAw
-  :titulo: 5 ingresos de cortesía anuales a Salas VIP
 - :id: 6HzUGJ5wtOUkSY2ysEck6i
   :titulo: Acumulación de hasta 3 millas por dólar en Copa Airlines
-- :id: 4T59WIyjq0cY020GQsUQ22
-  :titulo: Viaje con cualquiera de las 29 aerolíneas de Star Alliance
+- :id: 2d2bMDA03iQg00eiuwwciW
+  :titulo: Segundo boleto a solo $99* una vez al año
 - :id: LZYNouYWeO4C0KmAcISeW
   :titulo: Membresía Priority Pass de cortesía
+- :id: 1COg4YIsjS26AkyaiYGUAw
+  :titulo: 5 ingresos de cortesía anuales a Salas VIP
+- :id: 3fNKdn5eRiciKeMweS4oCi
+  :titulo: 10% de descuento en compra de millas y/o redención de millas
 - :id: 40rspfNaIMcGKC8QEuEUsM
   :titulo: Privilegios de VISA
 - :id: 4FmV8AeAUg4uQAKYwUsswo
