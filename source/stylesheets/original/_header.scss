@@ -54,7 +54,7 @@
       max-width: 100%;
       @include grid-media($desktop-grid) {
         max-width: auto;
-        width: 350px;
+        //width: 350px;
       }
     }
   }
