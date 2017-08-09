@@ -25,4 +25,5 @@
 
 .tarjetas-space-hash
 data/tarjetas/productos/*.*
-data/tarjetas/productos/
+data/tarjetas/generalidades/*.*
+data/tarjetas/categorias/*.*
