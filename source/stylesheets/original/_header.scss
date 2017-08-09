@@ -23,7 +23,7 @@
   height: auto;
   position: fixed;
   width: 100%;
-  top: -180px;
+  top: -200px;
   transition: top .5s ease;
   z-index: 1000;
   background: $blanco;
@@ -62,20 +62,24 @@
   }
 
   .explicacion {
-    width: 40%;
+    width: 100%;
     float: left;
     color: $gris-oscuro;
+    text-align: center;
+    margin-bottom: 10px;
 
     @include grid-media($desktop-grid) {
       width: 25%;
       font-size: 1.6em;
       line-height: 2.8em;
+      text-align: left;
+      margin-bottom: 0;
     }
   }
 
   .botones {
     @include clearfix;
-    width: 60%;
+    width: 100%;
     float: left;
 
     @include grid-media($desktop-grid) {
