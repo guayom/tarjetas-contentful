@@ -2,7 +2,7 @@
   text-align: center;
   padding: 20px 0;
   background: #fff;
-  height: 62px;
+  height: 72px;
   box-sizing: border-box;
   width: 100%;
 
@@ -12,7 +12,7 @@
   }
 
   img {
-    height: 19px;
+    height: 30px;
     @include grid-media($desktop-grid) {
       height: auto;
     }
@@ -51,9 +51,11 @@
     }
 
     img {
-      max-width: 100%;
+      max-width: 45%;
+      margin: 10px 0;
       @include grid-media($desktop-grid) {
         max-width: auto;
+        margin: 0;
         //width: 350px;
       }
     }
