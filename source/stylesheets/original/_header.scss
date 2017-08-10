@@ -12,7 +12,7 @@
   }
 
   img {
-    height: 30px;
+    height: 40px;
     @include grid-media($desktop-grid) {
       height: auto;
     }
@@ -54,7 +54,7 @@
       max-width: 45%;
       margin: 10px 0;
       @include grid-media($desktop-grid) {
-        max-width: auto;
+        max-width: 95%;
         margin: 0;
         //width: 350px;
       }
