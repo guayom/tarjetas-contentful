@@ -14,7 +14,8 @@
 <p>
 <% unless @tarjeta['variacion'].nil? %>
   <% if formato == "ingreso-minimo" %>
-     <%= "<strong>Ingreso mínimo requerido</strong>: &#8353;".html_safe + number_with_delimiter(@tarjeta.variacion[0]['color']['salarioMinimo'].to_i, :delimiter => '.').to_s %>
+    <% salario_minimo_requerido = @tarjeta['titulo'] == "Auto Mercado" ? 331500 : @tarjeta.variacion[0]['color']['salarioMinimo'] %>
+     <%= "<strong>Ingreso mínimo requerido</strong>: &#8353;".html_safe + number_with_delimiter(salario_minimo_requerido.to_i, :delimiter => '.').to_s %>
   <% else %>
     <%= tarjeta[2] %>
   <% end %>
