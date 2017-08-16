@@ -76,9 +76,10 @@
     }
   }
 
-  &:last-of-type img {
+  &:nth-child(3) img {
+    margin-left: 10px;
     @include grid-media($tablet-wide-grid) {
-      margin-top: -3px;
+      margin-left: 0;
     }
   }
 
