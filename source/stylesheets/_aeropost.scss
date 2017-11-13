@@ -1,0 +1,130 @@
+.aeropost {
+  background: $blanco;
+  padding: 20px 20px 20px;
+  position: fixed;
+  bottom: -300px;
+  left: 0;
+  width: 100%;
+  transition: bottom 1s ease;
+  box-shadow: 1px -1px 3px 0px rgba(50, 50, 52, 0.2);
+  overflow: hidden;
+  box-sizing: border-box;
+
+  @include grid-media($tablet-wide-grid) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.expanded {
+    bottom: 0;
+  }
+}
+
+.wrapper {
+  max-width: 1212px;
+  margin: 0 auto;
+}
+
+.aeropost-square {
+  border: solid 2px $azul-aeropost;
+  padding: 20px;
+  color: $azul-aeropost;
+  border-radius: 5px;
+  position: relative;
+  font-size:1em;
+  background: $blanco;
+
+   outline: #fff solid 4px;
+
+  @include clearfix;
+
+  @include grid-media($tablet-wide-grid) {
+    padding: 20px;
+    font-size:1.3em;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .titular {
+    margin-right: 20px;
+    position: absolute;
+    top: -1.2em;
+    left: 20px;
+    background: #fff;
+    padding: 10px;
+    display: inline-block;
+    margin: 0;
+
+    @include grid-media($tablet-wide-grid) {
+      position: static;
+      background: none;
+      padding: 0;
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-right: 20px;
+      float: left;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+    text-align: center;
+    display: inline-block;
+
+    @include grid-media($tablet-wide-grid) {
+      display: inline-block;
+      text-align: left;
+      margin-top: -5px;
+    }
+  }
+
+  li {
+    display: block;
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+
+    @include grid-media($tablet-wide-grid) {
+      text-align: left;
+      display: inline-block;
+      width: auto;
+      margin-right: 20px;
+    }
+  }
+
+  .aeropost-icon {
+    display: block;
+    margin: 0 auto;
+
+    @include grid-media($tablet-wide-grid) {
+      display: inline;
+    }
+  }
+
+}
+
+.aeropost-logo {
+  position: absolute;
+  bottom: -15px;
+  right: 30px;
+  background: #fff;
+  padding: 0 10px;
+  z-index: 1;
+
+  @include grid-media($tablet-wide-grid) {
+    bottom: -15px;
+  }
+
+  img {
+    max-width: 70px;
+
+    @include grid-media($tablet-wide-grid) {
+      max-width: 700000px;
+    }
+  }
+}

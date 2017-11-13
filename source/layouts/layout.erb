@@ -36,9 +36,11 @@
   <%= partial "partials/original/mobile_menu" %>
   <%= partial "partials/nuevo/header" %>
   <%= partial "partials/nuevo/filters" %>
+
   <div class="main-wrapper">
     <%= yield %>
   </div>
+  <%= partial "partials/aeropost" %>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <%= javascript_include_tag :all %>
   <%= partial 'partials/original/scripts' %>

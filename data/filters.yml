@@ -1,0 +1,15 @@
+categoryFilters:
+  - test
+benefitFilters:
+  - title: Parqueo <span>Gratuito</span>
+    alias: parqueo-gratuito
+    icon: cr-landing-alternativo-iconos-valet1.svg
+  - title: Acumulación <span>Acelerada</span>
+    alias: acumulacion-acelerada
+    icon: cr-landing-alternativo-iconos-acumulacion1.svg
+  - title: Sin costo de <span>Administración</span>
+    alias: acumulación acelerada
+    icon: cr-landing-alternativo-iconos-sincosto1.svg
+  - title: Acceso a salas de espera <span>en Aeropuertos</span>
+    alias: acumulación acelerada
+    icon: cr-landing-alternativo-iconos-salas1.svg

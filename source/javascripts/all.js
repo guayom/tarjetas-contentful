@@ -1,4 +1,39 @@
+function displayVerMasBtn(state){
+  if (state === 'collapsed') {
+    $('.ver-mas-beneficios-btn').slideDown();
+  } else {
+    $('.ver-mas-beneficios-btn').slideUp();
+  }
+}
+
+function setFiltersHeight(desiredHeight){
+  var titleHeight = $('.filter-title').outerHeight();
+  var categoryFiltersHeight = $('.category-filters').outerHeight();
+  var benefitFiltersHeight = $('.benefit-filters').outerHeight();
+  var verMasHeight = $('.ver-mas-beneficios-btn').outerHeight();
+
+  var collapsedHeight = titleHeight + categoryFiltersHeight + verMasHeight;
+  var expandedHeight = titleHeight + categoryFiltersHeight + benefitFiltersHeight;
+
+  // Aquí podría haber un tercer valor 'auto' para settear el height cuando se cambia el tamaño de pantalla
+  finalHeight = desiredHeight === 'expanded' ? expandedHeight : collapsedHeight;
+
+  $('.filters-container').css('max-height', finalHeight);
+  displayVerMasBtn(desiredHeight);
+}
+
+$('#css-toggle-menu').change(function(){
+  if(this.checked) {
+    var desiredHeight = "expanded";
+  } else {
+    var desiredHeight = "collapsed";
+  }
+  setFiltersHeight(desiredHeight);
+});
+
 $(document).ready(function(){
+
+  setFiltersHeight("collapsed");
 
   //inicializar filtros. Hace que sólo se muestre la fila de tarjetas que tiene la categoría "ninguna"
   $('*[data-category="ninguna"]').show();
@@ -64,5 +99,14 @@ $(window).scroll(function() {
 		$("body").addClass('sticky');
 	} else{
 		$("body").removeClass('sticky');
+	}
+
+  //Aparece el cuadro de aeropost
+  if(scrollPosition > headerHeight) {
+		$("body").addClass('sticky');
+		$(".aeropost").addClass('expanded');
+	} else{
+		$("body").removeClass('sticky');
+		$(".aeropost").removeClass('expanded');
 	}
 });
