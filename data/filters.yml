@@ -1,5 +1,17 @@
 categoryFilters:
-  - test
+  - title: Tarjetas para <span>Supermercados</span>
+    alias: supermercados
+    icon: cr-icono-supermercado-solid.svg
+  - title: Tarjetas para <span>Viajes</span>
+    alias: viajes
+    icon: cr-icono-viajes-avion-solid.svg
+  - title: Tarjetas de <span>Cashback</span>
+    alias: cashback
+    icon: cr-icono-cashback-solid.svg
+  - title: Otras <span>Tarjetas</span>
+    alias: otras
+    icon: cr-icono-otras-solid.svg
+
 benefitFilters:
   - title: Parqueo <span>Gratuito</span>
     alias: parqueo-gratuito
@@ -10,6 +22,6 @@ benefitFilters:
   - title: Sin costo de <span>Administración</span>
     alias: acumulación acelerada
     icon: cr-landing-alternativo-iconos-sincosto1.svg
-  - title: Acceso a salas de espera <span>en Aeropuertos</span>
+  - title: Acceso a salas vip <span>en Aeropuertos</span>
     alias: acumulación acelerada
     icon: cr-landing-alternativo-iconos-salas1.svg
