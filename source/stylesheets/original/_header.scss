@@ -1,20 +1,20 @@
 .logo-header {
-  text-align: center;
-  padding: 20px 0;
+  text-align: left;
+  padding: 20px;
   background: #fff;
-  height: 72px;
   box-sizing: border-box;
   width: 100%;
 
   @include grid-media($desktop-grid) {
     height: auto;
     padding: 30px 0;
+    text-align: center;
   }
 
   img {
-    height: 40px;
+    width: 45%;
     @include grid-media($desktop-grid) {
-      height: auto;
+      width: auto;
     }
   }
 }
