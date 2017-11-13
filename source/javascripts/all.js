@@ -1,39 +1,19 @@
-function displayVerMasBtn(state){
-  if (state === 'collapsed') {
-    $('.ver-mas-beneficios-btn').slideDown();
-  } else {
-    $('.ver-mas-beneficios-btn').slideUp();
-  }
-}
+$('#ver-mas-beneficios-btn').change(function(){
+  var target = $('.benefit-filters');
+  var label = $('.ver-mas-beneficios-btn-label');
 
-function setFiltersHeight(desiredHeight){
-  var titleHeight = $('.filter-title').outerHeight();
-  var categoryFiltersHeight = $('.category-filters').outerHeight();
-  var benefitFiltersHeight = $('.benefit-filters').outerHeight();
-  var verMasHeight = $('.ver-mas-beneficios-btn').outerHeight();
-
-  var collapsedHeight = titleHeight + categoryFiltersHeight + verMasHeight;
-  var expandedHeight = titleHeight + categoryFiltersHeight + benefitFiltersHeight;
-
-  // Aquí podría haber un tercer valor 'auto' para settear el height cuando se cambia el tamaño de pantalla
-  finalHeight = desiredHeight === 'expanded' ? expandedHeight : collapsedHeight;
-
-  $('.filters-container').css('max-height', finalHeight);
-  displayVerMasBtn(desiredHeight);
-}
-
-$('#css-toggle-menu').change(function(){
   if(this.checked) {
-    var desiredHeight = "expanded";
+    target.slideDown();
+    var labelText = "Ocultar Beneficios";
   } else {
-    var desiredHeight = "collapsed";
+    target.slideUp();
+    var labelText = "Ver más beneficios";
   }
-  setFiltersHeight(desiredHeight);
+
+  label.text(labelText);
 });
 
 $(document).ready(function(){
-
-  setFiltersHeight("collapsed");
 
   //inicializar filtros. Hace que sólo se muestre la fila de tarjetas que tiene la categoría "ninguna"
   $('*[data-category="ninguna"]').show();
