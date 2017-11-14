@@ -13,6 +13,10 @@ $('#ver-mas-beneficios-btn').change(function(){
   label.text(labelText);
 });
 
+$("#hamburger-btn").click(function(){
+  $("#ver-mas-beneficios-btn").click();
+});
+
 $(document).ready(function(){
 
   //inicializar filtros. Hace que sólo se muestre la fila de tarjetas que tiene la categoría "ninguna"
@@ -69,24 +73,31 @@ $(document).ready(function(){
 
 });
 
+function displayFilters(action, target){
+  var targetDiv = $(target);
+
+  if (action === 'collapse') {
+    targetDiv.hide();
+  } else {
+    targetDiv.show();
+  }
+}
+
 //Sticky menu
 $(window).scroll(function() {
 	var scrollPosition = $(window).scrollTop();
 	var headerHeight = $('.logo-header').outerHeight();
 	var filtersHeight = $('.filters-container').outerHeight();
-	var mobileMenuHeight = $('.mobile-menu').outerHeight();
-	if(scrollPosition > ((headerHeight + filtersHeight) - mobileMenuHeight)) {
-		$("body").addClass('sticky');
-	} else{
-		$("body").removeClass('sticky');
-	}
+  var bodyPaddingTop = headerHeight + filtersHeight;
 
   //Aparece el cuadro de aeropost
-  if(scrollPosition > headerHeight) {
+  if(scrollPosition > (headerHeight + filtersHeight)) {
 		$("body").addClass('sticky');
+		$(".mobile-menu").addClass('shown');
 		$(".aeropost").addClass('expanded');
 	} else{
 		$("body").removeClass('sticky');
+		$(".mobile-menu").removeClass('shown');
 		$(".aeropost").removeClass('expanded');
 	}
 });

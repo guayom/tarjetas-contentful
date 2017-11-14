@@ -1,7 +1,7 @@
 <div class="filters-outer-container">
   <div class="filters-container inicial">
     <div class="filters-content">
-      <div class="filter-row">
+      <div class="filter-title-row">
         <div class="filter-title">
           <h2>Elegí el beneficio <span>y solicitá la tuya</span></h2>
         </div>
@@ -16,7 +16,7 @@
           <%= partial "partials/filtro", :locals => {:item => filter} %>
         <% end %>
       </div>
-      <div class="ver-mas-beneficios-btn">
+      <div class="ver-mas-beneficios-btn filter-row">
         <input type="checkbox" id="ver-mas-beneficios-btn" name="ver-mas-beneficios-btn"/>
         <label class="ver-mas-beneficios-btn-label" for="ver-mas-beneficios-btn">Ver más beneficios</label>
       </div>

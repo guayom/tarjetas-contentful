@@ -1,0 +1,19 @@
+<div class="mobile-menu">
+  <div class="filter-title">
+    <h2>Elegí otro beneficio <span>y solicitá la tuya</span></h2>
+  </div>
+  <label class="hamburger-btn" for="mobile-menu-hamburger-button">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <input type="checkbox" id="mobile-menu-hamburger-button" name="mobile-menu-hamburger-button" />
+  <div class="category-filters filter-row mobile-menu-filters">
+    <% data.filters.categoryFilters.each do |filter| %>
+      <%= partial "partials/filtro", :locals => {:item => filter} %>
+    <% end %>
+    <% data.filters.benefitFilters.each do |filter| %>
+      <%= partial "partials/filtro", :locals => {:item => filter} %>
+    <% end %>
+  </div>
+</div>
