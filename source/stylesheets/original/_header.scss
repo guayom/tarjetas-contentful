@@ -5,6 +5,10 @@
   box-sizing: border-box;
   width: 100%;
 
+  @include grid-media($tablet-vertical-grid) {
+    text-align: center;
+  }
+
   @include grid-media($desktop-grid) {
     height: auto;
     padding: 30px 0;
@@ -13,8 +17,11 @@
 
   img {
     width: 45%;
+    @include grid-media($tablet-vertical-grid) {
+      width: 30%;
+    }
     @include grid-media($desktop-grid) {
-      width: auto;
+      width: 12%;
     }
   }
 }

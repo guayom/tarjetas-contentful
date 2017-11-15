@@ -1,21 +1,21 @@
 ---
 :id: 3pintIyFsQCSCiQwQyIeey
-:titulo: Cashback
+:titulo: CashBack
 :imagenPagina: https://www.baccredomatic.com/sites/default/files/cr_landing_cards_tarjeta_pricesmart_clasica-min.png
 :oneLiner: La única tarjeta que devuelve hasta un 17% en sus compras
 :variacion:
 - :id: 2dxPSBpFU0WS4MyQCeuw0Y
-  :titulo: 'Cashback Clásica American Express '
+  :titulo: 'CashBack Clásica American Express '
   :arte:
     :title: Tarjeta Cashback Azul
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/2OoIBQ6riE6gOUIG2EMCkg/85a0453e07a2b5c2b92c5fe61fd02cae/cashback-clasoca.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 331500
+    :salarioMinimo: 400000
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -32,11 +32,11 @@
   :monedaDeCosto:
   - "₡"
 - :id: 4gj4g3wHiMeYK0GIGoIkuO
-  :titulo: 'Cashback Dorada American Express '
+  :titulo: 'CashBack Dorada American Express'
   :arte:
-    :title: Tarjeta Cashback Dorada
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/gHlHryKv4siiUSQIuCWqe/008c2583e99b16cc99c5fe04367a7590/cr-tarjeta-cashback-dorada-amex.png"
+    :title: Tarjeta CashBack Dorada
+    :description:
+    :url: "//images.contentful.com/9cds0lha1plv/gHlHryKv4siiUSQIuCWqe/c535ce7e2f5211f9c36c10cd2a36ffff/cr_cashback_dorada_amex.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
     :titulo: Dorado
@@ -59,11 +59,11 @@
   :monedaDeCosto:
   - "₡"
 - :id: 3wNhKn68WAoSSOOqWg6y4e
-  :titulo: 'Cashback Platino American Express '
+  :titulo: 'CashBack Platino American Express '
   :arte:
-    :title: Tarjeta Cashback Platino
-    :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/6oS73g0p2MmQISC2wW8wOM/6ba967c8e71c389426785a5422342255/cr-tarjeta-cashback-platino-amex.png"
+    :title: Tarjeta CashBack Platino
+    :description:
+    :url: "//images.contentful.com/9cds0lha1plv/6oS73g0p2MmQISC2wW8wOM/7f97d29a606424100b144d89270762df/cr_cashback_platino_amex.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
     :titulo: Platino
@@ -89,14 +89,14 @@
   :titulo: 'CashBack Clásica Mastercard '
   :arte:
     :title: 'CashBack Clásica Mastercard '
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/54b4lFSM3uQSue8Ks2I4CS/86a971238345bd6e420e369e5a899877/cr-tarjeta-cashback-clasica-mc.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 331500
+    :salarioMinimo: 400000
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -116,7 +116,7 @@
   :titulo: 'Cashback Dorada Mastercard '
   :arte:
     :title: 'Cashback Dorada Mastercard '
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/5AQWU1wMneKaews0aEuKuk/89dedcfd9b8765ddbab5e60087cf11f9/cr-tarjeta-cashback-dorada-mc.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
@@ -143,7 +143,7 @@
   :titulo: 'CashBack Platino Mastercard '
   :arte:
     :title: 'CashBack Platino Mastercard '
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/3zTLcg0CYEgqQ6I2ceyYM2/1ddb854ab1050994a387d16adef4be5e/cr-tarjeta-cashback-platino-mc.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
@@ -170,14 +170,14 @@
   :titulo: Cashback Clásica Visa
   :arte:
     :title: Cashback Clásica Visa
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/3ZzVwfqaU8UaQEQ80kAM82/f07cf78f5ac213f5e31bcc3f3ead02f7/cr-tarjeta-cashback-clasica-visa.png"
   :color:
     :id: 5yzbT4gJP2ySGgiwwO80yU
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 331500
+    :salarioMinimo: 400000
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -197,7 +197,7 @@
   :titulo: 'Cashback Dorada Visa '
   :arte:
     :title: Cashback Dorada Visa
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/1ScRtaxZSImYyqEWQSyU06/2266e5ce2b220fb08d81b4a409387513/cr-tarjeta-cashback-dorada-visa.png"
   :color:
     :id: 1IMtYtblSsWyOc0KkgWS8E
@@ -224,7 +224,7 @@
   :titulo: Cashback Platino Visa
   :arte:
     :title: Cashback Platino Visa
-    :description: 
+    :description:
     :url: "//images.contentful.com/9cds0lha1plv/1RShln5hJGWSQyYeG066wO/18f4ba0539b575344475d6268dc59d14/cr-tarjeta-cashback-platino-visa.png"
   :color:
     :id: 3lyNqciAdOMeIagKWeSya6
@@ -274,7 +274,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 331500
+      :salarioMinimo: 400000
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75
@@ -344,3 +344,6 @@
 :productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback
 :form: https://www.baccredomatic.com/es-cr/form/2191
 :formOpa: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud
+:filtros:
+- Acceso a salas V.I.P. de aeropuertos
+- Preventa Exclusiva de Eventos

@@ -48,3 +48,10 @@
   max-height: none;
   height: auto;
 }
+
+.mobile-menu .filter-title h2 {
+  font-size: 15px;
+  @include grid-media($mobile-grid) {
+    font-size: 18px;
+  }
+}

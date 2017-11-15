@@ -9,10 +9,10 @@
   </label>
   <input type="checkbox" id="mobile-menu-hamburger-button" name="mobile-menu-hamburger-button" />
   <div class="category-filters filter-row mobile-menu-filters">
-    <% data.filters.categoryFilters.each do |filter| %>
+    <% data.filters.benefitFilters.each do |filter| %>
       <%= partial "partials/filtro", :locals => {:item => filter} %>
     <% end %>
-    <% data.filters.benefitFilters.each do |filter| %>
+    <% data.filters.categoryFilters.each do |filter| %>
       <%= partial "partials/filtro", :locals => {:item => filter} %>
     <% end %>
   </div>

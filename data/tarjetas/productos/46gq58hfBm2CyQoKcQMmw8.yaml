@@ -16,7 +16,7 @@
     :titulo: Clásico
     :limiteMinimoDeCredito: 600
     :limiteMaximoDeCredito: 2999
-    :salarioMinimo: 331500
+    :salarioMinimo: 400000
     :salarioMaximo: 750000
     :tasaPreferencialColones: 3.84
     :tasaPreferencialDolares: 2.75
@@ -104,7 +104,7 @@
       :titulo: Clásico
       :limiteMinimoDeCredito: 600
       :limiteMaximoDeCredito: 2999
-      :salarioMinimo: 331500
+      :salarioMinimo: 400000
       :salarioMaximo: 750000
       :tasaPreferencialColones: 3.84
       :tasaPreferencialDolares: 2.75
@@ -172,3 +172,6 @@
 :form: https://www.baccredomatic.com/es-cr/form/286
 :formOpa: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud/pricesmart
 :thankYouPage: https://www.baccredomatic.com/es-cr/credit-cards/solicitud-completa-pricesmart
+:filtros:
+- Sin costo de administración
+- Concierge Travel & Living

@@ -1,7 +1,16 @@
 <%
-@tarjeta = data.tarjetas.productos.find{|t| t[1]['titulo'] == tarjeta[0] }[1]
-@form = @tarjeta['formOpa'].present? ? @tarjeta['formOpa'] : @tarjeta['form']
+@t = data.tarjetas.productos.find{|t| t[1]['titulo'] == tarjeta[0] }
+@tarjeta = @t == nil ? nil : @t[1]
+if @tarjeta == nil
+  @form = "ninininininni"
+else
+  @form = @tarjeta['formOpa'].present? ? @tarjeta['formOpa'] : @tarjeta['form']
+end
 %>
+
+<% if @tarjeta == nil %>
+<h1>lhljhljhljh</h1>
+<% else %>
 
 <%# Aquí hice que se le agregue "de Credomatic" a la tarjeta Club Nación para que la caja sea del mismo tamaño que las de a la par %>
 <h4><% if tarjeta[3].nil? %>Tarjeta <%= @tarjeta['titulo'] %><%= " de Credomatic" if @tarjeta['titulo'] == "Club La Nación"%><% else %><%= tarjeta[3] %><% end %></h4>
@@ -11,16 +20,6 @@
   </a>
 <% end %>
 <p class="oneliner"><%= tarjeta[1] %></p>
-<p>
-<% unless @tarjeta['variacion'].nil? %>
-  <% if formato == "ingreso-minimo" %>
-    <% salario_minimo_requerido = @tarjeta['titulo'] == "Auto Mercado" ? 331500 : @tarjeta.variacion[0]['color']['salarioMinimo'] %>
-     <%= "<strong>Ingreso mínimo requerido</strong>: &#8353;".html_safe + number_with_delimiter(salario_minimo_requerido.to_i, :delimiter => '.').to_s %>
-  <% else %>
-    <%= tarjeta[2] %>
-  <% end %>
-<% end %>
-</p>
 
 <div class="mas-info-container">
   <div class="beneficios">
@@ -32,6 +31,16 @@
         <% end %>
       </ul>
     <% end %>
+    <p>
+    <% unless @tarjeta['variacion'].nil? %>
+      <% if formato == "ingreso-minimo" %>
+        <% salario_minimo_requerido = @tarjeta['titulo'] == "Auto Mercado" ? 331500 : @tarjeta.variacion[0]['color']['salarioMinimo'] %>
+         <%= "<strong>Ingreso mínimo requerido</strong>: &#8353;".html_safe + number_with_delimiter(salario_minimo_requerido.to_i, :delimiter => '.').to_s %>
+      <% else %>
+        <%= tarjeta[2] %>
+      <% end %>
+    <% end %>
+    </p>
   </div>
 
   <%= link_to "Ver toda la información de esta tarjeta >>", @tarjeta['productPage'], :class => "ir-a-product-page", :onClick => "ga('send', 'event', 'lp tarjetas - 2017 v3', 'Ir a product page', '#{@tarjeta['titulo']}');", :target => "_blank" %>
@@ -40,3 +49,5 @@
 <%= link_to "beneficios", "javascript:void(0);", :class => "btn-ghost mas-info-btn", "data-tarjeta" => @tarjeta['titulo'] %>
 
 <%= link_to "Solicitala aquí", @form, :class => "btn", :onClick => "ga('send', 'event', 'lp tarjetas - 2017 v3', 'Solicitar - product block', '#{@tarjeta['titulo']}');"  %>
+
+<% end %>

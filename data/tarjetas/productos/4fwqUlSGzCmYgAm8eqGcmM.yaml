@@ -5,11 +5,11 @@
 :oneLiner: Además del CashBack obtené acceso al servicio Concierge Travel & Living
 :variacion:
 - :id: 1bM17cJVVOUy8q2qCUgiWE
-  :titulo: Cashback Premium
+  :titulo: CashBack Premium
   :arte:
     :title: Cashback Premium
     :description: 
-    :url: "//images.contentful.com/9cds0lha1plv/4z4cRX56tawIgyg48yIIGO/252eb2ef3bcfd524ddafc24942164a1c/cr-cashback-premium.png"
+    :url: "//images.contentful.com/9cds0lha1plv/4z4cRX56tawIgyg48yIIGO/afb1e3c3bdbafab3d9b3a2b17edf7ef3/cr_cashback_premium.png"
   :color:
     :id: 5d3gXbuveoIUAWCA4yQsGm
     :titulo: Black
@@ -121,3 +121,6 @@
 :productPage: https://www.baccredomatic.com/es-cr/tarjetas/credito/personas/cashback/tarjeta-cashback-premium
 :form: https://www.baccredomatic.com/es-cr/form/3686
 :formOpa: https://www.baccredomatic.com/es-cr/tarjetas/credito/solicitud
+:filtros:
+- Parqueo gratuito
+- Acceso a salas V.I.P. de aeropuertos
