@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+  <%= partial "partials/original/analytics" if build? %>
+  <%= partial "partials/original/analytics_local" unless build? %>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="https://www.baccredomatic.com/sites/all/themes/custom/foundation_bac/bac-favicon.ico" />
+  <title><%= current_page.data.title %></title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta name="description" content="<%= current_page.data.meta_description %>">
+
+  <meta property="og:site_name" content="BAC Credomatic -  <%= current_page.data.title %>" />
+  <meta property="og:region" content="Centroamérica" />
+  <meta property="og:url" content="tarjetas.baccredomatic.com/es-cr/solicitudes/" />
+  <meta property="og:title" content="<%= current_page.data.title %>" />
+  <meta property="og:description" content="<%= current_page.data.meta_description %>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.baccredomatic.com/sites/default/files/styles/thumbnail/public/cr-tarjetas-nueva-imagen/cr-blue.png?itok=s2n1F76r" />
+  <meta name="rights" content="BAC International Bank" />
+
+  <%= yield_content :head %>
+  <%= stylesheet_link_tag :original %>
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <%= partial "partials/nuevo/header" %>
+  <%= partial 'partials/splash/hero', :locals => {:hero => current_page.data.hero}  %>
+  <div class="filters-container inicial">
+    <div class="filters-content">
+      <ul class="filter-row">
+        <% current_page.data.links.each do |link| %>
+          <%= partial "partials/splash/filter", :locals => {:link => link} %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <%= javascript_include_tag :all %>
+  <%= partial 'partials/original/scripts' %>
+</body>
+
+</html>

@@ -20,6 +20,10 @@
 
 .filter-row {
   @include grid-container;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 .filter-item {
@@ -34,6 +38,12 @@
   position: relative;
   background: $blanco;
   border-radius: 3px;
+
+  a {
+    color: $gris-mas-oscuro;
+    text-decoration: none;
+    display: block;
+  }
 
   &.active {
     border: solid $rojo2 1px;
